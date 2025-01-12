@@ -4,13 +4,13 @@ title: "About"
 
 ## Overview
 
-{{< fa circle-info >}} **What?** This is the course website for the {{< var project.duration >}} course "{{< var project.title >}}" at the {{< var project.where-institution >}}
+{{< fa circle-info >}} **What?** This is the course website for the {{< var course.duration >}} course "{{< var course.title >}}" at the {{< var course.where-institution >}}
 
-{{< fa calendar-days >}} **When?**  {{< var project.when-long >}} (for details, see [schedule](schedule.qmd))
+{{< fa calendar-days >}} **When?**  {{< var course.when-long >}} (for details, see [schedule](schedule.qmd))
 
-{{< fa building-columns >}} **Where?** {{< var project.where-long >}}
+{{< fa building-columns >}} **Where?** {{< var course.where-long >}}
 
-{{< fa user-group >}} **Who?** This course is offered to {{< var project.target-group >}}
+{{< fa user-group >}} **Who?** This course is offered to {{< var course.target-group >}}
 
 ## Description
 
@@ -49,7 +49,7 @@ Lennart is a **Postdoctoral Researcher** in the [Research Group "Cognitive Neuro
 In his scientific work, Lennart investigates **neural replay of task representations** in the human brain using functional magnetic resonance imaging (fMRI).
 He is also passionate about **open science**, **research data management**, **reproducibility** and tools that improve the scientific workflow.
 
-Find out more about Lennart and his work at [{{< var links.homepage >}}]({{< var links.homepage >}}).
+Find out more about Lennart and his work at [{{< var project.homepage >}}]({{< var project.homepage >}}).
 
 :::
 :::

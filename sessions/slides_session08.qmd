@@ -175,7 +175,7 @@ See our book chapter on ["Tags & Releases"](https://lennartwittkuhn.com/version-
 - Automated spell check
 - Rebuilding of project website
 
-{{< fa display >}} [{{< var links.recipes >}}]({{< var links.recipes >}})
+{{< fa display >}} [{{< var course.project-site >}}]({{< var course.project-site >}})
 ::::
 :::::
 

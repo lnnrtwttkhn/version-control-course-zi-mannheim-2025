@@ -45,7 +45,7 @@ quiz-url: https://version-control-cli.formr.org/
 
 Dear course participant,
 
-You are receiving this email because you have signed up for the {{< var project.duration >}} course "{{< var project.title >}}", taking place on {{< var project.when-long >}} at {{< var project.where-institution >}} (via {{< var project.where-room >}}).
+You are receiving this email because you have signed up for the {{< var course.duration >}} course "{{< var course.title >}}", taking place on {{< var course.when-long >}} at {{< var course.where-institution >}} (via {{< var course.where-room >}}).
 You are receiving this email because you have signed up for the course "{{< var course.title >}}", taking place this {{< var course.when-semester >}}, {{< var course.when-time >}}, at {{< var course.where-institution >}}.
 We are excited that you have signed up for this course and can't wait to delve into the world of version control with you!
 Our first session takes place next Friday, October 18, 2024, from 10:15 to 11:45 online via Zoom (see access details below).
@@ -90,7 +90,7 @@ Please note that you might be asked for the codewords repeatedly.
 This is not an error in the survey but the result of combining separate smaller surveys into a longer one.
 If this happens, please just enter the personal and course codeword again.
 
-Further information about the course can be found on our course website at [{{< var links.site >}}]({{< var links.site >}}).
+Further information about the course can be found on our course website at [{{< var project.site >}}]({{< var project.site >}}).
 
 If you have any questions, feel free to contact us directly via email.
 

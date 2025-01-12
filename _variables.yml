@@ -1,45 +1,48 @@
 project:
   name: "version-control-course-zi-mannheim-2025"
-  title: "Track, organize and share your work: An introduction to Git for research"
-  subtitle: "A {{< var project.duration >}} course at the {{< var project.where-institution >}}, {{< var project.where-city >}}, {{< var project.where-country >}} in {{< var project.when-date >}}"
-  instructors: "Dr. Lennart Wittkuhn"
-  when-day: "Wednesdays"
-  when-date: "January 2025"
-  when-time: "14:00 to 16:00"
-  when-long: "{{< var project.when-day >}}, {{< var project.when-date >}}, {{< var project.when-time >}}"
-  where-institution: "Zentralinstitut für Seelische Gesundheit"
-  where-city: "Mannheim"
-  where-country: "Germany"
-  where-address: "J 5, 68159 Mannheim"
-  where-room: "Zoom"
-  where-long: "{{< var project.where-institution >}}, {{< var project.where-address >}} (via {{< var project.where-room >}})"
-  where-short: "{{< var project.where-institution >}} ({{< var project.where-room >}})"
-  target-group: "Researchers at the {{< var project.where-institution >}}"
-  duration: "three-day"
-links:
   email: "lennart.wittkuhn@tutanota.com"
   mailto: "mailto:lennart.wittkuhn@tutanota.com"
   homepage: "https://lennartwittkuhn.com/"
   github: "https://github.com/lnnrtwttkhn/version-control-course-zi-mannheim-2025/"
   issues: "https://github.com/lnnrtwttkhn/version-control-course-zi-mannheim-2025/issues"
   site: "https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/"
+  years: "2025"
+  email-secretary: barbara.oberbauer@uni-hamburg.de
+  mailto-secretary: mailto:barbara.oberbauer@uni-hamburg.de
+  email-mailing-list: version-control-course-ss24.psych@lists.uni-hamburg.de
+  mailto-mailing-list: "mailto:{{< var project.email-mailing-list >}}"
+  nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG
+course:
+  title: "Track, organize and share your work: An introduction to Git for research"
+  subtitle: "A {{< var course.duration >}} course at the {{< var course.where-institution >}}, {{< var course.where-city >}}, {{< var course.where-country >}} in {{< var course.when-date >}}"
+  instructors: "Dr. Lennart Wittkuhn"
+  when-day: "Wednesdays"
+  when-date: "January 2025"
+  when-time: "14:00 to 16:00"
+  when-long: "{{< var course.when-day >}}, {{< var course.when-date >}}, {{< var course.when-time >}}"
+  where-institution: "Zentralinstitut für Seelische Gesundheit"
+  where-city: "Mannheim"
+  where-country: "Germany"
+  where-address: "J 5, 68159 Mannheim"
+  where-room: "Zoom"
+  where-long: "{{< var course.where-institution >}}, {{< var course.where-address >}} (via {{< var course.where-room >}})"
+  where-short: "{{< var course.where-institution >}} ({{< var course.where-room >}})"
+  target-group: "Researchers at the {{< var course.where-institution >}}"
+  tag: "PsyM14-PsyWB-K01"
+  duration: "three-day"
+  project: "recipes"
+  project-site: "https://lennartwittkuhn.com/recipes/"
+links:
   book: "https://lennartwittkuhn.com/version-control-book"
-  recipes: "https://lennartwittkuhn.com/recipes"
   ddlitlab-proposal: https://lennartwittkuhn.com/ddlitlab-proposal
   illf-proposal: https://lennartwittkuhn.com/illf-application/
-  nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG
   stine: https://stine.uni-hamburg.de/
   hedgedoc: https://pad.uni-hamburg.de/
   hedgedoc-features: https://demo.hedgedoc.org/s/features
   markdown: https://www.markdownguide.org/
   formr: https://formr.org/
-  email-secretary: barbara.oberbauer@uni-hamburg.de
-  mailto-secretary: mailto:barbara.oberbauer@uni-hamburg.de
-  email-mailing-list: version-control-course-ss24.psych@lists.uni-hamburg.de
-  mailto-mailing-list: "mailto:{{< var links.email-mailing-list >}}"
   scriberia: "https://www.scriberia.com/"
   ccby40: "https://creativecommons.org/licenses/by/4.0/"
-years: "2025"
 team:
   lennart:
     id: lennart

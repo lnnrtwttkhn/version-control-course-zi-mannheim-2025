@@ -1,6 +1,6 @@
 ---
-title: "{{< var project.title >}}"
-subtitle: "{{< var project.subtitle >}}"
+title: "{{< var course.title >}}"
+subtitle: "{{< var course.subtitle >}}"
 image: "images/version_control_scriberia.jpg"
 toc: false
 about:
@@ -11,25 +11,25 @@ about:
 
 ### Welcome!
 
-This is the website for the {{< var project.duration >}} course "{{< var project.title >}}" at the {{< var project.where-institution >}}, instructed by {{< var project.instructors >}}.
+This is the website for the {{< var course.duration >}} course "{{< var course.title >}}" at the {{< var course.where-institution >}}, instructed by {{< var course.instructors >}}.
 
 ---
 
-{{< fa circle-info >}} **What?** A {{< var project.duration >}} course on version control with Git
+{{< fa circle-info >}} **What?** A {{< var course.duration >}} course on version control with Git
 
-{{< fa calendar-days >}} **When?** {{< var project.when-long >}}
+{{< fa calendar-days >}} **When?** {{< var course.when-long >}}
 
-{{< fa building-columns >}} **Where?** {{< var project.where-short >}}
+{{< fa building-columns >}} **Where?** {{< var course.where-short >}}
 
-{{< fa user-group >}} **Who?** {{< var project.target-group >}}
+{{< fa user-group >}} **Who?** {{< var course.target-group >}}
 
 ---
 
-{{< fa brands github >}} **Code?** Find all source code [on GitHub]({{< var links.github >}})!
+{{< fa brands github >}} **Code?** Find all source code [on GitHub]({{< var project.github >}})!
 
-{{< fa bug >}} **Bug?** Open an [issue]({{< var links.issues >}}) or send an [email]({{< var links.mailto >}})!
+{{< fa bug >}} **Bug?** Open an [issue]({{< var project.issues >}}) or send an [email]({{< var project.mailto >}})!
 
-{{< fa circle-question >}} **Questions?** Open an [issue]({{< var links.issues >}}) or send an [email]({{< var links.mailto >}})!
+{{< fa circle-question >}} **Questions?** Open an [issue]({{< var project.issues >}}) or send an [email]({{< var project.mailto >}})!
 
 ---
 

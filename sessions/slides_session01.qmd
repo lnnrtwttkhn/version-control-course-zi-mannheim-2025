@@ -33,13 +33,13 @@ chapter-url: https://lennartwittkuhn.com/version-control-book/chapters/intro-ver
 
 :::: {.columns}
 ::: {.column width="50%"}
-- {{< fa calendar-days >}} **Date:** {{< var project.when-day >}}, {{< var project.when-date >}}
-- {{< fa clock >}} **Time:** {{< var project.when-time >}}
-- {{< fa building-columns >}} **Room:** {{< var project.where-room >}}
+- {{< fa calendar-days >}} **Date:** {{< var course.when-day >}}, {{< var course.when-date >}}
+- {{< fa clock >}} **Time:** {{< var course.when-time >}}
+- {{< fa building-columns >}} **Room:** {{< var course.where-room >}}
 :::
 ::: {.column width="50%"}
-- {{< fa person-chalkboard >}} **Instructor:** [{{< var project.instructors >}}]({{< var team.lennart.website >}})
-- {{< fa chalkboard >}} **Event:** Course ({{< var project.duration >}})
+- {{< fa person-chalkboard >}} **Instructor:** [{{< var course.instructors >}}]({{< var team.lennart.website >}})
+- {{< fa chalkboard >}} **Event:** Course ({{< var course.duration >}})
 - {{< fa language >}} **Language:** English
 :::
 ::::
@@ -87,10 +87,10 @@ create_schedule()
 
 ## Course website
 
-{{< fa display >}} [{{< var links.site >}}]({{< var links.site >}})
+{{< fa display >}} [{{< var project.site >}}]({{< var project.site >}})
 
 ```{=html}
-<iframe width="100%" height="80%" src="{{< var links.site >}}" title="Course Website"></iframe>
+<iframe width="100%" height="80%" src="{{< var project.site >}}" title="Course Website"></iframe>
 ```
 
 ::: {.notes}
@@ -119,7 +119,7 @@ create_schedule()
 
 - all raw data are kept **anonymous** and will only be **used for research and educational purposes**
 - if responses are shared as part of the course, they will be aggregated to ensure anonymity is maintained
-- if you want your data to be deleted, send an email with your personal codeword to [{{< var links.email-secretary >}}]({{< var links.mailto-secretary >}}).
+- if you want your data to be deleted, send an email with your personal codeword to [{{< var project.email-secretary >}}]({{< var project.mailto-secretary >}}).
 Your codeword is then forwarded to us (without your name) and your data deleted.
 :::
 
@@ -154,10 +154,10 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 
 ## Course exercise: Building an online recipes book
 
-{{< fa display >}} [{{< var links.recipes >}}]({{< var links.recipes >}})
+{{< fa display >}} [{{< var course.project-site >}}]({{< var course.project-site >}})
 
 ```{=html}
-<iframe width="100%" height="80%" src="{{< var links.recipes >}}" title="Course Website"></iframe>
+<iframe width="100%" height="80%" src="{{< var course.project-site >}}" title="Course Website"></iframe>
 ```
 
 ## Code of Conduct

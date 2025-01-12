@@ -86,6 +86,6 @@ This can help to easily find course-related files on your computer.
 
 ```{zsh, filename="Code"}
 #| eval: false
-#| file: exercises/code-exercises-cli.sh
+#| file: exercises/code-exercises-cli-recipes.sh
 ```
 {{< include ../exercises/_solutions-cli.qmd >}}

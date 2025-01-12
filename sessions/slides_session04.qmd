@@ -94,7 +94,7 @@ knitr::kable(table_cheatsheet(name = "branches"), format = "markdown", row.names
 
 ```{zsh, filename="Code"}
 #| eval: false
-#| file: exercises/code-exercises-branches.sh
+#| file: exercises/code-exercises-branches-recipes.sh
 ```
 {{< include ../exercises/_solutions-branches.qmd >}}
 

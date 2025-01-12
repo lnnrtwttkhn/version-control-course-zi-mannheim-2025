@@ -46,9 +46,8 @@ quiz-url: https://version-control-cli.formr.org/
 Dear course participant,
 
 You are receiving this email because you have signed up for the {{< var course.duration >}} course "{{< var course.title >}}", taking place on {{< var course.when-long >}} at {{< var course.where-institution >}} (via {{< var course.where-room >}}).
-You are receiving this email because you have signed up for the course "{{< var course.title >}}", taking place this {{< var course.when-semester >}}, {{< var course.when-time >}}, at {{< var course.where-institution >}}.
 We are excited that you have signed up for this course and can't wait to delve into the world of version control with you!
-Our first session takes place next Friday, October 18, 2024, from 10:15 to 11:45 online via Zoom (see access details below).
+Our first session takes place next Wednesday, January 15, 2025, from 14:00 to 16:00 online via Zoom (see access details below).
 
 In preparation for the course, we kindly ask you to **complete two assignments**: (1) check if you have Git installed, and (2) answer a survey.
 In total, this should **take about 20 to 30 minutes** (not much longer).
@@ -62,6 +61,7 @@ macOS and Linux users: You likely have Git already installed.
 Open the Terminal / Command Line and enter the command `git --version`.
 If a version number is shown, Git is installed.
 For more details, see the link to the online course book above.
+If you have any questions about the installation process, don't hesitate to contact us.
 And please don't forget to bring your laptop, with Git installed, to the course!
 
 **2. Complete Survey**

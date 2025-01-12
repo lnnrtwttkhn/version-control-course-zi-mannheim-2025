@@ -21,7 +21,7 @@ authors:
       corresponding: true
       equal-contributor: true
 from: markdown+emoji
-date-format: "HH:mm"
+date-format: "dddd, Do of MMMM YYYY, HH:mm (z)"
 published-title: "Starts at:"
 format:
   revealjs:

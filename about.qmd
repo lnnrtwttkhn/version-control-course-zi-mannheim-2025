@@ -6,7 +6,7 @@ title: "About"
 
 {{< fa circle-info >}} **What?** This is the course website for the {{< var project.duration >}} course "{{< var project.title >}}" at the {{< var project.where-institution >}}
 
-{{< fa calendar-days >}} **When?**  {{< var project.when-long >}}
+{{< fa calendar-days >}} **When?**  {{< var project.when-long >}} (for details, see [schedule](schedule.qmd))
 
 {{< fa building-columns >}} **Where?** {{< var project.where-long >}}
 

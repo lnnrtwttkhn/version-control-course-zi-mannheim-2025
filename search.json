@@ -186,7 +186,7 @@
     "href": "sessions/slides_session07.html#tasks",
     "title": "Session 7: Collaboration on GitHub / GitLab",
     "section": "Tasks",
-    "text": "Tasks\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter “GitHub - Advanced” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
+    "text": "Tasks\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) ?meta:chapter in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
     "objectID": "sessions/slides_session07.html#recipes-project",
@@ -263,7 +263,7 @@
     "href": "sessions/slides_session04.html#tasks",
     "title": "Session 4: Branches",
     "section": "Tasks",
-    "text": "Tasks\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter “Branches” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
+    "text": "Tasks\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) ?meta:chapter in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
     "objectID": "sessions/slides_session04.html#recipes-project",
@@ -494,7 +494,7 @@
     "href": "sessions/session06.html#this-session",
     "title": "Integration with GitHub / GitLab",
     "section": "This session",
-    "text": "This session\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter “Remotes - Introduction” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
+    "text": "This session\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) ?meta:chapter in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
     "objectID": "sessions/session06.html#learning-objectives",
@@ -550,7 +550,7 @@
     "href": "sessions/session07.html#this-session",
     "title": "Collaboration on GitHub / GitLab",
     "section": "This session",
-    "text": "This session\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter “GitHub - Advanced” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
+    "text": "This session\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) ?meta:chapter in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
     "objectID": "sessions/session07.html#learning-objectives",
@@ -606,7 +606,7 @@
     "href": "sessions/session04.html#this-session",
     "title": "Branches",
     "section": "This session",
-    "text": "This session\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter “Branches” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
+    "text": "This session\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) ?meta:chapter in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
     "objectID": "sessions/session04.html#learning-objectives",
@@ -711,7 +711,7 @@
     "href": "sessions/tasks/tasks-template.html",
     "title": "Version Control with Git",
     "section": "",
-    "text": "In this session, you will work on the following tasks:\n\n Reading: Read the chapter “?meta:chapter-title” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
+    "text": "In this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) ?meta:chapter in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
     "objectID": "sessions/slides_session08.html#schedule",
@@ -767,7 +767,7 @@
     "href": "sessions/slides_session08.html#continuous-integration-deployment-cicd",
     "title": "Session 8: Summary & Outlook",
     "section": "Continuous Integration & Deployment (CI/CD)",
-    "text": "Continuous Integration & Deployment (CI/CD)\n\n\n\n\n\nfrom Suresoft\n\n\n\nExample: Lennart’s recipes repo\n\nAutomated spell check\nRebuilding of project website\n\n https://lennartwittkuhn.com/recipes"
+    "text": "Continuous Integration & Deployment (CI/CD)\n\n\n\n\n\nfrom Suresoft\n\n\n\nExample: Lennart’s recipes repo\n\nAutomated spell check\nRebuilding of project website\n\n https://lennartwittkuhn.com/recipes/"
   },
   {
     "objectID": "sessions/slides_session08.html#version-control-for-data-datalad",
@@ -844,7 +844,7 @@
     "href": "sessions/tasks/tasks-intro.html",
     "title": "Version Control with Git",
     "section": "",
-    "text": "In this session, you will work on the following tasks:\n\n Reading: Read the chapter “?meta:chapter-title” in the Version Control Book.\n Discussion: Discuss the learning objectives with your desk neighbor (quietly)."
+    "text": "In this session, you will work on the following tasks:\n\nSkim the chapter ?meta:chapter in the Version Control Book.\nCheck whether you have achieved the learning objectives."
   },
   {
     "objectID": "sessions/session02.html",
@@ -858,7 +858,7 @@
     "href": "sessions/session02.html#this-session",
     "title": "Basics of the Command Line",
     "section": "This session",
-    "text": "This session\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter “Command Line” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
+    "text": "This session\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) ?meta:chapter in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
     "objectID": "sessions/session02.html#learning-objectives",
@@ -914,7 +914,7 @@
     "href": "sessions/session01.html#this-session",
     "title": "Welcome & Introduction to Version Control",
     "section": "This session",
-    "text": "This session\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter “Introduction to Version Control” in the Version Control Book.\n Discussion: Discuss the learning objectives with your desk neighbor (quietly)."
+    "text": "This session\nIn this session, you will work on the following tasks:\n\nSkim the chapter Introduction to Version Control in the Version Control Book.\nCheck whether you have achieved the learning objectives."
   },
   {
     "objectID": "sessions/session01.html#learning-objectives",
@@ -935,7 +935,7 @@
     "href": "sessions/session01.html#email",
     "title": "Welcome & Introduction to Version Control",
     "section": "Email",
-    "text": "Email\nDear course participant,\nYou are receiving this email because you have signed up for the course “Track, organize and share your work: An introduction to Git for research”, taking place on Wednesdays, January 2025, 14:00 to 16:00 at Zentralinstitut für Seelische Gesundheit (Zoom), J 5, 68159 Mannheim.\nWe are excited that you have signed up for this course and can’t wait to delve into the world of version control with you!\nIn preparation for the course, we kindly ask you to complete two assignments: (1) check if you have Git installed, and (2) answer a survey. In total, this should take about 20 to 30 minutes (not much longer).\n1. Check Git Installation\nPlease check if you have Git installed. You can find detailed instructions in our online course book here: ?var:chapters.installation. Windows users: Please install Git for Windows (https://gitforwindows.org). macOS and Linux users: You likely have Git already installed. Open the Terminal / Command Line and enter the command git --version. If a version number is shown, Git is installed. For more details, see the link to the online course book above. And please don’t forget to bring your laptop, with Git installed, to the course!\n2. Complete Survey\nIn order to tailor the course to your prior experience and needs, we have prepared a survey with a few questions. Please complete the survey before the course, ideally at least two days before the course starts. This will give us enough time to review your responses before our course on Wednesdays.\nThe survey can be accessed here: https://version-control-intro.formr.org.\nA few technical remarks about the survey: The survey will ask you for two codewords: a personal codeword and a course codeword.\nThe personal codeword is used to associate your responses with a unique identifier. This will allow us to identify and relate your responses across all surveys used in the course while ensuring anonymity. By providing a personal codeword, you will allow us to draw more detailed insights from your responses that will help us improve the course for you. The survey will contain an explanation at the beginning on how to generate your personal codeword.\nThe course codeword is used to tag your responses as coming from a course participant at Zentralinstitut für Seelische Gesundheit. We might also use the survey to collect responses from participants in other course settings. The course codeword therefore allows us to distinguish responses from different course settings.\nThe course codeword is: -------- (course password will be announced during the course).\nPlease note that you might be asked for the codewords repeatedly. This is not an error in the survey but the result of combining separate smaller surveys into a longer one. If this happens, please just enter the personal and course codeword again.\nFurther information about the course can be found on our course website at https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/.\nIf you have any questions, feel free to contact us directly via email.\nWe are looking forward to seeing you at the course on Wednesdays, January 2025!\nBest wishes,\nLennart Wittkuhn (Instructor) and the organizing team"
+    "text": "Email\nDear course participant,\nYou are receiving this email because you have signed up for the three-day course “Track, organize and share your work: An introduction to Git for research”, taking place on Wednesdays, January 2025, 14:00 to 16:00 at Zentralinstitut für Seelische Gesundheit (via Zoom). We are excited that you have signed up for this course and can’t wait to delve into the world of version control with you! Our first session takes place next Wednesday, January 15, 2025, from 14:00 to 16:00 online via Zoom (see access details below).\nIn preparation for the course, we kindly ask you to complete two assignments: (1) check if you have Git installed, and (2) answer a survey. In total, this should take about 20 to 30 minutes (not much longer).\n1. Check Git Installation\nPlease check if you have Git installed. You can find detailed instructions in our online course book here: https://lennartwittkuhn.com/version-control-book/chapters/installation.html. Windows users: Please install Git for Windows (https://gitforwindows.org). macOS and Linux users: You likely have Git already installed. Open the Terminal / Command Line and enter the command git --version. If a version number is shown, Git is installed. For more details, see the link to the online course book above. If you have any questions about the installation process, don’t hesitate to contact us. And please don’t forget to bring your laptop, with Git installed, to the course!\n2. Complete Survey\nIn order to tailor the course to your prior experience and needs, we have prepared a survey with a few questions. Please complete the survey before the course, ideally at least two days before the course starts. This will give us enough time to review your responses before our first session.\nThe survey can be accessed here: https://version-control-intro.formr.org.\nA few technical remarks about the survey: The survey will ask you for two codewords: a personal codeword and a course codeword.\nThe personal codeword is used to associate your responses with a unique identifier. This will allow us to identify and relate your responses across all surveys used in the course while ensuring anonymity. By providing a personal codeword, you will allow us to draw more detailed insights from your responses that will help us improve the course for you. The survey will contain an explanation at the beginning on how to generate your personal codeword.\nThe course codeword is used to tag your responses as coming from a course participant at Zentralinstitut für Seelische Gesundheit. We might also use the survey to collect responses from participants in other course settings. The course codeword therefore allows us to distinguish responses from different course settings.\nThe course codeword is: -------- (course password will be announced during the course).\nPlease note that you might be asked for the codewords repeatedly. This is not an error in the survey but the result of combining separate smaller surveys into a longer one. If this happens, please just enter the personal and course codeword again.\nFurther information about the course can be found on our course website at https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/.\nIf you have any questions, feel free to contact us directly via email.\nWe are looking forward to seeing you for the first session!\nBest wishes,\nLennart Wittkuhn (Instructor) and the organizing team"
   },
   {
     "objectID": "sessions/session05.html",
@@ -1040,7 +1040,7 @@
     "href": "sessions/slides_session02.html#course-exercise-building-an-online-recipes-book",
     "title": "Session 2: Basics of the Command Line",
     "section": "Course exercise: Building an online recipes book",
-    "text": "Course exercise: Building an online recipes book\n https://lennartwittkuhn.com/recipes"
+    "text": "Course exercise: Building an online recipes book\n https://lennartwittkuhn.com/recipes/"
   },
   {
     "objectID": "sessions/slides_session02.html#this-session",
@@ -1075,7 +1075,7 @@
     "href": "sessions/slides_session02.html#tasks",
     "title": "Session 2: Basics of the Command Line",
     "section": "Tasks",
-    "text": "Tasks\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter “Command Line” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
+    "text": "Tasks\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) ?meta:chapter in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
     "objectID": "sessions/slides_session02.html#recipes-project",
@@ -1173,7 +1173,7 @@
     "href": "sessions/slides_session01.html#course-exercise-building-an-online-recipes-book",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "Course exercise: Building an online recipes book",
-    "text": "Course exercise: Building an online recipes book\n https://lennartwittkuhn.com/recipes"
+    "text": "Course exercise: Building an online recipes book\n https://lennartwittkuhn.com/recipes/"
   },
   {
     "objectID": "sessions/slides_session01.html#code-of-conduct",
@@ -1208,7 +1208,7 @@
     "href": "sessions/slides_session01.html#your-turn",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "Your turn",
-    "text": "Your turn\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter “Introduction to Version Control” in the Version Control Book.\n Discussion: Discuss the learning objectives with your desk neighbor (quietly).\n\nLearning objectives\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub."
+    "text": "Your turn\nIn this session, you will work on the following tasks:\n\nSkim the chapter ?meta:chapter in the Version Control Book.\nCheck whether you have achieved the learning objectives.\n\nLearning objectives\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub."
   },
   {
     "objectID": "sessions/slides_session01.html#the-issue-of-computational-reproducibility-in-science",
@@ -1355,7 +1355,7 @@
     "href": "sessions/slides_session06.html#tasks",
     "title": "Session 6: Integration with GitHub / GitLab",
     "section": "Tasks",
-    "text": "Tasks\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter “Remotes - Introduction” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
+    "text": "Tasks\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) ?meta:chapter in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
     "objectID": "sessions/slides_session06.html#recipes-project",

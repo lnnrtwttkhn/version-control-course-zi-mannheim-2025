@@ -30,8 +30,7 @@ session03:
   contents:
     - "Setup & configuration of Git"
   reading:
-    - "[Setup](https://lennartwittkuhn.com/version-control-book/chapters/setup.html)"
-    - "[Installation](https://lennartwittkuhn.com/version-control-book/chapters/installation.html) (if needed)"
+    - "[Setup](https://lennartwittkuhn.com/version-control-book/chapters/setup.html), [Installation](https://lennartwittkuhn.com/version-control-book/chapters/installation.html) (if needed)"
   survey:
     - "[Git Installation](https://version-control-installation.formr.org)"
 session04:

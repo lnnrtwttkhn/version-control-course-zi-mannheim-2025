@@ -11,9 +11,9 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.5.55">
+  <meta name="generator" content="quarto-1.3.450">
 
-  <title>Version Control with Git – Session 2: Basics of the Command Line</title>
+  <title>Version Control with Git - Session 2: Basics of the Command Line</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -33,7 +33,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -44,7 +44,7 @@
     }
     @media print {
     pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
     }
     pre.numberSource code
       { counter-reset: source-line 0; }
@@ -72,7 +72,7 @@
     code span.at { color: #657422; } /* Attribute */
     code span.bn { color: #ad0000; } /* BaseN */
     code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.cf { color: #003b4f; } /* ControlFlow */
     code span.ch { color: #20794d; } /* Char */
     code span.cn { color: #8f5902; } /* Constant */
     code span.co { color: #5e5e5e; } /* Comment */
@@ -86,7 +86,7 @@
     code span.fu { color: #4758ab; } /* Function */
     code span.im { color: #00769e; } /* Import */
     code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.kw { color: #003b4f; } /* Keyword */
     code span.op { color: #5e5e5e; } /* Operator */
     code span.ot { color: #003b4f; } /* Other */
     code span.pp { color: #ad0000; } /* Preprocessor */
@@ -225,8 +225,7 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    padding-bottom: 0.5rem;
-    margin-bottom: 0;
+    margin-bottom: 0.5rem;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -413,13 +412,13 @@
 </div>
 </div>
 
-  <p class="date">Wednesday, 15th of January 2025, 15:00 (GMT+1)</p>
+  <p class="date">Wednesday, 15th of January 2025, 15:00 (UTC)</p>
 </section><section id="TOC">
 <nav role="doc-toc"> 
 <h2 id="toc-title">Agenda</h2>
 <ul>
 <li><a href="#/logistics-admin" id="/toc-logistics-admin"><span class="header-section-number">1</span> Logistics &amp; Admin</a></li>
-<li><a href="#/section" id="/toc-section"><span class="header-section-number">2</span> Basics of the Command Line</a></li>
+<li><a href="#/meta-session-title" id="/toc-meta-session-title"><span class="header-section-number">2</span> Basics of the Command Line</a></li>
 </ul>
 </nav>
 </section>
@@ -432,7 +431,7 @@
 <h2>Schedule</h2>
 <div class="cell">
 <div class="cell-output-display">
-<table class="caption-top">
+<table>
 <thead>
 <tr class="header">
 <th style="text-align: left;">No</th>
@@ -528,11 +527,11 @@
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/recipes/" title="Course Website"></iframe>
 </section></section>
 <section>
-<section id="section" class="title-slide slide level1 center" data-number="2">
+<section id="meta-session-title" class="title-slide slide level1 center" data-number="2">
 <h1><span class="header-section-number">2</span> Basics of the Command Line</h1>
 
 </section>
-<section id="this-session" class="slide level2">
+<section id="this-session-meta-session-title" class="slide level2">
 <h2>This session: Basics of the Command Line</h2>
 
 <img data-src="../images/command-line.png" class="r-stretch quarto-figure-center"><p class="caption">Source: <a href="https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png">Wikimedia Commons</a> (free license)</p></section>
@@ -549,7 +548,7 @@
 <h2>Cheatsheet</h2>
 <div class="cell">
 <div class="cell-output-display">
-<table class="caption-top">
+<table>
 <colgroup>
 <col style="width: 23%">
 <col style="width: 76%">
@@ -678,7 +677,7 @@
 </div>
 </div>
 </section>
-<section id="tasks" class="slide level2 scrollable">
+<section id="tasks" class="slide level2">
 <h2>Tasks</h2>
 <p>In this session, you will work on the following tasks:</p>
 <ol type="1">
@@ -695,7 +694,7 @@
 <li>Let’s <em>git</em> started!</li>
 </ol>
 </section>
-<section id="recipes-project" class="slide level2 scrollable">
+<section id="recipes-project" class="slide level2">
 <h2><code>recipes</code> project</h2>
 <p>At the end of this session, you should have accomplished the following:</p>
 <ol type="1">
@@ -704,7 +703,7 @@
 </ol>
 <p>Please keep the <code>recipes</code> folder! We will continue to use it in the following sessions.</p>
 </section>
-<section id="exercises" class="slide level2 scrollable">
+<section id="exercises" class="slide level2">
 <h2>Exercises</h2>
 <h3 id="navigate-the-file-system">Navigate the file system</h3>
 <p>Identify a folder on your computer where you (want to) keep course-related files. If you don’t have one, choose a suitable location in your file system.</p>
@@ -728,61 +727,37 @@
 <div class="code-with-filename-file">
 <pre><strong>Code</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="annotated-cell-1"><pre class="sourceCode numberSource zsh code-annotation-code number-lines code-with-copy code-annotated"><code class="sourceCode zsh"><a class="code-annotation-anchor" data-target-cell="annotated-cell-1" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-1-1" class="code-annotation-target"><a href="#annotated-cell-1-1"></a><span class="bu">cd</span> /path/to/your/chosen/directory</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell-annotation">
-<dl class="code-annotation-container-grid">
-<dt data-target-cell="annotated-cell-1" data-target-annotation="1">1</dt>
-<dd>
-<span data-code-cell="annotated-cell-1" data-code-lines="1" data-code-annotation="1">Navigate into the chosen location. Replace <code>/path/to/your/chosen/directory</code> with a path on your computer. A good location might be within your <code>/Documents</code> folder or a dedicated <code>/Projects</code> or <code>/University</code> folder. This can help to easily find course-related files on your computer.</span>
-</dd>
-</dl>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a href="#cb1-1"></a><span class="bu">cd</span> /path/to/your/chosen/directory <span class="co"># &lt;1&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
+<ol type="1">
+<li>Navigate into the chosen location. Replace <code>/path/to/your/chosen/directory</code> with a path on your computer. A good location might be within your <code>/Documents</code> folder or a dedicated <code>/Projects</code> or <code>/University</code> folder. This can help to easily find course-related files on your computer.</li>
+</ol>
 <h3 id="create-files-and-folders-1">Create files and folders</h3>
-<div class="cell">
+<div class="cell" data-file="exercises/code-exercises-cli-recipes.sh">
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>Code</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="annotated-cell-2"><pre class="sourceCode numberSource zsh code-annotation-code number-lines code-with-copy code-annotated"><code class="sourceCode zsh"><span id="annotated-cell-2-1"><a href="#annotated-cell-2-1"></a><span class="co">#!/bin/bash</span></span>
-<span id="annotated-cell-2-2"><a href="#annotated-cell-2-2"></a></span>
-<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-2-3" class="code-annotation-target"><a href="#annotated-cell-2-3"></a><span class="bu">pwd</span></span>
-<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="3" onclick="event.preventDefault();">3</a><span id="annotated-cell-2-4" class="code-annotation-target"><a href="#annotated-cell-2-4"></a><span class="fu">mkdir</span> recipes</span>
-<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="4" onclick="event.preventDefault();">4</a><span id="annotated-cell-2-5" class="code-annotation-target"><a href="#annotated-cell-2-5"></a><span class="bu">cd</span> recipes</span>
-<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="5" onclick="event.preventDefault();">5</a><span id="annotated-cell-2-6" class="code-annotation-target"><a href="#annotated-cell-2-6"></a><span class="fu">touch</span> recipes.txt</span>
-<a class="code-annotation-anchor" data-target-cell="annotated-cell-2" data-target-annotation="6" onclick="event.preventDefault();">6</a><span id="annotated-cell-2-7" class="code-annotation-target"><a href="#annotated-cell-2-7"></a><span class="fu">ls</span></span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<div class="cell-annotation">
-<dl class="code-annotation-container-grid">
-<dt data-target-cell="annotated-cell-2" data-target-annotation="2">2</dt>
-<dd>
-<span data-code-cell="annotated-cell-2" data-code-lines="3" data-code-annotation="2">Use <code>pwd</code> to display the path of your current working directory.</span>
-</dd>
-<dt data-target-cell="annotated-cell-2" data-target-annotation="3">3</dt>
-<dd>
-<span data-code-cell="annotated-cell-2" data-code-lines="4" data-code-annotation="3">Use <code>mkdir</code> to create a new subfolder and give it a name, within your chosen folder.</span>
-</dd>
-<dt data-target-cell="annotated-cell-2" data-target-annotation="4">4</dt>
-<dd>
-<span data-code-cell="annotated-cell-2" data-code-lines="5" data-code-annotation="4">Use <code>cd</code> to navigate into the newly created subfolder.</span>
-</dd>
-<dt data-target-cell="annotated-cell-2" data-target-annotation="5">5</dt>
-<dd>
-<span data-code-cell="annotated-cell-2" data-code-lines="6" data-code-annotation="5">Use <code>touch</code> to create a new file and name it appropriately.</span>
-</dd>
-<dt data-target-cell="annotated-cell-2" data-target-annotation="6">6</dt>
-<dd>
-<span data-code-cell="annotated-cell-2" data-code-lines="7" data-code-annotation="6">Use <code>ls</code> to confirm that the files was created by listing the contents of the folder.</span>
-</dd>
-</dl>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb2-1"><a href="#cb2-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="bu">pwd</span> <span class="co"># &lt;2&gt;</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a><span class="fu">mkdir</span> recipes <span class="co"># &lt;3&gt;</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="bu">cd</span> recipes <span class="co"># &lt;4&gt;</span></span>
+<span id="cb2-6"><a href="#cb2-6"></a><span class="fu">touch</span> recipes.txt <span class="co"># &lt;5&gt;</span></span>
+<span id="cb2-7"><a href="#cb2-7"></a><span class="fu">ls</span> <span class="co"># &lt;6&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
+<ol start="2" type="1">
+<li>Use <code>pwd</code> to display the path of your current working directory.</li>
+<li>Use <code>mkdir</code> to create a new subfolder and give it a name, within your chosen folder.</li>
+<li>Use <code>cd</code> to navigate into the newly created subfolder.</li>
+<li>Use <code>touch</code> to create a new file and name it appropriately.</li>
+<li>Use <code>ls</code> to confirm that the files was created by listing the contents of the folder.</li>
+</ol>
 
-<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 <p>Version Control Course</p>
-</div>
 </div>
 </section></section>
     </div>
@@ -812,6 +787,7 @@
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
+'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -1067,7 +1043,18 @@
         }
         return false;
       }
-      const onCopySuccess = function(e) {
+      const clipboard = new window.ClipboardJS('.code-copy-button', {
+        text: function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+      });
+      clipboard.on('success', function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -1099,55 +1086,11 @@
         }, 1000);
         // clear code selection
         e.clearSelection();
-      }
-      const getTextToCopy = function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-      }
-      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-        text: getTextToCopy
       });
-      clipboard.on('success', onCopySuccess);
-      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-        // For code content inside modals, clipBoardJS needs to be initialized with a container option
-        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
-        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-          text: getTextToCopy,
-          container: window.document.getElementById('quarto-embedded-source-code-modal')
-        });
-        clipboardModal.on('success', onCopySuccess);
-      }
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-        var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp("https:\/\/lennartwittkuhn\.com\/version-control-course-zi-mannheim-2025\/");
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-        }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-            // undo the damage that might have been done by quarto-nav.js in the case of
-            // links that we want to consider external
-            if (link.dataset.originalHref !== undefined) {
-              link.href = link.dataset.originalHref;
-            }
-              // target, if specified
-              link.setAttribute("target", "_blank");
-              if (link.getAttribute("rel") === null) {
-                link.setAttribute("rel", "noopener");
-              }
-          }
-        }
-      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      function tippyHover(el, contentFn) {
         const config = {
           allowHTML: true,
+          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -1157,17 +1100,8 @@
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start',
+          placement: 'bottom-start'
         };
-        if (contentFn) {
-          config.content = contentFn;
-        }
-        if (onTriggerFn) {
-          config.onTrigger = onTriggerFn;
-        }
-        if (onUntriggerFn) {
-          config.onUntrigger = onUntriggerFn;
-        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -1181,11 +1115,7 @@
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          if (note) {
-            return note.innerHTML;
-          } else {
-            return "";
-          }
+          return note.innerHTML;
         });
       }
       const findCites = (el) => {
@@ -1225,6 +1155,20 @@
           });
         }
       }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var filterRegex = new RegExp("https:\/\/lennartwittkuhn\.com\/version-control-course-zi-mannheim-2025\/");
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+              // target, if specified
+              link.setAttribute("target", "_blank");
+          }
+        }
     });
     </script>
     

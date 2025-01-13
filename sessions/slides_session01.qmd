@@ -123,7 +123,7 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 ```
 :::
 
-## Pair Programming (variant)
+## Pair Programming (variant) {visibility="hidden"}
 
 ::::: {.columns}
 :::: {.column width="60%"}
@@ -147,7 +147,7 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 
 {{< include ../_code-of-conduct.qmd >}}
 
-## Breaks
+## Breaks {visibility="hidden"}
 
 - We will have a one-hour lunch break at 12:30.
 - Feel free to take short breaks in-between (sessions) when needed.

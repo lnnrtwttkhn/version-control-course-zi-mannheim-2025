@@ -1,7 +1,7 @@
 ---
-title: "Setup & First steps with Git"
+title: "Setup and configuration of Git"
 subtitle: "Session 03"
-date: 2025-01-22T14:00:00
+date: 2025-01-15T15:30:00
 metadata-files:
   - _sessions.yml
 about:
@@ -11,35 +11,19 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-2024/sessions/slides_session03.html
+      href: https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/sessions/slides_session03.html
       aria-label: display
-    # - icon: book
-    #   text: "Chapter: Installation"
-    #   href: https://lennartwittkuhn.com/version-control-book/chapters/installation.html
-    #   aria-label: book
+    - icon: book
+      text: "Chapter: Installation"
+      href: https://lennartwittkuhn.com/version-control-book/chapters/installation.html
+      aria-label: book
     - icon: book
       text: "Chapter: Setup"
       href: https://lennartwittkuhn.com/version-control-book/chapters/setup.html
       aria-label: book
-    - icon: book
-      text: "Chapter: First steps with Git"
-      href: https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html
-      aria-label: book
-    - icon: book
-      text: "Chapter: Git Essentials"
-      href: https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html
-      aria-label: book
-    # - icon: input-cursor-text
-    #   text: "Survey: Installation"
-    #   href: https://version-control-installation.formr.org
-    #   aria-label: input-cursor-text
-    - icon: input-cursor-text
-      text: "Survey: Git Basics"
-      href: https://version-control-basics.formr.org/
-      aria-label: input-cursor-text
 chapter: |
-  ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html), ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) and ["Git Essentials"](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)
-quiz-url: https://version-control-basics.formr.org/
+  ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) (and ["Installation"](https://lennartwittkuhn.com/version-control-book/chapters/installation.html), if needed)
+quiz-url: https://version-control-installation.formr.org/
 ---
 
 ::: {#hero-heading}
@@ -47,55 +31,22 @@ quiz-url: https://version-control-basics.formr.org/
 
 ## This session
 
-In this session, you will work on the following tasks:
-
-1. {{< fa book-open >}} **Reading**: Read the chapters ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html), ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) and, optional, ["Git Essentials"](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html) in the Version Control Book.
-1. {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter.
-1. {{< fa laptop-code >}} **Exercises**: Work on the [exercises](#exercises) for the [`recipes` project](#recipes-project).
-1. {{< fa clipboard-question >}} **Quiz**: Test your knowledge with the [quiz]({{< meta quiz-url >}}).
-
-As always:
-
-1. Try out the commands of this session and play around with them.
-1. Check whether you have achieved the [learning objectives](#learning-objectives).
-1. Ask questions!
-1. Let's *git* started!
+{{< include tasks/tasks-template.qmd >}}
 
 ## Learning objectives
 
-### Setup
-
+{{< include _learning-objectives-note.qmd >}}
 {{< include ../objectives/_objectives-setup.qmd >}}
 
-### First steps with Git
+## `{{< var course.project >}}` project
 
-{{< include ../objectives/_objectives-firststeps.qmd >}}
-
-### :rocket: Optional: Git essentials
-
-{{< include ../objectives/_objectives-essentials.qmd >}}
-
-## `recipes` project
-
-{{< include recipes/recipes-basics.qmd >}}
+{{< include project/project-setup.qmd >}}
 
 ## Exercises
 
 ### Configure Git
 
 {{< include ../exercises/_exercises-setup.qmd >}}
-
-{{< include ../exercises/_exercises-first-steps-git.qmd >}}
-
-## :rocket: Bonus exercises
-
-### Amend a commit
-
-{{< include ../exercises/_exercises-essentials-amend.qmd >}}
-
-### Create a `.gitignore` file
-
-{{< include ../exercises/_exercises-essentials-gitignore.qmd >}}
 
 ## Slides
 
@@ -107,32 +58,10 @@ As always:
 
 ## Cheatsheet
 
-### Setup
-
 ```{r}
 #| eval: true
 #| echo: false
 #| message: false
 #| warning: false
 knitr::kable(table_cheatsheet(name = "config"), format = "markdown", row.names = FALSE)
-```
-
-### First steps with Git
-
-```{r}
-#| eval: true
-#| echo: false
-#| message: false
-#| warning: false
-knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = FALSE)
-```
-
-### Git essentials
-
-```{r}
-#| eval: true
-#| echo: false
-#| message: false
-#| warning: false
-knitr::kable(table_cheatsheet(name = "essentials"), format = "markdown", row.names = FALSE)
 ```

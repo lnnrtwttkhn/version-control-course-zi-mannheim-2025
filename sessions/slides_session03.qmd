@@ -1,6 +1,6 @@
 ---
 title: "Session 3: {{< meta session-title >}}"
-date: 2024-09-27T10:45:00
+date: 2025-01-22T14:00:00
 format: revealjs
 metadata-files:
   - _slides.yml
@@ -159,7 +159,7 @@ As always:
 
 ```{zsh, filename="Code"}
 #| eval: false
-#| file: exercises/code-exercises-setup.sh
+#| file: exercises/code-exercises-setup-recipes.sh
 ```
 {{< include ../exercises/_solutions-setup.qmd >}}
 
@@ -167,15 +167,15 @@ As always:
 
 ```{zsh, filename="Code"}
 #| eval: false
-#| file: exercises/code-exercises-first-steps-git.sh
+#| file: exercises/code-exercises-first-steps-git-recipes.sh
 ```
-{{< include ../exercises/_solutions-first-steps-git.qmd >}}
+{{< include ../exercises/_solutions-first-steps-git-recipes.qmd >}}
 
 ## Solutions: Amend a commit
 
 ```{zsh, filename="Code"}
 #| eval: false
-#| file: exercises/code-exercises-essentials-amend.sh
+#| file: exercises/code-exercises-essentials-amend-recipes.sh
 ```
 {{< include ../exercises/_solutions-essentials-amend.qmd >}}
 
@@ -183,7 +183,7 @@ As always:
 
 ```{zsh, filename="Code"}
 #| eval: false
-#| file: exercises/code-exercises-essentials-gitignore.sh
+#| file: exercises/code-exercises-essentials-gitignore-recipes.sh
 ```
 {{< include ../exercises/_solutions-essentials-gitignore.qmd >}}
 

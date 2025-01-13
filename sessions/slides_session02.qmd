@@ -1,6 +1,6 @@
 ---
 title: "Session 2: Basics of the Command Line"
-date: 2024-09-27T10:00:00
+date: 2025-01-15T15:00:00
 format: revealjs
 metadata-files:
   - _slides.yml
@@ -24,10 +24,10 @@ create_schedule()
 
 ## Course exercise: Building an online recipes book
 
-{{< fa display >}} [{{< var links.recipes >}}]({{< var links.recipes >}})
+{{< fa display >}} [{{< var course.project-site >}}]({{< var course.project-site >}})
 
 ```{=html}
-<iframe width="100%" height="80%" src="{{< var links.recipes >}}" title="Course Website"></iframe>
+<iframe width="100%" height="80%" src="{{< var course.project-site >}}" title="Course Website"></iframe>
 ```
 
 # {{< meta session-title >}}
@@ -86,6 +86,6 @@ This can help to easily find course-related files on your computer.
 
 ```{zsh, filename="Code"}
 #| eval: false
-#| file: exercises/code-exercises-cli.sh
+#| file: exercises/code-exercises-cli-recipes.sh
 ```
 {{< include ../exercises/_solutions-cli.qmd >}}

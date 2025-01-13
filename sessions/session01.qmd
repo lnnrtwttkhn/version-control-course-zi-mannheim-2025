@@ -1,7 +1,7 @@
 ---
 title: "Welcome & Introduction to Version Control"
 subtitle: "Session 01"
-date: 2024-09-27T09:30:00
+date: 2025-01-15T14:00:00
 metadata-files:
   - _sessions.yml
 about:
@@ -11,14 +11,14 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-2024/sessions/slides_session01.html
+      href: https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/sessions/slides_session01.html
       aria-label: display
     - icon: book
       text: Chapter
       href: https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html
       aria-label: book
-chapter-title: "Introduction to Version Control"
-chapter-url: https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html
+chapter: "[Introduction to Version Control](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html)"
+quiz-url: https://version-control-cli.formr.org/
 ---
 
 ::: {#hero-heading}
@@ -45,8 +45,9 @@ chapter-url: https://lennartwittkuhn.com/version-control-book/chapters/intro-ver
 
 Dear course participant,
 
-You are receiving this email because you have signed up for the course "{{< var project.title >}}", taking place on {{< var project.when-long >}} at {{< var project.where-institution >}} ({{< var project.where-room >}}), {{< var project.where-address >}}.  
+You are receiving this email because you have signed up for the {{< var course.duration >}} course "{{< var course.title >}}", taking place on {{< var course.when-long >}} at {{< var course.where-institution >}} (via {{< var course.where-room >}}).
 We are excited that you have signed up for this course and can't wait to delve into the world of version control with you!
+Our first session takes place next Wednesday, January 15, 2025, from 14:00 to 16:00 online via Zoom (see access details in previous email).
 
 In preparation for the course, we kindly ask you to **complete two assignments**: (1) check if you have Git installed, and (2) answer a survey.
 In total, this should **take about 20 to 30 minutes** (not much longer).
@@ -54,19 +55,20 @@ In total, this should **take about 20 to 30 minutes** (not much longer).
 **1. Check Git Installation**
 
 Please check if you have Git installed.
-You can find detailed instructions in our online course book here: [{{< var chapters.installation >}}]({{< var chapters.installation >}}).
+You can find detailed instructions in our online course book here: [https://lennartwittkuhn.com/version-control-book/chapters/installation.html](https://lennartwittkuhn.com/version-control-book/chapters/installation.html).
 Windows users: Please install Git for Windows (<https://gitforwindows.org>).
 macOS and Linux users: You likely have Git already installed.
 Open the Terminal / Command Line and enter the command `git --version`.
 If a version number is shown, Git is installed.
 For more details, see the link to the online course book above.
+If you have any questions about the installation process, don't hesitate to contact us.
 And please don't forget to bring your laptop, with Git installed, to the course!
 
 **2. Complete Survey**
 
 In order to tailor the course to your prior experience and needs, we have prepared a **survey** with a few questions.
 Please **complete the survey before the course**, ideally at least two days before the course starts.
-This will give us enough time to review your responses before our course on {{< var project.when-day >}}.
+This will give us enough time to review your responses before our first session.
 
 The survey can be accessed here: **<https://version-control-intro.formr.org>**.
 
@@ -78,7 +80,7 @@ This will allow us to identify and relate your responses across all surveys used
 By providing a personal codeword, you will allow us to draw more detailed insights from your responses that will help us improve the course for you.
 The survey will contain an explanation at the beginning on how to generate your personal codeword.
 
-The **course codeword** is used to tag your responses as coming from a course participant at {{< var project.where-institution >}}.
+The **course codeword** is used to tag your responses as coming from a course participant at {{< var course.where-institution >}}.
 We might also use the survey to collect responses from participants in other course settings.
 The course codeword therefore allows us to distinguish responses from different course settings.
 
@@ -88,11 +90,11 @@ Please note that you might be asked for the codewords repeatedly.
 This is not an error in the survey but the result of combining separate smaller surveys into a longer one.
 If this happens, please just enter the personal and course codeword again.
 
-Further information about the course can be found on our course website at [{{< var links.site >}}]({{< var links.site >}}).
+Further information about the course can be found on our course website at [{{< var project.site >}}]({{< var project.site >}}).
 
 If you have any questions, feel free to contact us directly via email.
 
-We are looking forward to seeing you at the course on {{< var project.when-day >}}, {{< var project.when-date >}}!
+We are looking forward to seeing you for the first session!
 
 Best wishes,
 

@@ -1,4 +1,4 @@
 In this session, you will work on the following tasks:
 
-1. {{< fa book-open >}} **Reading**: Read the chapter ["{{< meta chapter-title >}}"]({{< meta chapter-url >}}) in the [Version Control Book]({{< var links.book >}}).
-1. {{< fa comments >}} **Discussion:** Discuss the learning objectives with your desk neighbor (quietly).
+1. Skim the chapter {{< meta chapter >}} in the [Version Control Book]({{< var links.book >}}).
+1. Check whether you have achieved the [learning objectives](#learning-objectives).

@@ -1,6 +1,6 @@
 ---
 title: "Session 4: {{< meta session-title >}}"
-date: 2024-09-27T11:30:00
+date: 2025-01-22T15:00:00
 format: revealjs
 metadata-files:
   - _slides.yml
@@ -94,7 +94,7 @@ knitr::kable(table_cheatsheet(name = "branches"), format = "markdown", row.names
 
 ```{zsh, filename="Code"}
 #| eval: false
-#| file: exercises/code-exercises-branches.sh
+#| file: exercises/code-exercises-branches-recipes.sh
 ```
 {{< include ../exercises/_solutions-branches.qmd >}}
 

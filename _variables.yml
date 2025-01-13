@@ -1,45 +1,48 @@
 project:
-  name: "version-control-course-uhh-2024"
-  title: "Track, organize and share your work: An introduction to Git for research"
-  subtitle: "A {{< var project.duration >}} course at the {{< var project.where-institution >}}, {{< var project.where-country >}} on {{< var project.when-date >}}"
-  instructors: "Dr. Lennart Wittkuhn"
-  when-day: "Friday"
-  when-date: "September 27th 2024"
-  when-time: "9:30 to 15:30"
-  when-long: "{{< var project.when-day >}}, {{< var project.when-date >}}, {{< var project.when-time >}}"
-  where-institution: "General Psychology Lab at the University of Hamburg"
-  where-city: "Hamburg"
-  where-country: "Germany"
-  where-address: "Von-Melle-Park 5, 20146 Hamburg"
-  where-room: "Room 4054 / William-Stern-Room"
-  where-long: "{{< var project.where-institution >}}, {{< var project.where-address >}}, {{< var project.where-room >}}"
-  where-short: "{{< var project.where-institution >}} ({{< var project.where-room >}})"
-  target-group: "Researchers at the {{< var project.where-institution >}}"
-  duration: "full-day"
-links:
+  name: "version-control-course-zi-mannheim-2025"
   email: "lennart.wittkuhn@tutanota.com"
   mailto: "mailto:lennart.wittkuhn@tutanota.com"
   homepage: "https://lennartwittkuhn.com/"
-  github: "https://github.com/lnnrtwttkhn/version-control-course-uhh-2024/"
-  issues: "https://github.com/lnnrtwttkhn/version-control-course-uhh-2024/issues"
-  site: "https://lennartwittkuhn.com/version-control-course-uhh-2024/"
+  github: "https://github.com/lnnrtwttkhn/version-control-course-zi-mannheim-2025/"
+  issues: "https://github.com/lnnrtwttkhn/version-control-course-zi-mannheim-2025/issues"
+  site: "https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/"
+  years: "2025"
+  email-secretary: barbara.oberbauer@uni-hamburg.de
+  mailto-secretary: mailto:barbara.oberbauer@uni-hamburg.de
+  email-mailing-list: version-control-course-ss24.psych@lists.uni-hamburg.de
+  mailto-mailing-list: "mailto:{{< var project.email-mailing-list >}}"
+  nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG
+course:
+  title: "Track, organize and share your work: An introduction to Git for research"
+  subtitle: "A {{< var course.duration >}} course at the {{< var course.where-institution >}}, {{< var course.where-city >}}, {{< var course.where-country >}} in {{< var course.when-date >}}"
+  instructors: "Dr. Lennart Wittkuhn"
+  when-day: "Wednesdays"
+  when-date: "January 2025"
+  when-time: "14:00 to 16:00"
+  when-long: "{{< var course.when-day >}}, {{< var course.when-date >}}, {{< var course.when-time >}}"
+  where-institution: "Zentralinstitut für Seelische Gesundheit"
+  where-city: "Mannheim"
+  where-country: "Germany"
+  where-address: "J 5, 68159 Mannheim"
+  where-room: "Zoom"
+  where-long: "{{< var course.where-institution >}}, {{< var course.where-address >}} (via {{< var course.where-room >}})"
+  where-short: "{{< var course.where-institution >}} ({{< var course.where-room >}})"
+  target-group: "Researchers at the {{< var course.where-institution >}}"
+  tag: "PsyM14-PsyWB-K01"
+  duration: "three-day"
+  project: "recipes"
+  project-site: "https://lennartwittkuhn.com/recipes/"
+links:
   book: "https://lennartwittkuhn.com/version-control-book"
-  recipes: "https://lennartwittkuhn.com/recipes"
   ddlitlab-proposal: https://lennartwittkuhn.com/ddlitlab-proposal
   illf-proposal: https://lennartwittkuhn.com/illf-application/
-  nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG
   stine: https://stine.uni-hamburg.de/
   hedgedoc: https://pad.uni-hamburg.de/
   hedgedoc-features: https://demo.hedgedoc.org/s/features
   markdown: https://www.markdownguide.org/
   formr: https://formr.org/
-  email-secretary: barbara.oberbauer@uni-hamburg.de
-  mailto-secretary: mailto:barbara.oberbauer@uni-hamburg.de
-  email-mailing-list: version-control-course-ss24.psych@lists.uni-hamburg.de
-  mailto-mailing-list: "mailto:{{< var links.email-mailing-list >}}"
   scriberia: "https://www.scriberia.com/"
   ccby40: "https://creativecommons.org/licenses/by/4.0/"
-years: "2024"
 team:
   lennart:
     id: lennart
@@ -52,21 +55,6 @@ team:
     scholar: https://scholar.google.de/citations?user=GXvJB1kAAAAJ&hl=en
     linkedin: https://www.linkedin.com/in/dr-lennart-wittkuhn-6a079a1a8/
     orcid: 0000-0003-2966-6888
-  nico:
-    id: nico
-    email: nicolas.schuck@uni-hamburg.de
-    mailto: "mailto:{{< var team.nico.email >}}"
-    website: https://schucklab.gitlab.io/
-    github: https://github.com/nschuck/
-    twitter: https://twitter.com/nico_schuck
-    mastodon: https://mastodon.online/@nicoschuck
-    scholar: https://scholar.google.com/citations?user=n21HDbAAAAAJ&hl=en
-    linkedin: https://www.linkedin.com/in/nicolas-schuck-72542247/
-  konrad:
-    id: konrad
-    email: konrad.pagenstedt@uni-hamburg.de
-    mailto: "mailto:{{< var team.konrad.email >}}"
-    github: https://github.com/konradpa
 slides:
   title: "Slide title"
   license-long: "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"
@@ -79,21 +67,3 @@ quizzes:
   basics: https://version-control-basics.formr.org/
   branches:  https://version-control-branches.formr.org/
   github:  https://version-control-github.formr.org/
-chapters:
-  installation: https://lennartwittkuhn.com/version-control-book/chapters/installation.html/
-dates:
-  one: "2024-04-08"
-  two: "2024-04-15"
-  three: "2024-04-22"
-  four: "2024-04-29"
-  five: "2024-05-06"
-  six: "2024-05-13"
-  seven: "2024-05-20"
-  eight: "2024-05-27"
-  nine: "2024-06-03"
-  ten: "2024-06-10"
-  eleven: "2024-06-17"
-  twelve: "2024-06-24"
-  thirteen: "2024-07-01"
-  fourteen: "2024-07-08"
-  

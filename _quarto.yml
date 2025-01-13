@@ -12,8 +12,8 @@ project:
 website:
   title: "Version Control with Git"
   favicon: images/git-logo.png
-  site-url: "https://lennartwittkuhn.com/version-control-course-uhh-2024/"
-  repo-url: "https://github.com/lnnrtwttkhn/version-control-course-uhh-2024/"
+  site-url: "https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/"
+  repo-url: "https://github.com/lnnrtwttkhn/version-control-course-zi-mannheim-2025/"
   open-graph: false
   navbar:
     background: light
@@ -26,8 +26,8 @@ website:
         href: about.qmd
       - text: "{{< fa clipboard-list >}} Schedule"
         href: schedule.qmd
-      - text:  "{{< fa list-ol >}} Sessions"
-        href: sessions/index.qmd
+      # - text:  "{{< fa list-ol >}} Sessions"
+      #   href: sessions/index.qmd
       # - text: "{{< fa wrench >}} Tools"
       #   href: tools.qmd
       # - text: "{{< fa chalkboard-user >}} Team"
@@ -43,16 +43,16 @@ website:
     right:
       - icon: envelope
         aria-label: Email
-        href: "{{< var links.mailto >}}"
+        href: "{{< var project.mailto >}}"
       - icon: github
         aria-label: GitHub
-        href: "{{< var links.github >}}"
+        href: "{{< var project.github >}}"
         
   page-footer:
     background: light
     border: true
     left: |
-      © {{< var years >}} [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
+      © {{< var project.years >}} [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
     # center:
     #   - text: "Acknowledgements"
     #     href: acknowledgements.qmd

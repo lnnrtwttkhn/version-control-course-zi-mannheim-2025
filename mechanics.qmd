@@ -11,7 +11,7 @@ nocite: |
 {{< fa calendar-days >}} **Date:** {{< var project.when-semester >}}
 :::
 ::: {.column width="50%"}
-{{< fa clock >}} **Time:** {{< var project.when-time >}}
+{{< fa clock >}} **Time:** {{< var course.when-time >}}
 :::
 ::: {.column width="50%"}
 {{< fa person-chalkboard >}} **Instructor:** [Dr. Lennart Wittkuhn]({{< var team.lennart.website >}})
@@ -20,7 +20,7 @@ nocite: |
 {{< fa language >}} **Language:** English
 :::
 ::: {.column width="100%"}
-{{< fa building-columns >}} **Venue:** {{< var project.where-long >}}
+{{< fa building-columns >}} **Venue:** {{< var course.where-long >}}
 :::
 ::: {.column width="100%"}
 {{< fa file-signature >}} **Registration:** The registration period starts on {{< var project.registration-start >}} and ends on {{< var project.registration-end >}}.

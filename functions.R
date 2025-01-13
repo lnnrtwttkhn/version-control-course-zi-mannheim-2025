@@ -29,10 +29,10 @@ create_schedule <- function() {
     .[!(title == ""), title := sprintf("**[%s](%s)**", title, sprintf(session_url, sprintf("%02d", No)))] %>%
     .[!(reading == ""), reading := paste("{{< fa book >}}", reading)] %>%
     setnames(.,
-             old = c("No", "date", "title", "contents", "reading", "survey"),
-             new = c("No", "Time", "Title", "Contents", "Reading", "Survey/Quiz")) %>%
-    .[, c("No", "Time", "Title", "Contents", "Reading", "Survey/Quiz")] %>%
-    setcolorder(., c("No", "Time", "Title", "Contents", "Reading", "Survey/Quiz"))
+             old = c("No", "date", "time", "title", "contents", "reading", "survey"),
+             new = c("No", "Date", "Time", "Title", "Contents", "Reading", "Survey/Quiz")) %>%
+    .[, c("No", "Date", "Time", "Title", "Contents", "Reading", "Survey/Quiz")] %>%
+    setcolorder(., c("No", "Date", "Time", "Title", "Contents", "Reading", "Survey/Quiz"))
   knitr::kable(dt, format = "markdown", align = "l")
 }
 

@@ -47,7 +47,7 @@ Dear course participant,
 
 You are receiving this email because you have signed up for the {{< var course.duration >}} course "{{< var course.title >}}", taking place on {{< var course.when-long >}} at {{< var course.where-institution >}} (via {{< var course.where-room >}}).
 We are excited that you have signed up for this course and can't wait to delve into the world of version control with you!
-Our first session takes place next Wednesday, January 15, 2025, from 14:00 to 16:00 online via Zoom (see access details below).
+Our first session takes place next Wednesday, January 15, 2025, from 14:00 to 16:00 online via Zoom (see access details in previous email).
 
 In preparation for the course, we kindly ask you to **complete two assignments**: (1) check if you have Git installed, and (2) answer a survey.
 In total, this should **take about 20 to 30 minutes** (not much longer).

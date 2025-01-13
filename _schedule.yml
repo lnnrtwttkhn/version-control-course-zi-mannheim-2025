@@ -22,17 +22,18 @@ session02:
   reading:
     - "[Command Line](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html)"
   survey:
-    - "[Command Line Quiz](https://version-control-cli.formr.org)"
+    - "[Command Line](https://version-control-cli.formr.org)"
 session03:
   date: "2025-01-15"
   time: "15:30 - 16:00"
-  title: "Setup of Git"
+  title: "Setup and configuration of Git"
   contents:
-    - "Configuration and setup of Git"
+    - "Setup & configuration of Git"
   reading:
     - "[Setup](https://lennartwittkuhn.com/version-control-book/chapters/setup.html)"
+    - "[Installation](https://lennartwittkuhn.com/version-control-book/chapters/installation.html) (if needed)"
   survey:
-    - "[Git Installation Quiz](https://version-control-installation.formr.org)"
+    - "[Git Installation](https://version-control-installation.formr.org)"
 session04:
   date: "2025-01-22"
   time: "14:00 - 15:00"

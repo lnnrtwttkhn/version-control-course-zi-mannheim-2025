@@ -12,23 +12,6 @@ chapter-url: https://lennartwittkuhn.com/version-control-book/chapters/intro-ver
 
 {{< include _about.qmd >}}
 
-## Who are you?
-
-:::: {.columns}
-::: {.column width="40%"}
-1. Your name?
-1. Your preferred pronouns?
-1. Your research group?
-1. Optional: Your mood on a sheep scale?
-:::
-::: {.column width="60%"}
-::: {.fragment}
-![](../images/mood-sheep.png){fig-alt="Mood on a sheep scale."}
-:::
-:::
-::::
-
-
 ## Course overview
 
 :::: {.columns}

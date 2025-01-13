@@ -4,8 +4,8 @@ date: 2025-01-15T14:00:00
 format: revealjs
 metadata-files:
   - _slides.yml
-chapter-title: "Introduction to Version Control"
-chapter-url: https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html
+chapter: "[Introduction to Version Control](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html)"
+quiz-url: https://version-control-cli.formr.org/
 ---
 
 # Logistics & Admin

@@ -26,7 +26,7 @@ create_schedule <- function() {
     unique(.) %>%
     .[, No := seq.int(nrow(.))] %>%
     .[!(title == ""), title := sprintf("**%s**", title)] %>%
-    .[!(title == ""), title := sprintf("**[%s](%s)**", title, sprintf(session_url, sprintf("%02d", No)))] %>%
+    # .[!(title == ""), title := sprintf("**[%s](%s)**", title, sprintf(session_url, sprintf("%02d", No)))] %>%
     .[!(reading == ""), reading := paste("{{< fa book >}}", reading)] %>%
     setnames(.,
              old = c("No", "date", "time", "title", "contents", "reading", "survey"),

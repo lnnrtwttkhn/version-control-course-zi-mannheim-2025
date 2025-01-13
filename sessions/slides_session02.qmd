@@ -1,12 +1,11 @@
 ---
 title: "Session 2: Basics of the Command Line"
-date: 2025-01-15T15:00:00
+date: 2025-01-15T14:30:00
 format: revealjs
 metadata-files:
   - _slides.yml
 session-title: "Basics of the Command Line"
-chapter-title: "Command Line"
-chapter-url: https://lennartwittkuhn.com/version-control-book/chapters/command-line.html
+chapter: "[Command Line](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html)"
 quiz-url: https://version-control-cli.formr.org/
 ---
 
@@ -22,13 +21,25 @@ quiz-url: https://version-control-cli.formr.org/
 create_schedule()
 ```
 
-## Course exercise: Building an online recipes book
+## Course exercise: Building an online {{< var course.project >}} book
 
 {{< fa display >}} [{{< var course.project-site >}}]({{< var course.project-site >}})
 
 ```{=html}
 <iframe width="100%" height="80%" src="{{< var course.project-site >}}" title="Course Website"></iframe>
 ```
+
+# Last session
+
+## Last sessions's learning objectives
+
+After the last session, you should now be able to answer the following questions:
+
+{{< include ../objectives/_objectives-intro.qmd >}}
+
+::: {.fragment}
+### Any questions?
+:::
 
 # {{< meta session-title >}}
 
@@ -42,7 +53,7 @@ create_schedule()
 
 ## Reading
 
-{{< fa display >}} [{{< meta chapter-url >}}]({{< meta chapter-url >}})
+{{< fa display >}} {{< meta chapter >}}
 
 ```{=html}
 <iframe width="100%" height="80%" src="{{< meta chapter-url >}}"></iframe>
@@ -62,17 +73,19 @@ knitr::kable(table_cheatsheet(name = "cli"), format = "markdown", row.names = FA
 
 {{< include tasks/tasks-template.qmd >}}
 
-## `recipes` project
+## `{{< var course.project >}}` project
 
-{{< include recipes/recipes-cli.qmd >}}
+{{< include project/project-cli.qmd >}}
 
 ## Exercises
 
 {{< include ../exercises/_exercises-cli.qmd >}}
 
-## Solutions
+## Bonus exercises
 
-### Navigate the file system
+{{< include exercises/exercise-cli.qmd >}}
+
+## Solutions: Navigate the file system
 
 ```{zsh filename="Code"}
 cd /path/to/your/chosen/directory # <1>
@@ -82,7 +95,7 @@ Replace `/path/to/your/chosen/directory` with a path on your computer.
 A good location might be within your `/Documents` folder or a dedicated `/Projects` or `/University` folder.
 This can help to easily find course-related files on your computer.
 
-### Create files and folders
+## Solutions: Create files and folders
 
 ```{zsh, filename="Code"}
 #| eval: false

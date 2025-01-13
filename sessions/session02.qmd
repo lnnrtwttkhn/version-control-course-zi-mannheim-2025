@@ -1,7 +1,7 @@
 ---
 title: "Basics of the Command Line"
 subtitle: "Session 02"
-date: 2025-01-15T15:00:00
+date: 2025-01-15T14:30:00
 metadata-files:
   - _sessions.yml
 about:
@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-uhh-2024//sessions/slides_session02.html
+      href: https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/sessions/slides_session02.html
       aria-label: display
     - icon: book
       text: Chapter
@@ -21,8 +21,7 @@ about:
       text: Exercises
       href: https://version-control-cli.formr.org/
       aria-label: input-cursor-text
-chapter-title: "Command Line"
-chapter-url: https://lennartwittkuhn.com/version-control-book/chapters/command-line.html
+chapter: "[Command Line](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html)"
 quiz-url: https://version-control-cli.formr.org/
 ---
 
@@ -38,13 +37,35 @@ quiz-url: https://version-control-cli.formr.org/
 {{< include _learning-objectives-note.qmd >}}
 {{< include ../objectives/_objectives-cli.qmd >}}
 
-## `recipes` project
+## `{{< var course.project >}}` project
 
-{{< include recipes/recipes-cli.qmd >}}
+{{< include project/project-cli.qmd >}}
 
 ## Exercises
 
+{{< include ../exercises/_exercises-cli.qmd >}}
+
+## Bonus exercises
+
 {{< include exercises/exercise-cli.qmd >}}
+
+## Slides
+
+```{=html}
+<iframe width="100%" height=500 src="slides_session02.html"></iframe>
+```
+
+{{< include _print-to-pdf.qmd >}}
+
+## Cheatsheet
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "cli"), format = "markdown", row.names = FALSE)
+```
 
 ## Solutions
 
@@ -133,21 +154,3 @@ mv *.txt text_files
 ```
 
 :::
-
-## Slides
-
-```{=html}
-<iframe width="100%" height=500 src="slides_session02.html"></iframe>
-```
-
-{{< include _print-to-pdf.qmd >}}
-
-## Cheatsheet
-
-```{r}
-#| eval: true
-#| echo: false
-#| message: false
-#| warning: false
-knitr::kable(table_cheatsheet(name = "cli"), format = "markdown", row.names = FALSE)
-```

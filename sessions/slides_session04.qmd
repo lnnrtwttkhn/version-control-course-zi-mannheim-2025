@@ -1,48 +1,32 @@
 ---
-title: "Session 4: {{< meta session-title >}}"
-date: 2025-01-22T15:00:00
+title: "Session 3: {{< meta session-title >}}"
+date: 2025-01-22T14:00:00
 format: revealjs
 metadata-files:
   - _slides.yml
-session-title: "Branches"
-chapter-title: "Branches"
-chapter-url: https://lennartwittkuhn.com/version-control-book/chapters/branches.html
-quiz-url: https://version-control-branches.formr.org/
+session-title: "Setup & First steps with Git"
+chapter-title: "First steps with Git"
+chapter-url: https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html
+quiz-url: https://version-control-basics.formr.org/
 ---
 
-# Last session: Setup & First steps with Git
+# Last session: The command line
+
+## Last session: The command line
+
+![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
 
 ## Last session: Learning objectives
 
 After the last session, you should now be able to answer the following questions / do the following:
 
-::: fragment
-### Setup
-
-{{< include ../objectives/_objectives-setup.qmd >}}
-:::
-
-::: fragment
-### First steps with Git
-
-{{< include ../objectives/_objectives-firststeps.qmd >}}
-:::
-
-::: {.fragment}
-### :rocket: Optional: Git essentials
-
-{{< include ../objectives/_objectives-essentials.qmd >}}
-:::
+{{< include ../objectives/_objectives-cli.qmd >}}
 
 ## Last session: `recipes` project
 
-{{< include recipes/recipes-basics.qmd >}}
+{{< include recipes/recipes-cli.qmd >}}
 
 # This session: {{< meta session-title >}}
-
-## {{< meta session-title >}}
-
-![Image from [Chapter "Git Branches"](https://book.the-turing-way.org/reproducible-research/vcs/vcs-git-branches.html) of the ["The Turing Way handbook to reproducible, ethical and collaborative data science"](https://book.the-turing-way.org/), used under a [Creative Commons Attribution 4.0 License](https://github.com/the-turing-way/the-turing-way/blob/main/LICENSE.md).](../images/turing-way-branches.png){#fig-branches}
 
 ## Reading
 
@@ -52,56 +36,291 @@ After the last session, you should now be able to answer the following questions
 <iframe width="100%" height="80%" src="{{< meta chapter-url >}}"></iframe>
 ```
 
-::: {.notes}
-**Illustration of branches in a Git repository.** Each circle represents a commit. Commits on the `Main` branch are shown in gray. The branch `Feature A` (blue circles) was created from the `Main` branch and later merged again. In-between, another branch `Feature A-1` was created from the `Feature A` branch (green circles) and merged with that branch again before the `Feature A` branch was eventually merged with the `Main` branch. The branch `Feature B` was created but abandoned and not merged with the `Main` branch. 
-:::
-
 ## Learning objectives
 
-{{< include ../objectives/_objectives-branches.qmd >}}
+::: {.fragment}
+
+### Setup
+
+{{< include ../objectives/_objectives-setup.qmd >}}
+
+:::
+
+::: {.fragment}
+
+### First steps with Git
+
+{{< include ../objectives/_objectives-firststeps.qmd >}}
+
+:::
+
+::: {.fragment}
+
+### :rocket: Optional: Git essentials
+
+{{< include ../objectives/_objectives-essentials.qmd >}}
+
+:::
 
 ## Cheatsheet
+
+### Configuration
 
 ```{r}
 #| eval: true
 #| echo: false
 #| message: false
 #| warning: false
-knitr::kable(table_cheatsheet(name = "branches"), format = "markdown", row.names = FALSE)
+knitr::kable(table_cheatsheet(name = "config"), format = "markdown", row.names = FALSE)
 ```
+
+### Git Basics
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = FALSE)
+```
+
+## Important note: Git repository in `user` folder?
+
+::: {.fragment}
+- Please make sure that your `recipes` folder is in a suitable place (for example, in the `Desktop`, `Documents` folders or where you keep your course-related files, ...) and **not** in your user directory!
+- Also: Always remember to `cd` into your repository before you execute Git commands!
+- If your `recipes` folder is in your user directory, please **tell Lennart** and we can fix it.
+:::
+
+::: {.fragment}
+**Tip:** To prevent ever creating a Git repository inside your `user` folder, you can use:
+
+::: {.columns}
+::: {.column width="40%"}
+```{zsh filename="Code"}
+touch ~/.git
+```
+:::
+:::
+:::
+
+::: {.fragment}
+
+Running `git init` in the `user` directory now results in a (desired) error:
+
+::: {.column width="40%"}
+```{zsh filename="Output"}
+fatal: invalid gitfile format: /Users/user/.git
+```
+:::
+
+Thanks to [Eamon Caddigan](https://social.coop/@eamon/112434377857903339) for the idea!
+:::
 
 ## Tasks
 
-{{< include tasks/tasks-template.qmd >}}
+In this session, you will work on the following tasks:
+
+1. {{< fa book-open >}} **Reading**: Read the chapters ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html), ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) and, optional, ["Git Essentials"](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html) in the Version Control Book.
+1. {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter.
+1. {{< fa laptop-code >}} **Exercises**: Work on the [exercises](#exercises) for the [`recipes` project](#recipes-project).
+1. {{< fa clipboard-question >}} **Quiz**: Test your knowledge with the [quiz]({{< meta quiz-url >}}).
+
+As always:
+
+1. Try out the commands of this session and play around with them.
+1. Check whether you have achieved the [learning objectives](#learning-objectives).
+1. Ask questions!
+1. Let's *git* started!
 
 ## `recipes` project
 
-{{< include recipes/recipes-branches.qmd >}}
+{{< include recipes/recipes-basics.qmd >}}
 
 ## Exercises
 
-### Create and merge a new branch
+### Configure Git
 
-{{< include ../exercises/_exercises-branches.qmd >}}
+{{< include ../exercises/_exercises-setup.qmd >}}
+
+{{< include ../exercises/_exercises-first-steps-git.qmd >}}
 
 ## :rocket: Bonus exercises
 
-### Create and resolve a merge conflict
+### Amend a commit
 
-{{< include ../exercises/_exercises-branches-merge-conflict.qmd >}}
+{{< include ../exercises/_exercises-essentials-amend.qmd >}}
 
-## Solutions: Branches
+### Create a `.gitignore` file
 
-```{zsh, filename="Code"}
-#| eval: false
-#| file: exercises/code-exercises-branches-recipes.sh
-```
-{{< include ../exercises/_solutions-branches.qmd >}}
+{{< include ../exercises/_exercises-essentials-gitignore.qmd >}}
 
-## Solutions: Merge Conflict
+## Solutions: Setup
 
 ```{zsh, filename="Code"}
 #| eval: false
-#| file: exercises/code-exercises-branches-merge-conflict.sh
+#| file: exercises/code-exercises-setup-recipes.sh
 ```
-{{< include ../exercises/_solutions-branches-merge-conflict.qmd >}}
+{{< include ../exercises/_solutions-setup.qmd >}}
+
+## Solutions: First steps with Git
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-first-steps-git-recipes.sh
+```
+{{< include ../exercises/_solutions-first-steps-git-recipes.qmd >}}
+
+## Solutions: Amend a commit
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-essentials-amend-recipes.sh
+```
+{{< include ../exercises/_solutions-essentials-amend.qmd >}}
+
+## Solutions: Create a `.gitignore` file
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-essentials-gitignore-recipes.sh
+```
+{{< include ../exercises/_solutions-essentials-gitignore.qmd >}}
+
+
+# Appendix
+
+## Staging and Committing
+
+::: columns
+::: {.column width="50%"}
+### Staging:
+
+-   Command: `git add`
+-   Purpose: Preparing and organizing files before they are recorded in the repository's history.
+:::
+
+::: {.column width="50%"}
+### Committing:
+
+-   Command: `git commit -m "commit message"`
+-   Purpose: Saving the changes in the staged files to the repository's history, creating a snapshot.
+:::
+:::
+
+::: columns
+::: {.column width="50%"}
+::: fragment
+![Source: [git-scm.com](https://git-scm.com/book/en/v2)](../images/git-staging-diagram.png){width="100%"}
+:::
+:::
+::: {.column width="50%"}
+::: fragment
+![Source: [Heidi Seibold](https://docs.google.com/presentation/d/1Yj59XAAJZQprO-kfDHzHMtjJDttMFAqkkslqcSIRZKg/edit#slide=id.p)](../images/git-analogy-letter.png){width="100%"}
+:::
+:::
+:::
+
+
+## `git log`
+
+::: fragment
+``` bash
+git log
+```
+
+e.g:
+:::
+
+::: columns
+::: {.column width="50%"}
+::: fragment
+``` bash
+
+commit 3f6db14ed93d6e92a207a9a3ac5f8b8c5c5c5c34 (HEAD -> main, origin/master, origin/HEAD)
+Author: Jane Doe <jane@example.com>
+Date:   Tue Apr 24 14:24:48 2024 -0700
+
+    Fix the widget rendering issue in the dashboard
+
+commit a4324f44d3e85723a4d91cb9e07132b7115e4941
+Author: John Smith <john@example.com>
+Date:   Mon Apr 23 16:17:59 2024 -0700
+
+    Update dependencies to newer versions
+
+commit fa204b9145bf7fc7ff226a26b49a567fc2eb1b94
+Author: Alice Johnson <alice@example.com>
+Date:   Sun Apr 22 15:08:43 2024 -0700
+
+    Initial commit of project files
+```
+:::
+:::
+
+::: {.column width="50%"}
+::: fragment
+``` bash
+
+commit b9690b287bdfec6e17af39b7337b84e9ebf6f046
+Author: Lennart Wittkuhn <lennart.wittkuhn@tutanota.com>
+Date:   Fri Mar 22 15:19:43 2024 +0100
+
+    move illustration of bad git commits (xkcd comic) and edit sentence
+
+commit d8d770dd84cd19086f41d8d38752b223c8130859
+Author: konradpa <konrad@pagenstedt.de>
+Date:   Wed Mar 6 13:51:13 2024 +0100
+
+    add image to setup chapter
+
+commit 074c9f6e12dd5fc8cc61de9f31efbdbce41a7583
+Author: konradpa <konrad@pagenstedt.de>
+Date:   Wed Mar 6 13:51:07 2024 +0100
+
+    add image to rewriting history chapter
+```
+:::
+:::
+:::
+
+## Saving command line history?
+
+Use this:
+
+```{zsh}
+history > history.txt
+```
+
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history](https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history)
+
+```{=html}
+<iframe width="100%" height="70%" src="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html#saving-command-line-history" title="Version Control Book"></iframe>
+```
+
+## Commit `.gitignore`?
+
+Yes, commit your project-specific `.gitignore` file.
+
+{{< fa display >}} [https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#ignoring-files-and-folders-.gitignore](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#ignoring-files-and-folders-.gitignore)
+
+```{=html}
+<iframe width="100%" height="70%" src="https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html#ignoring-files-and-folders-.gitignore" title="Version Control Book"></iframe>
+```
+
+## Best practices for commit messages
+
+::: fragment
+![](../images/xkcd-git-commit.png)
+:::
+
+::: fragment
+- Try to keep commit messages **short** (less than 72 characters)
+- Use **present tense** and start with an **imperative** verb to indicate the purpose of the commit, for example "add", "fix", "improve" (as if you are giving orders to the codebase to change its behavior)
+
+> If applied, this commit will ... [*your commit message*]
+
+- Try to describe **why** a change is being made
+- Link specific [issues](https://lennartwittkuhn.com/version-control-book/chapters/issues.html) that are addressed by your commit
+- Use the **description** for more explanation and context
+:::

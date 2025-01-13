@@ -1,0 +1,107 @@
+---
+title: "Session 4: {{< meta session-title >}}"
+date: 2025-01-22T15:00:00
+format: revealjs
+metadata-files:
+  - _slides.yml
+session-title: "Branches"
+chapter-title: "Branches"
+chapter-url: https://lennartwittkuhn.com/version-control-book/chapters/branches.html
+quiz-url: https://version-control-branches.formr.org/
+---
+
+# Last session: Setup & First steps with Git
+
+## Last session: Learning objectives
+
+After the last session, you should now be able to answer the following questions / do the following:
+
+::: fragment
+### Setup
+
+{{< include ../objectives/_objectives-setup.qmd >}}
+:::
+
+::: fragment
+### First steps with Git
+
+{{< include ../objectives/_objectives-firststeps.qmd >}}
+:::
+
+::: {.fragment}
+### :rocket: Optional: Git essentials
+
+{{< include ../objectives/_objectives-essentials.qmd >}}
+:::
+
+## Last session: `recipes` project
+
+{{< include recipes/recipes-basics.qmd >}}
+
+# This session: {{< meta session-title >}}
+
+## {{< meta session-title >}}
+
+![Image from [Chapter "Git Branches"](https://book.the-turing-way.org/reproducible-research/vcs/vcs-git-branches.html) of the ["The Turing Way handbook to reproducible, ethical and collaborative data science"](https://book.the-turing-way.org/), used under a [Creative Commons Attribution 4.0 License](https://github.com/the-turing-way/the-turing-way/blob/main/LICENSE.md).](../images/turing-way-branches.png){#fig-branches}
+
+## Reading
+
+{{< fa display >}} [{{< meta chapter-url >}}]({{< meta chapter-url >}})
+
+```{=html}
+<iframe width="100%" height="80%" src="{{< meta chapter-url >}}"></iframe>
+```
+
+::: {.notes}
+**Illustration of branches in a Git repository.** Each circle represents a commit. Commits on the `Main` branch are shown in gray. The branch `Feature A` (blue circles) was created from the `Main` branch and later merged again. In-between, another branch `Feature A-1` was created from the `Feature A` branch (green circles) and merged with that branch again before the `Feature A` branch was eventually merged with the `Main` branch. The branch `Feature B` was created but abandoned and not merged with the `Main` branch. 
+:::
+
+## Learning objectives
+
+{{< include ../objectives/_objectives-branches.qmd >}}
+
+## Cheatsheet
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "branches"), format = "markdown", row.names = FALSE)
+```
+
+## Tasks
+
+{{< include tasks/tasks-template.qmd >}}
+
+## `recipes` project
+
+{{< include recipes/recipes-branches.qmd >}}
+
+## Exercises
+
+### Create and merge a new branch
+
+{{< include ../exercises/_exercises-branches.qmd >}}
+
+## :rocket: Bonus exercises
+
+### Create and resolve a merge conflict
+
+{{< include ../exercises/_exercises-branches-merge-conflict.qmd >}}
+
+## Solutions: Branches
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-branches-recipes.sh
+```
+{{< include ../exercises/_solutions-branches.qmd >}}
+
+## Solutions: Merge Conflict
+
+```{zsh, filename="Code"}
+#| eval: false
+#| file: exercises/code-exercises-branches-merge-conflict.sh
+```
+{{< include ../exercises/_solutions-branches-merge-conflict.qmd >}}

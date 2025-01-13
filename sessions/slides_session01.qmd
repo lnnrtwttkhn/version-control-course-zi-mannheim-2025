@@ -4,30 +4,13 @@ date: 2025-01-15T14:00:00
 format: revealjs
 metadata-files:
   - _slides.yml
-chapter-title: "Introduction to Version Control"
-chapter-url: https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html
+chapter: "[Introduction to Version Control](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html)"
+quiz-url: https://version-control-cli.formr.org/
 ---
 
 # Logistics & Admin
 
 {{< include _about.qmd >}}
-
-## Who are you?
-
-:::: {.columns}
-::: {.column width="40%"}
-1. Your name?
-1. Your preferred pronouns?
-1. Your research group?
-1. Optional: Your mood on a sheep scale?
-:::
-::: {.column width="60%"}
-::: {.fragment}
-![](../images/mood-sheep.png){fig-alt="Mood on a sheep scale."}
-:::
-:::
-::::
-
 
 ## Course overview
 
@@ -140,7 +123,7 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 ```
 :::
 
-## Pair Programming (variant)
+## Pair Programming (variant) {visibility="hidden"}
 
 ::::: {.columns}
 :::: {.column width="60%"}
@@ -164,7 +147,7 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 
 {{< include ../_code-of-conduct.qmd >}}
 
-## Breaks
+## Breaks {visibility="hidden"}
 
 - We will have a one-hour lunch break at 12:30.
 - Feel free to take short breaks in-between (sessions) when needed.

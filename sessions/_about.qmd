@@ -22,7 +22,7 @@
 
 ### This course
 
-:computer: **Materials:** All materials are publicly available at [{{< var project.site >}}]({{< var project.site >}})
+:computer: **Materials:** All materials are available at [{{< var project.site >}}]({{< var project.site >}})
 
 :package: **Software:** Reproducible materials are built with [Quarto](https://quarto.org/) and deployed to [GitHub Pages](https://pages.github.com/) using [GitHub Actions](https://github.com/features/actions)
 
@@ -30,7 +30,7 @@
 :trackball: **DOI:** [10.5281/zenodo.5012476](http://doi.org/10.5281/zenodo.5012476) (generated using GitHub releases + Zenodo, see details [here](https://guides.github.com/activities/citable-code/))
 -->
 
-{{< fa brands github >}} **Source:** Code is publicly available on GitHub at [{{< var project.github >}}]({{< var project.github >}})
+{{< fa brands github >}} **Source:** Code is available on GitHub at [{{< var project.github >}}]({{< var project.github >}})
 
 :pray: **Contact:** I am happy for any feedback or suggestions via [email]({{< var project.mailto >}}) or [GitHub issues]({{< var project.issues >}}). Thank you!
 

@@ -1,38 +1,22 @@
-### Navigation and setup
-
-Identify a folder on your computer where you (want to) keep course-related files. 
-If you don't have one, choose a suitable location in your file system.
-**Navigate into the chosen location** using the command line.
-Use the command line to **display the path** of your chosen directory.
-What is the output?
-
-### Creating a folder and a file
-
-Within your chosen folder, create a new subfolder and name it `recipes`.
-Navigate into the `recipes` folder. 
-**Create a new file** and name it `recipes.txt`.
-**Confirm the creation of the file by listing the contents** of the `recipes` folder.
-Which commands did you use?
-
 ### Writing and opening files
 
-**Add the title** "My Favorite Recipes" to `recipes.txt`.
+Add the title "My Favorite Recipes" to `recipes.txt`.
 Which command or method did you use?
 
 ### Creating multiple files
 
 Go back to your main course-related folder. 
-Using the command line, **create three new files:** `notes.txt`, `assignments.txt`, and `schedule.txt`.
+Using the command line, create three new files: `notes.txt`, `assignments.txt`, and `schedule.txt`.
 Provide the command you used.
 
 ### Wildcards
 
-Use a wildcard pattern to **list all `.txt` files** in your folder.
+Use a wildcard pattern to list all `.txt` files in your folder.
 Which command did you use?
 
 ### Bonus question
 
 Imagine, that you are in a folder containing multiple text files with various extensions, including `.txt`, `.md`, and `.docx`.
-You want to move all the `.txt` files to a subfolder named "text_files" while keeping the other file types in the current directory.
-Write a series of command-line commands to accomplish this task, including creating the "text_files" subdirectory.
+You want to move all the `.txt` files to a subfolder named `text_files` while keeping the other file types in the current directory.
+Write a series of command-line commands to accomplish this task, including creating the `text_files` subdirectory.
 Explain each step in your solution.

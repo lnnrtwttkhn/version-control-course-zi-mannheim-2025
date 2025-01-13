@@ -24,9 +24,11 @@ create_schedule <- function() {
     replace(is.na(.), "") %>%
     .[, by = .(session), (cols) := lapply(.SD, paste, collapse = "<br>"), .SDcols = cols] %>%
     unique(.) %>%
+    .[, date_dist := as.numeric(as.Date(date) - as.Date(current_date))] %>%
+    .[, date_next := replace(rep(0, length(date_dist)), which(date_dist <= min(date_dist[date_dist >= 0])), 1)] %>%
     .[, No := seq.int(nrow(.))] %>%
-    .[!(title == ""), title := sprintf("**%s**", title)] %>%
-    # .[!(title == ""), title := sprintf("**[%s](%s)**", title, sprintf(session_url, sprintf("%02d", No)))] %>%
+    .[!(title == "") & date_next == 0, title := sprintf("**%s**", title)] %>%
+    .[!(title == "") & date_next == 1, title := sprintf("**[%s](%s)**", title, sprintf(session_url, sprintf("%02d", No)))] %>%
     .[!(reading == ""), reading := paste("{{< fa book >}}", reading)] %>%
     setnames(.,
              old = c("No", "date", "time", "title", "contents", "reading", "survey"),

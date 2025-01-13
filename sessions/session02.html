@@ -123,6 +123,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text"><i class="fa-solid fa-clipboard-list" aria-label="clipboard-list"></i> Schedule</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../sessions/index.html" rel="" target="">
+ <span class="menu-text"><i class="fa-solid fa-list-ol" aria-label="list-ol"></i> Sessions</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../code-of-conduct.html" rel="" target="">
  <span class="menu-text"><i class="fa-solid fa-handshake" aria-label="handshake"></i> Code of Conduct</span></a>
   </li>  
@@ -156,19 +160,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
   <li><a href="#this-session" id="toc-this-session" class="nav-link active" data-scroll-target="#this-session">This session</a></li>
   <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
-  <li><a href="#recipes-project" id="toc-recipes-project" class="nav-link" data-scroll-target="#recipes-project"><code>recipes</code> project</a></li>
+  <li><a href="#var-course.project-project" id="toc-var-course.project-project" class="nav-link" data-scroll-target="#var-course.project-project"><code>recipes</code> project</a></li>
   <li><a href="#exercises" id="toc-exercises" class="nav-link" data-scroll-target="#exercises">Exercises</a>
   <ul>
-  <li><a href="#navigation-and-setup" id="toc-navigation-and-setup" class="nav-link" data-scroll-target="#navigation-and-setup">Navigation and setup</a></li>
-  <li><a href="#creating-a-folder-and-a-file" id="toc-creating-a-folder-and-a-file" class="nav-link" data-scroll-target="#creating-a-folder-and-a-file">Creating a folder and a file</a></li>
+  <li><a href="#navigate-the-file-system" id="toc-navigate-the-file-system" class="nav-link" data-scroll-target="#navigate-the-file-system">Navigate the file system</a></li>
+  <li><a href="#create-files-and-folders" id="toc-create-files-and-folders" class="nav-link" data-scroll-target="#create-files-and-folders">Create files and folders</a></li>
+  </ul></li>
+  <li><a href="#bonus-exercises" id="toc-bonus-exercises" class="nav-link" data-scroll-target="#bonus-exercises">Bonus exercises</a>
+  <ul>
   <li><a href="#writing-and-opening-files" id="toc-writing-and-opening-files" class="nav-link" data-scroll-target="#writing-and-opening-files">Writing and opening files</a></li>
   <li><a href="#creating-multiple-files" id="toc-creating-multiple-files" class="nav-link" data-scroll-target="#creating-multiple-files">Creating multiple files</a></li>
   <li><a href="#wildcards" id="toc-wildcards" class="nav-link" data-scroll-target="#wildcards">Wildcards</a></li>
   <li><a href="#bonus-question" id="toc-bonus-question" class="nav-link" data-scroll-target="#bonus-question">Bonus question</a></li>
   </ul></li>
-  <li><a href="#solutions" id="toc-solutions" class="nav-link" data-scroll-target="#solutions">Solutions</a></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
   <li><a href="#cheatsheet" id="toc-cheatsheet" class="nav-link" data-scroll-target="#cheatsheet">Cheatsheet</a></li>
+  <li><a href="#solutions" id="toc-solutions" class="nav-link" data-scroll-target="#solutions">Solutions</a></li>
   </ul>
 </nav>
     </div>
@@ -189,12 +196,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Starts at:</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Wednesday, 15th of January 2025, 15:00 (UTC)</p>
+      <p class="date">Wednesday, 15th of January 2025, 14:30 (UTC)</p>
     </div>
   </div>
   </div>
 </header> <div class="about-links">
-  <a href="https://lennartwittkuhn.com/version-control-course-uhh-2024//sessions/slides_session02.html" class="about-link" rel="" target="">
+  <a href="https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/sessions/slides_session02.html" class="about-link" rel="" target="">
     <i class="bi bi-display"></i>
      <span class="about-link-text">Slides</span>
   </a>
@@ -217,7 +224,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 data-anchor-id="this-session">This session</h2>
 <p>In this session, you will work on the following tasks:</p>
 <ol type="1">
-<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Reading</strong>: Read the chapter(s) <strong>?meta:chapter</strong> in the Version Control Book.</li>
+<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Reading</strong>: Read the chapter(s) <a href="https://lennartwittkuhn.com/version-control-book/chapters/command-line.html">Command Line</a> in the Version Control Book.</li>
 <li><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter.</li>
 <li><i class="fa-solid fa-list-check" aria-label="list-check"></i> <strong>Exercises</strong>: Work on the <a href="#exercises">exercises</a> for the <a href="#recipes-project"><code>recipes</code> project</a>.</li>
 <li><i class="fa-solid fa-clipboard-question" aria-label="clipboard-question"></i> <strong>Quiz</strong>: Test your knowledge with the <a href="https://version-control-cli.formr.org/">quiz</a>.</li>
@@ -235,8 +242,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>At the end of this session, you should be able to answer the following questions and / or achieve the following learning objectives:</p>
 <p><span class="emoji" data-emoji="bulb">💡</span> You can navigate directories using the command line.<br> <span class="emoji" data-emoji="bulb">💡</span> You can use shortcuts like the tilde or dots to navigate your file system.<br> <span class="emoji" data-emoji="bulb">💡</span> You can explain the difference between absolute and relative paths.<br> <span class="emoji" data-emoji="bulb">💡</span> You can use arguments and flags to modify command-line commands.<br> <span class="emoji" data-emoji="bulb">💡</span> You understand the concept of wild cards (<code>*</code>) and can use it for system navigation.</p>
 </section>
-<section id="recipes-project" class="level2">
-<h2 data-anchor-id="recipes-project"><code>recipes</code> project</h2>
+<section id="var-course.project-project" class="level2">
+<h2 data-anchor-id="var-course.project-project"><code>recipes</code> project</h2>
 <p>At the end of this session, you should have accomplished the following:</p>
 <ol type="1">
 <li>You used the command line to create a folder on your computer called <code>recipes</code>.</li>
@@ -246,181 +253,48 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="exercises" class="level2">
 <h2 data-anchor-id="exercises">Exercises</h2>
-<section id="navigation-and-setup" class="level3">
-<h3 data-anchor-id="navigation-and-setup">Navigation and setup</h3>
-<p>Identify a folder on your computer where you (want to) keep course-related files. If you don’t have one, choose a suitable location in your file system. <strong>Navigate into the chosen location</strong> using the command line. Use the command line to <strong>display the path</strong> of your chosen directory. What is the output?</p>
+<section id="navigate-the-file-system" class="level3">
+<h3 data-anchor-id="navigate-the-file-system">Navigate the file system</h3>
+<p>Identify a folder on your computer where you (want to) keep course-related files. If you don’t have one, choose a suitable location in your file system.</p>
+<ol type="1">
+<li>Navigate into the chosen location using the command line.</li>
+<li>Use the command line to display the path of your chosen folder. What is the output?</li>
+</ol>
 </section>
-<section id="creating-a-folder-and-a-file" class="level3">
-<h3 data-anchor-id="creating-a-folder-and-a-file">Creating a folder and a file</h3>
-<p>Within your chosen folder, create a new subfolder and name it <code>recipes</code>. Navigate into the <code>recipes</code> folder. <strong>Create a new file</strong> and name it <code>recipes.txt</code>. <strong>Confirm the creation of the file by listing the contents</strong> of the <code>recipes</code> folder. Which commands did you use?</p>
+<section id="create-files-and-folders" class="level3">
+<h3 data-anchor-id="create-files-and-folders">Create files and folders</h3>
+<ol start="3" type="1">
+<li>Within your chosen folder, create a new subfolder and give it a relevant name.</li>
+<li>Navigate into the newly created subfolder.</li>
+<li>Create a new text file and name it appropriately.</li>
+<li>Confirm that the files was created by listing the contents of the folder.</li>
+</ol>
 </section>
+</section>
+<section id="bonus-exercises" class="level2">
+<h2 data-anchor-id="bonus-exercises">Bonus exercises</h2>
 <section id="writing-and-opening-files" class="level3">
 <h3 data-anchor-id="writing-and-opening-files">Writing and opening files</h3>
-<p><strong>Add the title</strong> “My Favorite Recipes” to <code>recipes.txt</code>. Which command or method did you use?</p>
+<p>Add the title “My Favorite Recipes” to <code>recipes.txt</code>. Which command or method did you use?</p>
 </section>
 <section id="creating-multiple-files" class="level3">
 <h3 data-anchor-id="creating-multiple-files">Creating multiple files</h3>
-<p>Go back to your main course-related folder. Using the command line, <strong>create three new files:</strong> <code>notes.txt</code>, <code>assignments.txt</code>, and <code>schedule.txt</code>. Provide the command you used.</p>
+<p>Go back to your main course-related folder. Using the command line, create three new files: <code>notes.txt</code>, <code>assignments.txt</code>, and <code>schedule.txt</code>. Provide the command you used.</p>
 </section>
 <section id="wildcards" class="level3">
 <h3 data-anchor-id="wildcards">Wildcards</h3>
-<p>Use a wildcard pattern to <strong>list all <code>.txt</code> files</strong> in your folder. Which command did you use?</p>
+<p>Use a wildcard pattern to list all <code>.txt</code> files in your folder. Which command did you use?</p>
 </section>
 <section id="bonus-question" class="level3">
 <h3 data-anchor-id="bonus-question">Bonus question</h3>
-<p>Imagine, that you are in a folder containing multiple text files with various extensions, including <code>.txt</code>, <code>.md</code>, and <code>.docx</code>. You want to move all the <code>.txt</code> files to a subfolder named “text_files” while keeping the other file types in the current directory. Write a series of command-line commands to accomplish this task, including creating the “text_files” subdirectory. Explain each step in your solution.</p>
+<p>Imagine, that you are in a folder containing multiple text files with various extensions, including <code>.txt</code>, <code>.md</code>, and <code>.docx</code>. You want to move all the <code>.txt</code> files to a subfolder named <code>text_files</code> while keeping the other file types in the current directory. Write a series of command-line commands to accomplish this task, including creating the <code>text_files</code> subdirectory. Explain each step in your solution.</p>
 </section>
-</section>
-<section id="solutions" class="level2">
-<h2 data-anchor-id="solutions">Solutions</h2>
-<div class="callout callout-style-simple callout-tip callout-titled" title="Solution: Navigation and setup">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Solution: Navigation and setup
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>For folder navigation, use <code>cd</code>. To display the contents of a folder, use <code>ls</code>. To display the path of the current working directory, use <code>pwd</code>.</p>
-<p>For example, on macOS if you navigated to the <code>Documents</code> folder and used <code>pwd</code>, the path looks like this:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">/Users/myusername/Documents</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-tip callout-titled" title="Solution: Creating a folder and a file">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Solution: Creating a folder and a file
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ol type="1">
-<li>Create a folder called <code>recipes</code>:</li>
-</ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> recipes</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ol start="2" type="1">
-<li>Navigate into the <code>recipes</code> folder:</li>
-</ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> recipes</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ol start="3" type="1">
-<li>Create a file and name it <code>recipes.txt</code>:</li>
-</ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">touch</span> recipes.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ol start="4" type="1">
-<li>List the contents of the <code>recipes</code> folder:</li>
-</ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-tip callout-titled" title="Solution: Writing and opening files">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Solution: Writing and opening files
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>I added the title to <code>recipes.txt</code> by using the following command:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"My Favorite Recipes"</span> <span class="op">&gt;</span> recipes.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>This command writes “My Favorite Recipes” to the file, overwriting any existing content.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-tip callout-titled" title="Solution: Creating multiple files">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Solution: Creating multiple files
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">touch</span> notes.txt assignments.txt schedule.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-tip callout-titled" title="Solution: Wildcards">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Solution: Wildcards
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="pp">*</span>.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-tip callout-titled" title="Solution: Bonus question">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Solution: Bonus question
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<ol type="1">
-<li>Creating the “text_files” subfolder:</li>
-</ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> text_files</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<ol start="2" type="1">
-<li>Moving all the <code>.txt</code> files to the “text_files” subfolder:</li>
-</ol>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mv</span> <span class="pp">*</span>.txt text_files</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-</div>
 </section>
 <section id="slides" class="level2">
 <h2 data-anchor-id="slides">Slides</h2>
 <iframe width="100%" height="500" src="slides_session02.html"></iframe>
 <div class="callout callout-style-simple callout-note callout-titled" title="How can I download the slides as a PDF file?">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -429,7 +303,7 @@ How can I download the slides as a PDF file?
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>To export the slides to PDF, do the following:</p>
 <ol type="1">
@@ -579,6 +453,151 @@ How can I download the slides as a PDF file?
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+</section>
+<section id="solutions" class="level2">
+<h2 data-anchor-id="solutions">Solutions</h2>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Solution: Navigation and setup">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solution: Navigation and setup
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>For folder navigation, use <code>cd</code>. To display the contents of a folder, use <code>ls</code>. To display the path of the current working directory, use <code>pwd</code>.</p>
+<p>For example, on macOS if you navigated to the <code>Documents</code> folder and used <code>pwd</code>, the path looks like this:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">/Users/myusername/Documents</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Solution: Creating a folder and a file">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solution: Creating a folder and a file
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Create a folder called <code>recipes</code>:</li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> recipes</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ol start="2" type="1">
+<li>Navigate into the <code>recipes</code> folder:</li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> recipes</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ol start="3" type="1">
+<li>Create a file and name it <code>recipes.txt</code>:</li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">touch</span> recipes.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ol start="4" type="1">
+<li>List the contents of the <code>recipes</code> folder:</li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Solution: Writing and opening files">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solution: Writing and opening files
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>I added the title to <code>recipes.txt</code> by using the following command:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">echo</span> <span class="st">"My Favorite Recipes"</span> <span class="op">&gt;</span> recipes.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>This command writes “My Favorite Recipes” to the file, overwriting any existing content.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Solution: Creating multiple files">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solution: Creating multiple files
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">touch</span> notes.txt assignments.txt schedule.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Solution: Wildcards">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solution: Wildcards
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="pp">*</span>.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip callout-titled" title="Solution: Bonus question">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Solution: Bonus question
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Creating the “text_files” subfolder:</li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> text_files</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ol start="2" type="1">
+<li>Moving all the <code>.txt</code> files to the “text_files” subfolder:</li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mv</span> <span class="pp">*</span>.txt text_files</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
 </div>
 </div>
 

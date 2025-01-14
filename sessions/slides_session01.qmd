@@ -322,6 +322,26 @@ We need a **professional toolkit** for digital research!
 - Version control is relevant for anyone who wants to track the evolution of digital objects
 :::
 
+
+## What is GitHub?
+
+:::: {.columns}
+
+::: {.fragment}
+![[github.com](https://github.com/)](../images/git-github-integration.png){fig-align="center" width=50%}
+
+- cloud-based platform for version control using Git
+- allows for collaboration on coding projects in real time
+- hosts millions of public and private repositories
+- supports both Git command line and GUI tools (e.g., [GitHub Desktop](https://desktop.github.com/))
+- enables code sharing, project management, issue tracking, and continuous integration
+- used by companies, open-source communities, and individual developers worldwide
+- 100 million users ^[(Source: [Wikipedia](https://en.wikipedia.org/wiki/GitHub))]
+
+:::
+
+::::
+
 ## More benefits of Git(Hub) for project management
 
 ::: {.incremental}

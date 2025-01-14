@@ -263,7 +263,7 @@
     "href": "sessions/slides_session02.html#schedule",
     "title": "Session 2: Basics of the Command Line",
     "section": "Schedule",
-    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTime\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2025-01-15\n14:00 - 14:30\nWelcome & Introduction to Version Control\nLogistics and course adminResults of course surveyIntroduction to version controlIntroduction to Git\n Introduction to Version Control\nCourse survey\n\n\n2\n2025-01-15\n14:30 - 15:30\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\nCommand Line\n\n\n3\n2025-01-15\n15:30 - 16:00\nSetup and configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\nGit Installation\n\n\n4\n2025-01-22\n14:00 - 15:00\nBasics of Git\nInitializing a Git repositoryFundamental Git commandsTracking changes wih Git\n First steps with Git, Git Essentials\nGit Basics Quiz\n\n\n5\n2025-01-22\n15:00 - 16:00\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\nGit Branches Quiz\n\n\n6\n2025-01-29\n14:00 - 15:00\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\nGitHub Quiz\n\n\n7\n2025-01-29\n15:00 - 15:45\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\nGitHub Quiz\n\n\n8\n2025-01-29\n15:45 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more Git topicsDiscussing open questions"
+    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTime\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2025-01-15\n14:00 - 14:30\nWelcome & Introduction to Version Control\nLogistics and course adminResults of course surveyIntroduction to version controlIntroduction to Git\n Introduction to Version Control\nCourse survey\n\n\n2\n2025-01-15\n14:30 - 15:30\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\nCommand Line\n\n\n3\n2025-01-15\n15:30 - 16:00\nSetup & configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\nGit Installation\n\n\n4\n2025-01-22\n14:00 - 15:00\nBasics of Git\nInitializing a Git repositoryFundamental Git commandsTracking changes wih Git\n First steps with Git, Git Essentials\nGit Basics Quiz\n\n\n5\n2025-01-22\n15:00 - 16:00\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\nGit Branches Quiz\n\n\n6\n2025-01-29\n14:00 - 15:00\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\nGitHub Quiz\n\n\n7\n2025-01-29\n15:00 - 15:45\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\nGitHub Quiz\n\n\n8\n2025-01-29\n15:45 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more Git topicsDiscussing open questions"
   },
   {
     "objectID": "sessions/slides_session02.html#course-exercise-building-an-online-var-course.project-book",
@@ -1005,7 +1005,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "When? Wednesdays, January 2025, 14:00 to 16:00 (detailed schedule below)\n Where? Zentralinstitut für Seelische Gesundheit, J 5, 68159 Mannheim (via Zoom)\n\n\n\n\n\nNo\nDate\nTime\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2025-01-15\n14:00 - 14:30\nWelcome & Introduction to Version Control\nLogistics and course adminResults of course surveyIntroduction to version controlIntroduction to Git\n Introduction to Version Control\nCourse survey\n\n\n2\n2025-01-15\n14:30 - 15:30\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\nCommand Line\n\n\n3\n2025-01-15\n15:30 - 16:00\nSetup and configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\nGit Installation\n\n\n4\n2025-01-22\n14:00 - 15:00\nBasics of Git\nInitializing a Git repositoryFundamental Git commandsTracking changes wih Git\n First steps with Git, Git Essentials\nGit Basics Quiz\n\n\n5\n2025-01-22\n15:00 - 16:00\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\nGit Branches Quiz\n\n\n6\n2025-01-29\n14:00 - 15:00\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\nGitHub Quiz\n\n\n7\n2025-01-29\n15:00 - 15:45\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\nGitHub Quiz\n\n\n8\n2025-01-29\n15:45 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more Git topicsDiscussing open questions"
+    "text": "When? Wednesdays, January 2025, 14:00 to 16:00 (detailed schedule below)\n Where? Zentralinstitut für Seelische Gesundheit, J 5, 68159 Mannheim (via Zoom)\n\n\n\n\n\nNo\nDate\nTime\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2025-01-15\n14:00 - 14:30\nWelcome & Introduction to Version Control\nLogistics and course adminResults of course surveyIntroduction to version controlIntroduction to Git\n Introduction to Version Control\nCourse survey\n\n\n2\n2025-01-15\n14:30 - 15:30\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\nCommand Line\n\n\n3\n2025-01-15\n15:30 - 16:00\nSetup & configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\nGit Installation\n\n\n4\n2025-01-22\n14:00 - 15:00\nBasics of Git\nInitializing a Git repositoryFundamental Git commandsTracking changes wih Git\n First steps with Git, Git Essentials\nGit Basics Quiz\n\n\n5\n2025-01-22\n15:00 - 16:00\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\nGit Branches Quiz\n\n\n6\n2025-01-29\n14:00 - 15:00\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\nGitHub Quiz\n\n\n7\n2025-01-29\n15:00 - 15:45\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\nGitHub Quiz\n\n\n8\n2025-01-29\n15:45 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more Git topicsDiscussing open questions"
   },
   {
     "objectID": "sessions/session01.html",
@@ -1096,14 +1096,14 @@
     "href": "sessions/slides_session01.html#what-will-the-average-session-look-like",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "What will the average session look like?",
-    "text": "What will the average session look like?\n\n The course will consist of 6 main sessions (ca. 45 - 60 minutes each)\n\n\n\n Demonstration (up to 15 minutes):  The instructor introduces the topic and gives a short demonstration of the main Git commands.\n\n\n\n\n Exercises (up to 45 minutes): Course participants work on hands-on exercises and assignments.\n\n\n\n\n Reading (in parallel to the exercises; up to 45 minutes):  Course participants engage with the online learning materials (aka. our “Version Control Book”).\n\n\n\n\n Discussions (up to 10 minutes): Course participants and instructor collectively address any questions related to the session’s content.\n\n\n\n\n Quizzes (up to 10 minutes): Course participants complete online quizzes to test their knowledge."
+    "text": "What will the average session look like?\n\n The course will consist of 6 main sessions (ca. up to 60 minutes each)\n\n\n\n Demonstration (up to 15 minutes):  The instructor introduces the topic and gives a short demonstration of the main Git commands.\n\n\n\n\n Exercises (up to 45 minutes): Course participants work on hands-on exercises and assignments.\n\n\n\n\n Reading (in parallel to the exercises; up to 45 minutes):  Course participants engage with the online learning materials (aka. our “Version Control Book”).\n\n\n\n\n Discussions (up to 10 minutes): Course participants and instructor collectively address any questions related to the session’s content.\n\n\n\n\n Quizzes (up to 10 minutes): Course participants complete online quizzes to test their knowledge."
   },
   {
     "objectID": "sessions/slides_session01.html#schedule",
     "href": "sessions/slides_session01.html#schedule",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "Schedule",
-    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTime\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2025-01-15\n14:00 - 14:30\nWelcome & Introduction to Version Control\nLogistics and course adminResults of course surveyIntroduction to version controlIntroduction to Git\n Introduction to Version Control\nCourse survey\n\n\n2\n2025-01-15\n14:30 - 15:30\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\nCommand Line\n\n\n3\n2025-01-15\n15:30 - 16:00\nSetup and configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\nGit Installation\n\n\n4\n2025-01-22\n14:00 - 15:00\nBasics of Git\nInitializing a Git repositoryFundamental Git commandsTracking changes wih Git\n First steps with Git, Git Essentials\nGit Basics Quiz\n\n\n5\n2025-01-22\n15:00 - 16:00\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\nGit Branches Quiz\n\n\n6\n2025-01-29\n14:00 - 15:00\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\nGitHub Quiz\n\n\n7\n2025-01-29\n15:00 - 15:45\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\nGitHub Quiz\n\n\n8\n2025-01-29\n15:45 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more Git topicsDiscussing open questions"
+    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTime\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2025-01-15\n14:00 - 14:30\nWelcome & Introduction to Version Control\nLogistics and course adminResults of course surveyIntroduction to version controlIntroduction to Git\n Introduction to Version Control\nCourse survey\n\n\n2\n2025-01-15\n14:30 - 15:30\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\nCommand Line\n\n\n3\n2025-01-15\n15:30 - 16:00\nSetup & configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\nGit Installation\n\n\n4\n2025-01-22\n14:00 - 15:00\nBasics of Git\nInitializing a Git repositoryFundamental Git commandsTracking changes wih Git\n First steps with Git, Git Essentials\nGit Basics Quiz\n\n\n5\n2025-01-22\n15:00 - 16:00\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\nGit Branches Quiz\n\n\n6\n2025-01-29\n14:00 - 15:00\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\nGitHub Quiz\n\n\n7\n2025-01-29\n15:00 - 15:45\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\nGitHub Quiz\n\n\n8\n2025-01-29\n15:45 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more Git topicsDiscussing open questions"
   },
   {
     "objectID": "sessions/slides_session01.html#course-website",
@@ -1124,7 +1124,7 @@
     "href": "sessions/slides_session01.html#quizzes-surveys",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "Quizzes & Surveys",
-    "text": "Quizzes & Surveys\n\n\nWe use online surveys to ask you questions and implement exercises or quizzes\nImplemented in the formr survey framework (open-source, hosted in Germany)\n\n\n\n\nAnonymity & data usage\n\nall raw data are kept anonymous and will only be used for research and educational purposes\nif responses are shared as part of the course, they will be aggregated to ensure anonymity is maintained\nif you want your data to be deleted, send an email with your personal codeword to barbara.oberbauer@uni-hamburg.de. Your codeword is then forwarded to us (without your name) and your data deleted."
+    "text": "Quizzes & Surveys\n\n\nWe use online surveys to ask you questions and implement exercises or quizzes\nImplemented in the formr survey framework (open-source, hosted in Germany)\n\n\n\n\nAnonymity & data usage\n\nall raw data are kept anonymous and will only be used for research and educational purposes\nif responses are shared as part of the course, they will be aggregated to ensure anonymity is maintained\nif you want your data to be deleted, send an email with your personal codeword to Samuel.Sander@zi-mannheim.de. Your codeword is then forwarded to us (without your name) and your data deleted."
   },
   {
     "objectID": "sessions/slides_session01.html#cheatsheets",
@@ -1148,11 +1148,53 @@
     "text": "Code of Conduct\nDuring this course, we want to ensure a safe, productive, and welcoming environment for everyone who attends. All participants and speakers are expected to abide by this code of conduct. We do not tolerate any form of discrimination or harassment in any form or by any means. If you experience harassment or hear of any incidents of unacceptable behavior, please reach out to the course instructor, Dr. Lennart Wittkuhn (lennart.wittkuhn@tutanota.com), so that we can take the appropriate action.\nUnacceptable behavior is defined as:\n\nHarassment, intimidation, or discrimination in any form, verbal abuse of any attendee, speaker, or other person. Examples include, but are not limited to, verbal comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, national origin, inappropriate use of nudity and/or sexual images in public spaces or in presentations, or threatening or stalking.\nDisruption of presentations throughout the course. We ask all participants to comply to the instructions of the speaker with regard to dedicated discussion space and time.\nParticipants should not take pictures of any activity in the course room without asking all involved participants for consent and receiving this consent.\n\nA first violation of this code of conduct will result in a warning, and subsequent violations by the same person can result in the immediate removal from the course without further warning. The organizers also reserve the right to prohibit attendance of excluded participants from similar future workshops, courses or meetings they organize."
   },
   {
+    "objectID": "sessions/slides_session01.html#expectations",
+    "href": "sessions/slides_session01.html#expectations",
+    "title": "Session 1: Welcome & Introduction to Version Control",
+    "section": "Expectations",
+    "text": "Expectations\n\nWithout copy-pasting the title: What do you think this course is going to be about?\n\n\nIntroduction to Git, GitHub, and GitLab.\nBasics of version control and Git commands (commit, push, pull, branches).\nCommand-line interaction and practical uses.\nTips and tricks for effective Git usage.\nStructuring and organizing research projects with Git.\nCollaboration and workflow management."
+  },
+  {
+    "objectID": "sessions/slides_session01.html#hopes",
+    "href": "sessions/slides_session01.html#hopes",
+    "title": "Session 1: Welcome & Introduction to Version Control",
+    "section": "Hopes",
+    "text": "Hopes\n\nWhat do you hope to learn in this course?\n\n\nLearn how to use GitHub and GitLab in daily work.\nGet better at using Git and its commands.\nUnderstand how to work with branches and fix merge conflicts.\nExplore new and useful ways to use Git.\nUse Git to make research and work easier and faster.\nImprove teamwork and collaboration with Git.\nBuild confidence in using Git for everyday tasks."
+  },
+  {
+    "objectID": "sessions/slides_session01.html#worries",
+    "href": "sessions/slides_session01.html#worries",
+    "title": "Session 1: Welcome & Introduction to Version Control",
+    "section": "Worries",
+    "text": "Worries\n\nDo you have any worries or fears regarding this course that you want to express?\n\n\nNo prior experience or expectations.\nSome concern about being a beginner and keeping up with others.\nHoping the course is not too complicated and suits all experience levels.\nLooking forward to learning, even as a novice."
+  },
+  {
+    "objectID": "sessions/slides_session01.html#motivation",
+    "href": "sessions/slides_session01.html#motivation",
+    "title": "Session 1: Welcome & Introduction to Version Control",
+    "section": "Motivation",
+    "text": "Motivation\n\nWhat is your main motivation for taking this course?\n\n\nImprove Git and version management skills.\nClose knowledge gaps and become more confident using Git.\nUse GitHub/GitLab more naturally in research and work.\nApply Git skills to analyze data and collaborate effectively.\nGain inspiration and new ideas for using Git in work.\nBenefit from better Git understanding in daily tasks."
+  },
+  {
     "objectID": "sessions/slides_session01.html#lets-do-the-splits",
     "href": "sessions/slides_session01.html#lets-do-the-splits",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "Let’s do the splits",
     "text": "Let’s do the splits"
+  },
+  {
+    "objectID": "sessions/slides_session01.html#survey-scenario-1",
+    "href": "sessions/slides_session01.html#survey-scenario-1",
+    "title": "Session 1: Welcome & Introduction to Version Control",
+    "section": "Survey: Scenario 1",
+    "text": "Survey: Scenario 1\n\nImagine a scenario where you crafted a brilliant paragraph for a manuscript (for example, your paper, thesis, or report), but then accidentally ruined it. How would you retrieve the earlier brilliant version? Is it even possible?\n\n\n\n“Only if I saved it before - otherwise, I’d have to draft another brilliant paragraph.”\n“I might be able to find it in a cloud backup, like OneDrive or Google Drive.”\n“Version Control?”\n“I’d simply revert to the relevant commit.”"
+  },
+  {
+    "objectID": "sessions/slides_session01.html#survey-scenario-2",
+    "href": "sessions/slides_session01.html#survey-scenario-2",
+    "title": "Session 1: Welcome & Introduction to Version Control",
+    "section": "Survey: Scenario 2",
+    "text": "Survey: Scenario 2\n\nConsider a situation where you are working with five co-authors on a paper. How do you handle the changes and comments they make to the document? If you’re using LibreOffice Writer or Microsoft Word and you accept changes made using the “Track Changes” option, what happens to the history of those modifications?\n\n\n\n“I always save new versions of files with my initials (and others’ initials when I receive the document), which often results in having 10–20 different file versions.”\n“I believe the history of modifications is lost after accepting the changes …”"
   },
   {
     "objectID": "sessions/slides_session01.html#learning-objectives",
@@ -1194,7 +1236,21 @@
     "href": "sessions/slides_session01.html#what-is-git",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "What is Git?",
-    "text": "What is Git?\n\n\n\n\n\ngit-scm.com\n\n\n\nmost popular version control system\nfree, open-source command-line tool\ngraphical user interfaces exist, e.g., GitKraken\nstandard tool for most (all?) software developers\n100 million GitHub users 5\n\n\n\n\n\nVersion control is relevant for anyone who wants to track the evolution of digital objects"
+    "text": "What is Git?\n\n\n\n\n\ngit-scm.com\n\n\n\nmost popular version control system\nfree, open-source command-line tool\ngraphical user interfaces exist, e.g., GitKraken\nstandard tool for most (all?) software developers\n\n\n\n\n\nVersion control is relevant for anyone who wants to track the evolution of digital objects"
+  },
+  {
+    "objectID": "sessions/slides_session01.html#what-is-github",
+    "href": "sessions/slides_session01.html#what-is-github",
+    "title": "Session 1: Welcome & Introduction to Version Control",
+    "section": "What is GitHub?",
+    "text": "What is GitHub?\n\n\n\n\n\ngithub.com\n\n\n\ncloud-based platform for version control using Git\nallows for collaboration on coding projects in real time\nhosts millions of public and private repositories\nsupports both Git command line and GUI tools (e.g., GitHub Desktop)\nenables code sharing, project management, issue tracking, and continuous integration\nused by companies, open-source communities, and individual developers worldwide\n100 million users 5"
+  },
+  {
+    "objectID": "sessions/slides_session01.html#more-benefits-of-github-for-project-management",
+    "href": "sessions/slides_session01.html#more-benefits-of-github-for-project-management",
+    "title": "Session 1: Welcome & Introduction to Version Control",
+    "section": "More benefits of Git(Hub) for project management",
+    "text": "More benefits of Git(Hub) for project management\n\n Discuss and plan your project in issues (even just with your future / past self)\n Ask questions, share ideas and discuss with your community via GitHub Discussions\n Propose changes to each other’s projects using pull requests 6\n Create a fork of someone else’s repository and extend their work\n Manage access to your projects with detailed permissions and roles\n Add documentation to your repository or in a separate wiki\n Access to more features and tools for teaching via GitHub Campus Global\n\n\nNote\n\n The dominance of GitHub (a for-profit company owned by Microsoft) is not uncontested (see #GiveUpGitHub)\n A project on GitHub is not a FAIR archiving of scholarly outputs (see previous and following slides)\n\n\n\n\nGitHub Copilot is a for-profit AI product trained with projects that were hosted on GitHub, including many that have licenses that require proper author attribution etc.\nGitHub has a for-profit software services contract with the USA Immigration and Customs Enforcement (ICE)\nArchiving on GitHub is not enough"
   },
   {
     "objectID": "sessions/slides_session01.html#goal",
@@ -1208,7 +1264,7 @@
     "href": "sessions/slides_session01.html#schedule-1",
     "title": "Session 1: Welcome & Introduction to Version Control",
     "section": "Schedule",
-    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTime\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2025-01-15\n14:00 - 14:30\nWelcome & Introduction to Version Control\nLogistics and course adminResults of course surveyIntroduction to version controlIntroduction to Git\n Introduction to Version Control\nCourse survey\n\n\n2\n2025-01-15\n14:30 - 15:30\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\nCommand Line\n\n\n3\n2025-01-15\n15:30 - 16:00\nSetup and configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\nGit Installation\n\n\n4\n2025-01-22\n14:00 - 15:00\nBasics of Git\nInitializing a Git repositoryFundamental Git commandsTracking changes wih Git\n First steps with Git, Git Essentials\nGit Basics Quiz\n\n\n5\n2025-01-22\n15:00 - 16:00\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\nGit Branches Quiz\n\n\n6\n2025-01-29\n14:00 - 15:00\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\nGitHub Quiz\n\n\n7\n2025-01-29\n15:00 - 15:45\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\nGitHub Quiz\n\n\n8\n2025-01-29\n15:45 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more Git topicsDiscussing open questions"
+    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTime\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2025-01-15\n14:00 - 14:30\nWelcome & Introduction to Version Control\nLogistics and course adminResults of course surveyIntroduction to version controlIntroduction to Git\n Introduction to Version Control\nCourse survey\n\n\n2\n2025-01-15\n14:30 - 15:30\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\nCommand Line\n\n\n3\n2025-01-15\n15:30 - 16:00\nSetup & configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\nGit Installation\n\n\n4\n2025-01-22\n14:00 - 15:00\nBasics of Git\nInitializing a Git repositoryFundamental Git commandsTracking changes wih Git\n First steps with Git, Git Essentials\nGit Basics Quiz\n\n\n5\n2025-01-22\n15:00 - 16:00\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\nGit Branches Quiz\n\n\n6\n2025-01-29\n14:00 - 15:00\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\nGitHub Quiz\n\n\n7\n2025-01-29\n15:00 - 15:45\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\nGitHub Quiz\n\n\n8\n2025-01-29\n15:45 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more Git topicsDiscussing open questions"
   },
   {
     "objectID": "sessions/slides_session01.html#next-session-the-command-line",
@@ -1236,7 +1292,7 @@
     "href": "sessions/slides_session08.html#schedule",
     "title": "Session 8: Summary & Outlook",
     "section": "Schedule",
-    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTime\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2025-01-15\n14:00 - 14:30\nWelcome & Introduction to Version Control\nLogistics and course adminResults of course surveyIntroduction to version controlIntroduction to Git\n Introduction to Version Control\nCourse survey\n\n\n2\n2025-01-15\n14:30 - 15:30\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\nCommand Line\n\n\n3\n2025-01-15\n15:30 - 16:00\nSetup and configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\nGit Installation\n\n\n4\n2025-01-22\n14:00 - 15:00\nBasics of Git\nInitializing a Git repositoryFundamental Git commandsTracking changes wih Git\n First steps with Git, Git Essentials\nGit Basics Quiz\n\n\n5\n2025-01-22\n15:00 - 16:00\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\nGit Branches Quiz\n\n\n6\n2025-01-29\n14:00 - 15:00\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\nGitHub Quiz\n\n\n7\n2025-01-29\n15:00 - 15:45\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\nGitHub Quiz\n\n\n8\n2025-01-29\n15:45 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more Git topicsDiscussing open questions"
+    "text": "Schedule\n\n\n\n\n\nNo\nDate\nTime\nTitle\nContents\nReading\nSurvey/Quiz\n\n\n\n\n1\n2025-01-15\n14:00 - 14:30\nWelcome & Introduction to Version Control\nLogistics and course adminResults of course surveyIntroduction to version controlIntroduction to Git\n Introduction to Version Control\nCourse survey\n\n\n2\n2025-01-15\n14:30 - 15:30\nBasics of the Command Line\nFile systems and navigationBenefits of the command lineBasic command line commands\n Command Line\nCommand Line\n\n\n3\n2025-01-15\n15:30 - 16:00\nSetup & configuration of Git\nSetup & configuration of Git\n Setup, Installation (if needed)\nGit Installation\n\n\n4\n2025-01-22\n14:00 - 15:00\nBasics of Git\nInitializing a Git repositoryFundamental Git commandsTracking changes wih Git\n First steps with Git, Git Essentials\nGit Basics Quiz\n\n\n5\n2025-01-22\n15:00 - 16:00\nBranches, Merging, Merge Conflicts\nUnderstanding branches in GitCreating and switching between branchesMerging branchesResolving merge conflicts\n Branches\nGit Branches Quiz\n\n\n6\n2025-01-29\n14:00 - 15:00\nIntegration with GitHub / GitLab\nIntroduction to remote repositoriesManaging repositories on GitHub / GitLabPushing and pulling changesCloning a remote repository\n Remotes Intro\nGitHub Quiz\n\n\n7\n2025-01-29\n15:00 - 15:45\nCollaboration on GitHub / GitLab\nForkingCollaboration with GitHub FlowPull / Merge RequestsIssuesProject Management\n GitHub Advanced, GitHub Issues\nGitHub Quiz\n\n\n8\n2025-01-29\n15:45 - 16:00\nSummary & Outlook\nSummary of course contentsOutlook to more Git topicsDiscussing open questions"
   },
   {
     "objectID": "sessions/slides_session08.html#learning-objectives",
@@ -1306,7 +1362,7 @@
     "href": "sessions/index.html",
     "title": "Sessions",
     "section": "",
-    "text": "Welcome & Introduction to Version Control\n\n\nSession 01\n\n\n\n\n\n\n15th of January 2025, 14:00 (UTC)\n\n\n\n\n\n\n\n\nBasics of the Command Line\n\n\nSession 02\n\n\n\n\n\n\n15th of January 2025, 14:30 (UTC)\n\n\n\n\n\n\n\n\nSetup and configuration of Git\n\n\nSession 03\n\n\n\n\n\n\n15th of January 2025, 15:30 (UTC)\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome & Introduction to Version Control\n\n\nSession 01\n\n\n\n\n\n\n15th of January 2025, 14:00\n\n\n(Day 1)\n\n\n\n\n\n\n\n\nBasics of the Command Line\n\n\nSession 02\n\n\n\n\n\n\n15th of January 2025, 14:30\n\n\n(Day 1)\n\n\n\n\n\n\n\n\nSetup & Configuration of Git\n\n\nSession 03\n\n\n\n\n\n\n15th of January 2025, 15:30\n\n\n(Day 1)\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/session06.html",
@@ -1367,119 +1423,119 @@
   {
     "objectID": "sessions/session03.html",
     "href": "sessions/session03.html",
-    "title": "Setup and configuration of Git",
+    "title": "Setup & Configuration of Git",
     "section": "",
     "text": "Slides\n  \n  \n    \n     Chapter: Installation\n  \n  \n    \n     Chapter: Setup"
   },
   {
     "objectID": "sessions/session03.html#this-session",
     "href": "sessions/session03.html#this-session",
-    "title": "Setup and configuration of Git",
+    "title": "Setup & Configuration of Git",
     "section": "This session",
     "text": "This session\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) “Setup” (and “Installation”, if needed) in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
     "objectID": "sessions/session03.html#learning-objectives",
     "href": "sessions/session03.html#learning-objectives",
-    "title": "Setup and configuration of Git",
+    "title": "Setup & Configuration of Git",
     "section": "Learning objectives",
     "text": "Learning objectives\nAt the end of this session, you should be able to answer the following questions and / or achieve the following learning objectives:\n💡 You know how to set up Git for the first time 💡 You have set up Git on your computer 💡 You understand the difference between the three Git configuration levels 💡 You know how to configure your username and email address in Git 💡 You have set up your preferred text editor when working with Git 💡 You can escape the command-line text editor Vim"
   },
   {
     "objectID": "sessions/session03.html#var-course.project-project",
     "href": "sessions/session03.html#var-course.project-project",
-    "title": "Setup and configuration of Git",
+    "title": "Setup & Configuration of Git",
     "section": "recipes project",
     "text": "recipes project\nAt the end of this session, you should have accomplished the following:\n\nYou set up Git.\nYou configured Git.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/session03.html#exercises",
     "href": "sessions/session03.html#exercises",
-    "title": "Setup and configuration of Git",
+    "title": "Setup & Configuration of Git",
     "section": "Exercises",
     "text": "Exercises\n\nConfigure Git\n\nIf needed, navigate into the project folder using the command line.\nSet your Git username.\nSet your Git email address.\nChange the default name of the initial branch to main\n🚀 Optional: Change your default text editor.\nList the Git configuration settings."
   },
   {
     "objectID": "sessions/session03.html#slides",
     "href": "sessions/session03.html#slides",
-    "title": "Setup and configuration of Git",
+    "title": "Setup & Configuration of Git",
     "section": "Slides",
     "text": "Slides\n\n\n\n\n\n\n\nHow can I download the slides as a PDF file?\n\n\n\n\n\nTo export the slides to PDF, do the following:\n\nToggle into Print View using the E key (or using the Navigation Menu).\nOpen the in-browser print dialog (CTRL/CMD+P).\nChange the Destination setting to Save as PDF.\nChange the Layout to Landscape.\nChange the Margins to None.\nEnable the Background graphics option.\nClick Save.\n\nNote: This feature has been confirmed to work in Google Chrome, Chromium as well as in Firefox.\nHere’s what the Chrome print dialog would look like with these settings enabled:\n\nThese instructions were copied from the Quarto documentation (MIT License) and slightly modified."
   },
   {
     "objectID": "sessions/session03.html#cheatsheet",
     "href": "sessions/session03.html#cheatsheet",
-    "title": "Setup and configuration of Git",
+    "title": "Setup & Configuration of Git",
     "section": "Cheatsheet",
     "text": "Cheatsheet\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit config\nGet an overview of Git config commands\n\n\ngit config --global \"user.name\"\nSets Git username\n\n\ngit config --global \"user.email\"\nSets Git email address\n\n\ngit config --global core.editor \"editorname\"\nSets Git text editor\n\n\ngit config --global init.defaultBranch main\nSets default branch name to main\n\n\ngit config --list\nViews set Git configurations"
   },
   {
     "objectID": "sessions/slides_session03.html#last-session-the-command-line-1",
     "href": "sessions/slides_session03.html#last-session-the-command-line-1",
-    "title": "Session 3: Setup & configuration of Git",
+    "title": "Session 3: Setup & Configuration of Git",
     "section": "Last session: The command line",
     "text": "Last session: The command line\n\nSource: Wikimedia Commons (free license)"
   },
   {
     "objectID": "sessions/slides_session03.html#last-session-learning-objectives",
     "href": "sessions/slides_session03.html#last-session-learning-objectives",
-    "title": "Session 3: Setup & configuration of Git",
+    "title": "Session 3: Setup & Configuration of Git",
     "section": "Last session: Learning objectives",
     "text": "Last session: Learning objectives\nAfter the last session, you should now be able to answer the following questions / do the following:\n💡 You can navigate directories using the command line. 💡 You can use shortcuts like the tilde or dots to navigate your file system. 💡 You can explain the difference between absolute and relative paths. 💡 You can use arguments and flags to modify command-line commands. 💡 You understand the concept of wild cards (*) and can use it for system navigation.\n\n\nrecipes project\nAt the end of this session, you should have accomplished the following:\n\nYou used the command line to create a folder on your computer called recipes.\nYou used the command line to create a file called recipes.txt inside the recipes folder.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/slides_session03.html#learning-objectives",
     "href": "sessions/slides_session03.html#learning-objectives",
-    "title": "Session 3: Setup & configuration of Git",
+    "title": "Session 3: Setup & Configuration of Git",
     "section": "Learning objectives",
     "text": "Learning objectives\n💡 You know how to set up Git for the first time 💡 You have set up Git on your computer 💡 You understand the difference between the three Git configuration levels 💡 You know how to configure your username and email address in Git 💡 You have set up your preferred text editor when working with Git 💡 You can escape the command-line text editor Vim"
   },
   {
     "objectID": "sessions/slides_session03.html#reading",
     "href": "sessions/slides_session03.html#reading",
-    "title": "Session 3: Setup & configuration of Git",
+    "title": "Session 3: Setup & Configuration of Git",
     "section": "Reading",
     "text": "Reading\n “Setup” (and “Installation”, if needed)"
   },
   {
     "objectID": "sessions/slides_session03.html#tasks",
     "href": "sessions/slides_session03.html#tasks",
-    "title": "Session 3: Setup & configuration of Git",
+    "title": "Session 3: Setup & Configuration of Git",
     "section": "Tasks",
     "text": "Tasks\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) “Setup” (and “Installation”, if needed) in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
     "objectID": "sessions/slides_session03.html#var-course.project-project-1",
     "href": "sessions/slides_session03.html#var-course.project-project-1",
-    "title": "Session 3: Setup & configuration of Git",
+    "title": "Session 3: Setup & Configuration of Git",
     "section": "recipes project",
     "text": "recipes project\nAt the end of this session, you should have accomplished the following:\n\nYou set up Git.\nYou configured Git.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/slides_session03.html#cheatsheet",
     "href": "sessions/slides_session03.html#cheatsheet",
-    "title": "Session 3: Setup & configuration of Git",
+    "title": "Session 3: Setup & Configuration of Git",
     "section": "Cheatsheet",
     "text": "Cheatsheet\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit config\nGet an overview of Git config commands\n\n\ngit config --global \"user.name\"\nSets Git username\n\n\ngit config --global \"user.email\"\nSets Git email address\n\n\ngit config --global core.editor \"editorname\"\nSets Git text editor\n\n\ngit config --global init.defaultBranch main\nSets default branch name to main\n\n\ngit config --list\nViews set Git configurations"
   },
   {
     "objectID": "sessions/slides_session03.html#important-note-git-repository-in-user-folder",
     "href": "sessions/slides_session03.html#important-note-git-repository-in-user-folder",
-    "title": "Session 3: Setup & configuration of Git",
+    "title": "Session 3: Setup & Configuration of Git",
     "section": "Important note: Git repository in /user folder?",
     "text": "Important note: Git repository in /user folder?\n\n\nPlease make sure that your recipes folder is in a suitable place (for example, in the Desktop, Documents folders or where you keep your course-related files, …) and not in your user directory!\nYou can check your current working directory by running pwd in your recipes folder.\nAlso: Always remember to cd into your repository before you execute Git commands!\nIf your recipes folder is in your user directory, please tell Lennart and we can fix it.\n\n\n\nTip: To prevent ever creating a Git repository inside your user folder, you can use:\n\n\n\n\n\nCode\n\ntouch ~/.git\n\n\n\n\n\n\nRunning git init in the user directory now results in a (desired) error:\n\n\n\n\nOutput\n\nfatal: invalid gitfile format: /Users/user/.git\n\n\n\nThanks to Eamon Caddigan for the idea!"
   },
   {
     "objectID": "sessions/slides_session03.html#exercises",
     "href": "sessions/slides_session03.html#exercises",
-    "title": "Session 3: Setup & configuration of Git",
+    "title": "Session 3: Setup & Configuration of Git",
     "section": "Exercises",
     "text": "Exercises\nConfigure Git\n\nIf needed, navigate into the project folder using the command line.\nSet your Git username.\nSet your Git email address.\nChange the default name of the initial branch to main\n🚀 Optional: Change your default text editor.\nList the Git configuration settings."
   },
   {
     "objectID": "sessions/slides_session03.html#solutions-setup",
     "href": "sessions/slides_session03.html#solutions-setup",
-    "title": "Session 3: Setup & configuration of Git",
+    "title": "Session 3: Setup & Configuration of Git",
     "section": "Solutions: Setup",
     "text": "Solutions: Setup\n\n\n\nCode\n\n#!/bin/bash\n\ncd recipes # &lt;1&gt;\ngit config --global user.name \"Your Name\" # &lt;2&gt;\ngit config --global user.email \"your.email@example.com\" # &lt;3&gt;\ngit config --global init.defaultBranch main # &lt;4&gt;\ngit config --global core.editor \"vim\" # &lt;5&gt;\ngit config --list # &lt;6&gt;\n\n\n\nOptional: Use cd (in combination with absolute or relative paths) to navigate into the project subfolder.\nSet your global Git username using git config --global user.name \"Your Name\". Replace Your Name with your name and don’t remove the quotation marks.\nSet your global Git email address using git config --global user.email \"your.email@example.com\". Replace your.email@example.com with your email address and don’t remove the quotation marks.\nChange the default name of the initial branch to main using git config --global init.defaultBranch main.\nOptional: Change your default text editor. In this example, the default text editor is changed to Vim using git config --global core.editor \"vim\".\nList the Git configuration.\n\n\n\nVersion Control Course"
   },

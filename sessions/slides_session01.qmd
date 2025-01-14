@@ -156,6 +156,49 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 
 :pray: Thank you for your responses!
 
+## Expectations
+
+> Without copy-pasting the title: What do you think this course is **going to be about**?
+
+- Introduction to Git, GitHub, and GitLab.
+- Basics of version control and Git commands (commit, push, pull, branches).
+- Command-line interaction and practical uses.
+- Tips and tricks for effective Git usage.
+- Structuring and organizing research projects with Git.
+- Collaboration and workflow management.
+
+## Hopes
+
+> What do you **hope to learn** in this course?
+
+- Learn how to use GitHub and GitLab in daily work.
+- Get better at using Git and its commands.
+- Understand how to work with branches and fix merge conflicts.
+- Explore new and useful ways to use Git.
+- Use Git to make research and work easier and faster.
+- Improve teamwork and collaboration with Git.
+- Build confidence in using Git for everyday tasks.
+
+## Worries
+
+> Do you have any **worries or fears** regarding this course that you want to express?
+
+- No prior experience or expectations.
+- Some concern about being a beginner and keeping up with others.
+- Hoping the course is not too complicated and suits all experience levels.
+- Looking forward to learning, even as a novice.
+
+## Motivation
+
+> What is your **main motivation** for taking this course?
+
+- Improve Git and version management skills.
+- Close knowledge gaps and become more confident using Git.
+- Use GitHub/GitLab more naturally in research and work.
+- Apply Git skills to analyze data and collaborate effectively.
+- Gain inspiration and new ideas for using Git in work.
+- Benefit from better Git understanding in daily tasks.
+
 ## Let's do the splits
 
 ![](../images/splits.jpg){fig-align="center"}

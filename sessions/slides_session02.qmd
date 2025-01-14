@@ -29,7 +29,7 @@ create_schedule()
 <iframe width="100%" height="80%" src="{{< var course.project-site >}}" title="Course Website"></iframe>
 ```
 
-# Last session
+# Last session: Introduction
 
 ## Last sessions's learning objectives
 

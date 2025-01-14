@@ -30,7 +30,7 @@ quiz-url: https://version-control-cli.formr.org/
 ## What will the average session look like?
 
 ::: {.fragment}
-{{< fa clock >}} The course will consist of 6 main sessions (ca. 45 - 60 minutes each)
+{{< fa clock >}} The course will consist of 6 main sessions (ca. up to 60 minutes each)
 :::
 
 ::: {.fragment}
@@ -312,7 +312,6 @@ We need a **professional toolkit** for digital research!
 - free, [open-source](https://github.com/git) command-line tool
 - graphical user interfaces exist, e.g., [GitKraken](https://www.gitkraken.com/)
 - standard tool for most (all?) software developers
-- 100 million [GitHub](https://github.com/) users ^[(Source: [Wikipedia](https://en.wikipedia.org/wiki/GitHub))]
 
 :::
 
@@ -344,7 +343,6 @@ We need a **professional toolkit** for digital research!
 
 ## More benefits of Git(Hub) for project management
 
-::: {.incremental}
 - {{< fa bug >}} Discuss and plan your project in [issues](https://github.com/features/issues) (even just with your future / past self)
 - {{< fa comments >}}  Ask questions, share ideas and discuss with your community via [GitHub Discussions](https://github.com/features/discussions)
 - {{< fa code-pull-request >}} Propose changes to each other's projects using [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) ^[*pull* requests on GitHub, *merge* requests on GitLab]
@@ -352,7 +350,6 @@ We need a **professional toolkit** for digital research!
 - {{< fa key >}} Manage access to your projects with detailed [permissions and roles](https://docs.gitlab.com/ee/user/permissions.html)
 - {{< fa book-medical >}} Add documentation to your repository or in a separate [wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
 - {{< fa graduation-cap >}} Access to more features and tools for teaching via [GitHub Campus Global](https://education.github.com/)
-:::
 
 ::: {.fragment}
 **Note**

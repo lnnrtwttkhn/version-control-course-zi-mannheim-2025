@@ -322,14 +322,14 @@ We need a **professional toolkit** for digital research!
 - Version control is relevant for anyone who wants to track the evolution of digital objects
 :::
 
-## More benefits of Git(Hub) for (teaching) project management {visibility="hidden"}
+## More benefits of Git(Hub) for project management
 
 ::: {.incremental}
-- {{< fa bug >}} Discuss and plan your teaching preparation in [issues](https://github.com/features/issues) (even just with your future / past self)
+- {{< fa bug >}} Discuss and plan your project in [issues](https://github.com/features/issues) (even just with your future / past self)
 - {{< fa comments >}}  Ask questions, share ideas and discuss with your community via [GitHub Discussions](https://github.com/features/discussions)
-- {{< fa code-pull-request >}} Propose changes to the teaching materials using [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) ^[*pull* requests on GitHub, *merge* requests on GitLab]
-- {{< fa code-fork >}} Create a [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) of someone else's repository and extend their teaching materials
-- {{< fa key >}} Manage access to your teaching materials with detailed [permissions and roles](https://docs.gitlab.com/ee/user/permissions.html)
+- {{< fa code-pull-request >}} Propose changes to each other's projects using [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) ^[*pull* requests on GitHub, *merge* requests on GitLab]
+- {{< fa code-fork >}} Create a [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) of someone else's repository and extend their work
+- {{< fa key >}} Manage access to your projects with detailed [permissions and roles](https://docs.gitlab.com/ee/user/permissions.html)
 - {{< fa book-medical >}} Add documentation to your repository or in a separate [wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
 - {{< fa graduation-cap >}} Access to more features and tools for teaching via [GitHub Campus Global](https://education.github.com/)
 :::

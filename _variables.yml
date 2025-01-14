@@ -7,8 +7,8 @@ project:
   issues: "https://github.com/lnnrtwttkhn/version-control-course-zi-mannheim-2025/issues"
   site: "https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/"
   years: "2025"
-  email-secretary: barbara.oberbauer@uni-hamburg.de
-  mailto-secretary: mailto:barbara.oberbauer@uni-hamburg.de
+  email-secretary: Samuel.Sander@zi-mannheim.de
+  mailto-secretary: mailto:Samuel.Sander@zi-mannheim.de
   email-mailing-list: version-control-course-ss24.psych@lists.uni-hamburg.de
   mailto-mailing-list: "mailto:{{< var project.email-mailing-list >}}"
   nextcloud: https://cloud.uni-hamburg.de/s/ZndexSjSH9ZqxTG

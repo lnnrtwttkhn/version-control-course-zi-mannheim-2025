@@ -205,6 +205,33 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 
 # Introduction to Version Control
 
+## Survey: Scenario 1
+
+> Imagine a scenario where you crafted a brilliant paragraph for a manuscript (for example, your paper, thesis, or report), but then accidentally ruined it.
+**How would you retrieve the earlier brilliant version? Is it even possible?**
+
+::: {.incremental}
+
+- "Only if I saved it before - otherwise, I'd have to draft another brilliant paragraph."
+- "I might be able to find it in a cloud backup, like OneDrive or Google Drive."
+- "Version Control?"
+- "I'd simply revert to the relevant commit."
+
+:::
+
+## Survey: Scenario 2
+
+> Consider a situation where you are working with five co-authors on a paper.
+**How do you handle the changes and comments they make to the document?**
+If you're using LibreOffice Writer or Microsoft Word and you accept changes made using the "Track Changes" option, **what happens to the history of those modifications?**
+
+::: {.incremental}
+
+- "I always save new versions of files with my initials (and others' initials when I receive the document), which often results in having 10–20 different file versions."
+- "I believe the history of modifications is lost after accepting the changes ..."
+
+:::
+
 ## Learning objectives
 
 {{< include _learning-objectives-note.qmd >}}

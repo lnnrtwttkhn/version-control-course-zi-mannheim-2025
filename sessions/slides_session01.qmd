@@ -30,7 +30,7 @@ quiz-url: https://version-control-cli.formr.org/
 ## What will the average session look like?
 
 ::: {.fragment}
-{{< fa clock >}} The course will consist of 6 main sessions (ca. 45 - 60 minutes each)
+{{< fa clock >}} The course will consist of 6 main sessions (ca. up to 60 minutes each)
 :::
 
 ::: {.fragment}
@@ -156,11 +156,81 @@ knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = 
 
 :pray: Thank you for your responses!
 
+## Expectations
+
+> Without copy-pasting the title: What do you think this course is **going to be about**?
+
+- Introduction to Git, GitHub, and GitLab.
+- Basics of version control and Git commands (commit, push, pull, branches).
+- Command-line interaction and practical uses.
+- Tips and tricks for effective Git usage.
+- Structuring and organizing research projects with Git.
+- Collaboration and workflow management.
+
+## Hopes
+
+> What do you **hope to learn** in this course?
+
+- Learn how to use GitHub and GitLab in daily work.
+- Get better at using Git and its commands.
+- Understand how to work with branches and fix merge conflicts.
+- Explore new and useful ways to use Git.
+- Use Git to make research and work easier and faster.
+- Improve teamwork and collaboration with Git.
+- Build confidence in using Git for everyday tasks.
+
+## Worries
+
+> Do you have any **worries or fears** regarding this course that you want to express?
+
+- No prior experience or expectations.
+- Some concern about being a beginner and keeping up with others.
+- Hoping the course is not too complicated and suits all experience levels.
+- Looking forward to learning, even as a novice.
+
+## Motivation
+
+> What is your **main motivation** for taking this course?
+
+- Improve Git and version management skills.
+- Close knowledge gaps and become more confident using Git.
+- Use GitHub/GitLab more naturally in research and work.
+- Apply Git skills to analyze data and collaborate effectively.
+- Gain inspiration and new ideas for using Git in work.
+- Benefit from better Git understanding in daily tasks.
+
 ## Let's do the splits
 
 ![](../images/splits.jpg){fig-align="center"}
 
 # Introduction to Version Control
+
+## Survey: Scenario 1
+
+> Imagine a scenario where you crafted a brilliant paragraph for a manuscript (for example, your paper, thesis, or report), but then accidentally ruined it.
+**How would you retrieve the earlier brilliant version? Is it even possible?**
+
+::: {.incremental}
+
+- "Only if I saved it before - otherwise, I'd have to draft another brilliant paragraph."
+- "I might be able to find it in a cloud backup, like OneDrive or Google Drive."
+- "Version Control?"
+- "I'd simply revert to the relevant commit."
+
+:::
+
+## Survey: Scenario 2
+
+> Consider a situation where you are working with five co-authors on a paper.
+**How do you handle the changes and comments they make to the document?**
+If you're using LibreOffice Writer or Microsoft Word and you accept changes made using the "Track Changes" option, **what happens to the history of those modifications?**
+
+::: {.incremental}
+
+- "I always save new versions of files with my initials (and others' initials when I receive the document), which often results in having 10–20 different file versions."
+- "I believe the history of modifications is lost after accepting the changes ..."
+
+:::
 
 ## Learning objectives
 
@@ -312,7 +382,6 @@ We need a **professional toolkit** for digital research!
 - free, [open-source](https://github.com/git) command-line tool
 - graphical user interfaces exist, e.g., [GitKraken](https://www.gitkraken.com/)
 - standard tool for most (all?) software developers
-- 100 million [GitHub](https://github.com/) users ^[(Source: [Wikipedia](https://en.wikipedia.org/wiki/GitHub))]
 
 :::
 
@@ -322,17 +391,35 @@ We need a **professional toolkit** for digital research!
 - Version control is relevant for anyone who wants to track the evolution of digital objects
 :::
 
-## More benefits of Git(Hub) for (teaching) project management {visibility="hidden"}
 
-::: {.incremental}
-- {{< fa bug >}} Discuss and plan your teaching preparation in [issues](https://github.com/features/issues) (even just with your future / past self)
+## What is GitHub?
+
+:::: {.columns}
+
+::: {.fragment}
+![[github.com](https://github.com/)](../images/git-github-integration.png){fig-align="center" width=50%}
+
+- cloud-based platform for version control using Git
+- allows for collaboration on coding projects in real time
+- hosts millions of public and private repositories
+- supports both Git command line and GUI tools (e.g., [GitHub Desktop](https://desktop.github.com/))
+- enables code sharing, project management, issue tracking, and continuous integration
+- used by companies, open-source communities, and individual developers worldwide
+- 100 million users ^[(Source: [Wikipedia](https://en.wikipedia.org/wiki/GitHub))]
+
+:::
+
+::::
+
+## More benefits of Git(Hub) for project management
+
+- {{< fa bug >}} Discuss and plan your project in [issues](https://github.com/features/issues) (even just with your future / past self)
 - {{< fa comments >}}  Ask questions, share ideas and discuss with your community via [GitHub Discussions](https://github.com/features/discussions)
-- {{< fa code-pull-request >}} Propose changes to the teaching materials using [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) ^[*pull* requests on GitHub, *merge* requests on GitLab]
-- {{< fa code-fork >}} Create a [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) of someone else's repository and extend their teaching materials
-- {{< fa key >}} Manage access to your teaching materials with detailed [permissions and roles](https://docs.gitlab.com/ee/user/permissions.html)
+- {{< fa code-pull-request >}} Propose changes to each other's projects using [pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) ^[*pull* requests on GitHub, *merge* requests on GitLab]
+- {{< fa code-fork >}} Create a [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) of someone else's repository and extend their work
+- {{< fa key >}} Manage access to your projects with detailed [permissions and roles](https://docs.gitlab.com/ee/user/permissions.html)
 - {{< fa book-medical >}} Add documentation to your repository or in a separate [wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
 - {{< fa graduation-cap >}} Access to more features and tools for teaching via [GitHub Campus Global](https://education.github.com/)
-:::
 
 ::: {.fragment}
 **Note**

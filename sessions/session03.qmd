@@ -1,5 +1,5 @@
 ---
-title: "Setup and configuration of Git"
+title: "Setup & Configuration of Git"
 subtitle: "Session 03"
 date: 2025-01-15T15:30:00
 metadata-files:
@@ -24,6 +24,7 @@ about:
 chapter: |
   ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) (and ["Installation"](https://lennartwittkuhn.com/version-control-book/chapters/installation.html), if needed)
 quiz-url: https://version-control-installation.formr.org/
+day: "(Day 1)"
 ---
 
 ::: {#hero-heading}

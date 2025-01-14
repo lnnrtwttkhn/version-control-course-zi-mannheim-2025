@@ -4,7 +4,7 @@ date: 2025-01-15T15:30:00
 format: revealjs
 metadata-files:
   - _slides.yml
-session-title: "Setup & configuration of Git"
+session-title: "Setup & Configuration of Git"
 chapter: |
   ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) (and ["Installation"](https://lennartwittkuhn.com/version-control-book/chapters/installation.html), if needed)
 quiz-url: https://version-control-installation.formr.org/

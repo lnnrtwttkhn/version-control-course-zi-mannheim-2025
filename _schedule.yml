@@ -26,7 +26,7 @@ session02:
 session03:
   date: "2025-01-15"
   time: "15:30 - 16:00"
-  title: "Setup and configuration of Git"
+  title: "Setup & configuration of Git"
   contents:
     - "Setup & configuration of Git"
   reading:

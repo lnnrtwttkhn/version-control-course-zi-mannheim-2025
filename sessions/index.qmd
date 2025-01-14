@@ -17,7 +17,7 @@ listing:
   table-hover: true
   sort-ui: false
   filter-ui: false
-  fields: [date, title, author, subtitle, categories]
+  fields: [date, title, author, subtitle, categories, day]
   field-links: [title]
   date-format: "Do of MMMM YYYY, HH:mm"
 toc: false

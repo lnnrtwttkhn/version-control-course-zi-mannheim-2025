@@ -19,6 +19,7 @@ about:
       aria-label: book
 chapter: "[Introduction to Version Control](https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html)"
 quiz-url: https://version-control-cli.formr.org/
+day: "(Day 1)"
 ---
 
 ::: {#hero-heading}

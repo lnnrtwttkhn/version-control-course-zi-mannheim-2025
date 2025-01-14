@@ -24,6 +24,7 @@ about:
 chapter: |
   ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html) (and ["Installation"](https://lennartwittkuhn.com/version-control-book/chapters/installation.html), if needed)
 quiz-url: https://version-control-installation.formr.org/
+day: "(Day 1)"
 ---
 
 ::: {#hero-heading}

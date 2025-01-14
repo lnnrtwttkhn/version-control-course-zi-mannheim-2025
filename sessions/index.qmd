@@ -19,7 +19,7 @@ listing:
   filter-ui: false
   fields: [date, title, author, subtitle, categories]
   field-links: [title]
-  date-format: "Do of MMMM YYYY, HH:mm (z)"
+  date-format: "Do of MMMM YYYY, HH:mm"
 toc: false
 ---
 

@@ -1,4 +1,4 @@
-date-format: "dddd, Do of MMMM YYYY, HH:mm (z)"
+date-format: "dddd, Do of MMMM YYYY, HH:mm"
 published-title: "Starts at:"
 engine: knitr
 execute:

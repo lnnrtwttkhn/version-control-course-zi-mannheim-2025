@@ -40,7 +40,7 @@ about:
 chapter: |
   ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) and ["Git Essentials"](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)
 quiz-url: https://version-control-basics.formr.org/
-day: "(Day 1)"
+day: "(Day 2)"
 ---
 
 ::: {#hero-heading}

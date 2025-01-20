@@ -1,18 +1,18 @@
 ---
-title: "Session 3: {{< meta session-title >}}"
+title: "Session 4: {{< meta session-title >}}"
 date: 2025-01-22T14:00:00
 format: revealjs
 metadata-files:
   - _slides.yml
-session-title: "Setup & First steps with Git"
-chapter-title: "First steps with Git"
-chapter-url: https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html
+session-title: "First steps with Git & Git Essentials"
+chapter: |
+  ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) and ["Git Essentials"](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)
 quiz-url: https://version-control-basics.formr.org/
 ---
 
-# Last session: The command line
+# Last session
 
-## Last session: The command line
+## Last session: The command line & Git setup
 
 ![Source: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Linux_command-line._Bash._GNOME_Terminal._screenshot.png) (free license)](../images/command-line.png)
 
@@ -20,23 +20,13 @@ quiz-url: https://version-control-basics.formr.org/
 
 After the last session, you should now be able to answer the following questions / do the following:
 
+::: {.fragment}
+
+### Command line
+
 {{< include ../objectives/_objectives-cli.qmd >}}
 
-## Last session: `recipes` project
-
-{{< include recipes/recipes-cli.qmd >}}
-
-# This session: {{< meta session-title >}}
-
-## Reading
-
-{{< fa display >}} [{{< meta chapter-url >}}]({{< meta chapter-url >}})
-
-```{=html}
-<iframe width="100%" height="80%" src="{{< meta chapter-url >}}"></iframe>
-```
-
-## Learning objectives
+:::
 
 ::: {.fragment}
 
@@ -45,6 +35,73 @@ After the last session, you should now be able to answer the following questions
 {{< include ../objectives/_objectives-setup.qmd >}}
 
 :::
+
+## Last session: Command line cheatsheet
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "cli"), format = "markdown", row.names = FALSE)
+```
+
+## Last session: Git setup cheatsheet
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "config"), format = "markdown", row.names = FALSE)
+```
+
+## Last session: `{{< var course.project >}}` project
+
+::: {.fragment}
+
+### Command line
+
+{{< include project/project-cli.qmd >}}
+
+:::
+
+::: {.fragment}
+
+### Setup
+
+{{< include project/project-setup.qmd >}}
+
+:::
+
+## Questions from last session
+
+::: fragment
+#### {{< fa circle-question >}} *"How can I enable copy-paste in Git Bash?"*
+
+1.    Click on the Git Bash icon in the top-left corner.
+1.    Choose **Options**.
+1.    Go to **Keys menu**.
+1.    Enable Copy and Paste (Ctrl/Shift + Ins) option.
+1.    Click **Apply and Save**.
+:::
+
+::: fragment
+#### {{< fa circle-question >}} *"How do I find the `Users` folder on Windows?"*
+- Use `~`
+- If `pwd` is at `/:` you can still use `cd C:`
+:::
+
+::: fragment
+#### {{< fa circle-question >}} *"The command line does not give feedback!"*
+- Yes, I know, I'm sorry ...
+- You need to check explicitly if the command had the desired effect.
+- Example: After `mkdir {{< var course.project >}}`, use `ls` to check if the `/{{< var course.project >}}` folder was created.
+:::
+
+# This session: {{< meta session-title >}}
+
+## Learning objectives
 
 ::: {.fragment}
 
@@ -56,25 +113,39 @@ After the last session, you should now be able to answer the following questions
 
 ::: {.fragment}
 
-### :rocket: Optional: Git essentials
+### Git Essentials
 
 {{< include ../objectives/_objectives-essentials.qmd >}}
 
 :::
 
-## Cheatsheet
+## Reading
 
-### Configuration
+{{< fa display >}} {{< meta chapter >}}
 
-```{r}
-#| eval: true
-#| echo: false
-#| message: false
-#| warning: false
-knitr::kable(table_cheatsheet(name = "config"), format = "markdown", row.names = FALSE)
+```{=html}
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/setup.html" title="Version Control Book"></iframe>
 ```
 
-### Git Basics
+## Tasks
+
+{{< include tasks/tasks-template.qmd >}}
+
+## `{{< var course.project >}}` project
+
+### First steps with Git
+
+{{< include project/project-basics.qmd >}}
+
+## `{{< var course.project >}}` project
+
+### Git Essentials
+
+{{< include project/project-essentials.qmd >}}
+
+## Cheatsheet
+
+### First steps with Git
 
 ```{r}
 #| eval: true
@@ -84,68 +155,28 @@ knitr::kable(table_cheatsheet(name = "config"), format = "markdown", row.names =
 knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = FALSE)
 ```
 
-## Important note: Git repository in `user` folder?
+### Git essentials
 
-::: {.fragment}
-- Please make sure that your `recipes` folder is in a suitable place (for example, in the `Desktop`, `Documents` folders or where you keep your course-related files, ...) and **not** in your user directory!
-- Also: Always remember to `cd` into your repository before you execute Git commands!
-- If your `recipes` folder is in your user directory, please **tell Lennart** and we can fix it.
-:::
-
-::: {.fragment}
-**Tip:** To prevent ever creating a Git repository inside your `user` folder, you can use:
-
-::: {.columns}
-::: {.column width="40%"}
-```{zsh filename="Code"}
-touch ~/.git
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "essentials"), format = "markdown", row.names = FALSE)
 ```
-:::
-:::
+
+## Exercises: First steps with Git
+
+::: {.fragment}
+Note: There are several terms in these instructions that might be unfamiliar to you, such as "repository," "stage," or "commit."
+Don't worry - you will learn about these terms during this session.
 :::
 
 ::: {.fragment}
-
-Running `git init` in the `user` directory now results in a (desired) error:
-
-::: {.column width="40%"}
-```{zsh filename="Output"}
-fatal: invalid gitfile format: /Users/user/.git
-```
-:::
-
-Thanks to [Eamon Caddigan](https://social.coop/@eamon/112434377857903339) for the idea!
-:::
-
-## Tasks
-
-In this session, you will work on the following tasks:
-
-1. {{< fa book-open >}} **Reading**: Read the chapters ["Setup"](https://lennartwittkuhn.com/version-control-book/chapters/setup.html), ["First steps with Git"](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html) and, optional, ["Git Essentials"](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html) in the Version Control Book.
-1. {{< fa laptop-code >}} **Implementation**: Try out the commands in the chapter.
-1. {{< fa laptop-code >}} **Exercises**: Work on the [exercises](#exercises) for the [`recipes` project](#recipes-project).
-1. {{< fa clipboard-question >}} **Quiz**: Test your knowledge with the [quiz]({{< meta quiz-url >}}).
-
-As always:
-
-1. Try out the commands of this session and play around with them.
-1. Check whether you have achieved the [learning objectives](#learning-objectives).
-1. Ask questions!
-1. Let's *git* started!
-
-## `recipes` project
-
-{{< include recipes/recipes-basics.qmd >}}
-
-## Exercises
-
-### Configure Git
-
-{{< include ../exercises/_exercises-setup.qmd >}}
-
 {{< include ../exercises/_exercises-first-steps-git.qmd >}}
+:::
 
-## :rocket: Bonus exercises
+## Exercises: Git Essentials
 
 ### Amend a commit
 
@@ -154,6 +185,31 @@ As always:
 ### Create a `.gitignore` file
 
 {{< include ../exercises/_exercises-essentials-gitignore.qmd >}}
+
+## Important notes
+
+::: fragment
+#### {{< fa circle-exclamation >}} Make sure that there is no Git repository in your home directory!
+- Your home directory is at `/Users/yourname` (macOS) or `C:\Users\yourname` (Windows).
+- There should be no `.git` folder in your home directory (check with `ls -a`; see previous slide).
+- If you find a `.git` folder in your home directory, **don't do anything and talk to us first!**
+- We want to make sure that you don't accidentally track files in Git that you don't want to track.
+:::
+
+::: fragment
+#### {{< fa circle-exclamation >}} After you open a fresh terminal, you always need to navigate to your repository first!
+- Yes, I know, I'm sorry ...
+- Use `pwd` to check your current location and `cd` to move to another directory.
+:::
+
+::: fragment
+#### {{< fa circle-exclamation >}} Use a Git `user.name` and `user.email` that you are comfortable with
+- We will eventually practice to share Git repositories publicly on GitHub.
+- Your `user.name` and `user.email` will be part of your commit history.
+- A public repository will therefore reveal your `user.name` and `user.email`.
+:::
+
+{{< include _git-home-directory.qmd >}}
 
 ## Solutions: Setup
 
@@ -187,7 +243,6 @@ As always:
 ```
 {{< include ../exercises/_solutions-essentials-gitignore.qmd >}}
 
-
 # Appendix
 
 ## Staging and Committing
@@ -217,69 +272,6 @@ As always:
 ::: {.column width="50%"}
 ::: fragment
 ![Source: [Heidi Seibold](https://docs.google.com/presentation/d/1Yj59XAAJZQprO-kfDHzHMtjJDttMFAqkkslqcSIRZKg/edit#slide=id.p)](../images/git-analogy-letter.png){width="100%"}
-:::
-:::
-:::
-
-
-## `git log`
-
-::: fragment
-``` bash
-git log
-```
-
-e.g:
-:::
-
-::: columns
-::: {.column width="50%"}
-::: fragment
-``` bash
-
-commit 3f6db14ed93d6e92a207a9a3ac5f8b8c5c5c5c34 (HEAD -> main, origin/master, origin/HEAD)
-Author: Jane Doe <jane@example.com>
-Date:   Tue Apr 24 14:24:48 2024 -0700
-
-    Fix the widget rendering issue in the dashboard
-
-commit a4324f44d3e85723a4d91cb9e07132b7115e4941
-Author: John Smith <john@example.com>
-Date:   Mon Apr 23 16:17:59 2024 -0700
-
-    Update dependencies to newer versions
-
-commit fa204b9145bf7fc7ff226a26b49a567fc2eb1b94
-Author: Alice Johnson <alice@example.com>
-Date:   Sun Apr 22 15:08:43 2024 -0700
-
-    Initial commit of project files
-```
-:::
-:::
-
-::: {.column width="50%"}
-::: fragment
-``` bash
-
-commit b9690b287bdfec6e17af39b7337b84e9ebf6f046
-Author: Lennart Wittkuhn <lennart.wittkuhn@tutanota.com>
-Date:   Fri Mar 22 15:19:43 2024 +0100
-
-    move illustration of bad git commits (xkcd comic) and edit sentence
-
-commit d8d770dd84cd19086f41d8d38752b223c8130859
-Author: konradpa <konrad@pagenstedt.de>
-Date:   Wed Mar 6 13:51:13 2024 +0100
-
-    add image to setup chapter
-
-commit 074c9f6e12dd5fc8cc61de9f31efbdbce41a7583
-Author: konradpa <konrad@pagenstedt.de>
-Date:   Wed Mar 6 13:51:07 2024 +0100
-
-    add image to rewriting history chapter
-```
 :::
 :::
 :::

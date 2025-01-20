@@ -41,6 +41,9 @@ session04:
     - "Initializing a Git repository"
     - "Fundamental Git commands"
     - "Tracking changes wih Git"
+    - "Practicing basic Git commands"
+    - "Ignoring files with `.gitignore`"
+    - "Good commit messages"
   reading:
     - "[First steps with Git](https://lennartwittkuhn.com/version-control-book/chapters/first-steps-git.html), [Git Essentials](https://lennartwittkuhn.com/version-control-book/chapters/git-essentials.html)"
   survey:

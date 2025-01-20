@@ -1,26 +1,20 @@
 ---
-title: "Session 4: {{< meta session-title >}}"
+title: "Session 5: {{< meta session-title >}}"
 date: 2025-01-22T15:00:00
 format: revealjs
 metadata-files:
   - _slides.yml
 session-title: "Branches"
-chapter-title: "Branches"
-chapter-url: https://lennartwittkuhn.com/version-control-book/chapters/branches.html
+chapter: |
+  ["Branches"](https://lennartwittkuhn.com/version-control-book/chapters/branches.html)
 quiz-url: https://version-control-branches.formr.org/
 ---
 
-# Last session: Setup & First steps with Git
+# Last session
 
-## Last session: Learning objectives
+## Last session: First steps with Git & Git Essentials
 
 After the last session, you should now be able to answer the following questions / do the following:
-
-::: fragment
-### Setup
-
-{{< include ../objectives/_objectives-setup.qmd >}}
-:::
 
 ::: fragment
 ### First steps with Git
@@ -29,36 +23,134 @@ After the last session, you should now be able to answer the following questions
 :::
 
 ::: {.fragment}
-### :rocket: Optional: Git essentials
+### Git essentials
 
 {{< include ../objectives/_objectives-essentials.qmd >}}
 :::
 
-## Last session: `recipes` project
+## Last session: Cheatsheet
 
-{{< include recipes/recipes-basics.qmd >}}
+### First steps with Git
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "basic"), format = "markdown", row.names = FALSE)
+```
+
+## Last session: Cheatsheet
+
+### Git essentials
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "essentials"), format = "markdown", row.names = FALSE)
+```
+
+## Last session: `{{< var course.project >}}` project
+
+### First steps with Git
+
+{{< include project/project-basics.qmd >}}
+
+## Last session: `{{< var course.project >}}` project
+
+### Git Essentials
+
+{{< include project/project-essentials.qmd >}}
+
+## Common questions after last session
+
+::: fragment
+#### {{< fa circle-question >}} *"How can I make changes in a text (`.txt`) file?"*
+- Remember: **It's just a regular text file on your computer.**
+- Option 1: Use a regular text editor (e.g., TextEdit on macOS, Notepad++ on Windows, or others).
+- Option 2: Use `vim` directly from the command line (see chapter / session on "Setup").
+- Option 3: Use command line commands like `echo "My text" >> {{< var course.project >}}.txt`.
+:::
+
+::: fragment
+#### {{< fa circle-question >}} *"I ran `git commit` but nothing happened?"*
+- Maybe you forgot to run `git add` before?
+:::
+
+::: fragment
+
+#### {{< fa circle-exclamation >}} *"Remember to `cd` into your `{{< var course.project >}}` project folder!"*
+
+- Every time you open the command line, it starts at a default location (likely your home directory).
+- Check in which folder you are, using `pwd` ("print working directory").
+- Use `cd` to move to your `{{< var course.project >}}` project folder before you start running the Git commands.
+
+:::
+
+{{< include _git-home-directory.qmd >}}
+
+## Staging and Committing
+
+::: columns
+::: {.column width="50%"}
+### Staging:
+
+-   Command: `git add`
+-   Purpose: Preparing and organizing files before they are recorded in the repository's history.
+:::
+
+::: {.column width="50%"}
+### Committing:
+
+-   Command: `git commit -m "commit message"`
+-   Purpose: Saving the changes in the staged files to the repository's history, creating a snapshot.
+:::
+:::
+
+::: columns
+::: {.column width="50%"}
+::: fragment
+![Source: [git-scm.com](https://git-scm.com/book/en/v2)](../images/git-staging-diagram.png){width="100%"}
+:::
+:::
+::: {.column width="50%"}
+::: fragment
+![Source: [Heidi Seibold](https://docs.google.com/presentation/d/1Yj59XAAJZQprO-kfDHzHMtjJDttMFAqkkslqcSIRZKg/edit#slide=id.p)](../images/git-analogy-letter.png){width="100%"}
+:::
+:::
+:::
 
 # This session: {{< meta session-title >}}
 
-## {{< meta session-title >}}
+## This session: {{< meta session-title >}}
 
 ![Image from [Chapter "Git Branches"](https://book.the-turing-way.org/reproducible-research/vcs/vcs-git-branches.html) of the ["The Turing Way handbook to reproducible, ethical and collaborative data science"](https://book.the-turing-way.org/), used under a [Creative Commons Attribution 4.0 License](https://github.com/the-turing-way/the-turing-way/blob/main/LICENSE.md).](../images/turing-way-branches.png){#fig-branches}
 
+## Learning objectives
+
+{{< include ../objectives/_objectives-branches.qmd >}}
+
 ## Reading
 
-{{< fa display >}} [{{< meta chapter-url >}}]({{< meta chapter-url >}})
+{{< fa display >}} {{< meta chapter >}}
 
 ```{=html}
-<iframe width="100%" height="80%" src="{{< meta chapter-url >}}"></iframe>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/branches.html"></iframe>
 ```
 
 ::: {.notes}
 **Illustration of branches in a Git repository.** Each circle represents a commit. Commits on the `Main` branch are shown in gray. The branch `Feature A` (blue circles) was created from the `Main` branch and later merged again. In-between, another branch `Feature A-1` was created from the `Feature A` branch (green circles) and merged with that branch again before the `Feature A` branch was eventually merged with the `Main` branch. The branch `Feature B` was created but abandoned and not merged with the `Main` branch. 
 :::
 
-## Learning objectives
+## Tasks
 
-{{< include ../objectives/_objectives-branches.qmd >}}
+{{< include tasks/tasks-template.qmd >}}
+
+## `{{< var course.project >}}` project
+
+{{< include project/project-branches.qmd >}}
 
 ## Cheatsheet
 
@@ -70,17 +162,9 @@ After the last session, you should now be able to answer the following questions
 knitr::kable(table_cheatsheet(name = "branches"), format = "markdown", row.names = FALSE)
 ```
 
-## Tasks
-
-{{< include tasks/tasks-template.qmd >}}
-
-## `recipes` project
-
-{{< include recipes/recipes-branches.qmd >}}
-
 ## Exercises
 
-### Create and merge a new branch
+### Branches
 
 {{< include ../exercises/_exercises-branches.qmd >}}
 

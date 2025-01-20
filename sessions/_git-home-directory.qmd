@@ -1,0 +1,33 @@
+## Important note: Git repository in `/user` folder?
+
+::: {.fragment}
+- Please make sure that your `{{< var course.project >}}` folder is in a suitable place (for example, in the `Desktop`, `Documents` folders or where you keep your course-related files, ...) and **not** in your user directory!
+- You can check your current working directory by running `pwd` in your `{{< var course.project >}}` folder.
+- Also: Always remember to `cd` into your repository before you execute Git commands!
+- If your `{{< var course.project >}}` folder is in your user directory, please **tell us** and we can fix it.
+:::
+
+::: {.fragment}
+**Tip:** To prevent ever creating a Git repository inside your `user` folder, you can use:
+
+::: {.columns}
+::: {.column width="40%"}
+```{zsh filename="Code"}
+touch ~/.git
+```
+:::
+:::
+:::
+
+::: {.fragment}
+
+Running `git init` in the `user` directory now results in a (desired) error:
+
+::: {.column width="40%"}
+```{zsh filename="Output"}
+fatal: invalid gitfile format: /Users/user/.git
+```
+:::
+
+Thanks to [Eamon Caddigan](https://social.coop/@eamon/112434377857903339) for the idea!
+:::

@@ -13,7 +13,7 @@
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.450">
 
-  <title>Version Control with Git - Session 4: Branches</title>
+  <title>Version Control with Git - Session 5: Branches</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -395,7 +395,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Session 4: Branches</h1>
+  <h1 class="title">Session 5: Branches</h1>
   <p class="subtitle"></p><p><strong>Track, organize and share your work: An introduction to Git for research</strong></p>
 <p>Course at Zentralinstitut für Seelische Gesundheit</p>
 <p><a href="https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a> | <a href="https://github.com/lnnrtwttkhn/version-control-course-zi-mannheim-2025"><i class="fa-brands fa-github" aria-label="github"></i> Source</a></p>
@@ -417,24 +417,19 @@
 <nav role="doc-toc"> 
 <h2 id="toc-title">Agenda</h2>
 <ul>
-<li><a href="#/last-session-setup-first-steps-with-git" id="/toc-last-session-setup-first-steps-with-git"><span class="header-section-number">1</span> Last session: Setup &amp; First steps with Git</a></li>
+<li><a href="#/last-session" id="/toc-last-session"><span class="header-section-number">1</span> Last session</a></li>
 <li><a href="#/this-session-meta-session-title" id="/toc-this-session-meta-session-title"><span class="header-section-number">2</span> This session: Branches</a></li>
 </ul>
 </nav>
 </section>
 <section>
-<section id="last-session-setup-first-steps-with-git" class="title-slide slide level1 center" data-number="1">
-<h1><span class="header-section-number">1</span> Last session: Setup &amp; First steps with Git</h1>
+<section id="last-session" class="title-slide slide level1 center" data-number="1">
+<h1><span class="header-section-number">1</span> Last session</h1>
 
 </section>
-<section id="last-session-learning-objectives" class="slide level2">
-<h2>Last session: Learning objectives</h2>
+<section id="last-session-first-steps-with-git-git-essentials" class="slide level2">
+<h2>Last session: First steps with Git &amp; Git Essentials</h2>
 <p>After the last session, you should now be able to answer the following questions / do the following:</p>
-<div class="fragment">
-<!-- -->
-<h3 id="setup">Setup</h3>
-<p><span class="emoji" data-emoji="bulb">💡</span> You know how to set up Git for the first time<br> <span class="emoji" data-emoji="bulb">💡</span> You have set up Git on your computer<br> <span class="emoji" data-emoji="bulb">💡</span> You understand the difference between the three Git configuration levels<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to configure your username and email address in Git<br> <span class="emoji" data-emoji="bulb">💡</span> You have set up your preferred text editor when working with Git<br> <span class="emoji" data-emoji="bulb">💡</span> You can escape the command-line text editor Vim</p>
-</div>
 <div class="fragment">
 <!-- -->
 <h3 id="first-steps-with-git">First steps with Git</h3>
@@ -442,32 +437,240 @@
 </div>
 <div class="fragment">
 <!-- -->
-<h3 id="optional-git-essentials"><span class="emoji" data-emoji="rocket">🚀</span> Optional: Git essentials</h3>
+<h3 id="git-essentials">Git essentials</h3>
 <p><span class="emoji" data-emoji="bulb">💡</span> You know how to explore the commit history<br> <span class="emoji" data-emoji="bulb">💡</span> You can compare different commits<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to use and create a <code>.gitignore</code> file<br> <span class="emoji" data-emoji="bulb">💡</span> You can discuss which files can (not) be tracked well with Git and why<br> <span class="emoji" data-emoji="bulb">💡</span> You know how to track empty folders in Git repositories</p>
 </div>
 </section>
-<section id="last-session-recipes-project" class="slide level2">
+<section id="last-session-cheatsheet" class="slide level2">
+<h2>Last session: Cheatsheet</h2>
+<h3 id="first-steps-with-git-1">First steps with Git</h3>
+<div class="cell">
+<div class="cell-output-display">
+<table>
+<colgroup>
+<col style="width: 38%">
+<col style="width: 61%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Command</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>git init</code></td>
+<td style="text-align: left;">Initializes a folder as a Git repository</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git status</code></td>
+<td style="text-align: left;">Shows Git tracking status of files in the repository</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git add</code></td>
+<td style="text-align: left;">Adds file(s) to the staging area</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git commit</code></td>
+<td style="text-align: left;">Commits staged files</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git commit -m "commit message"</code></td>
+<td style="text-align: left;">Commits staged files with a commit message</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="last-session-cheatsheet-1" class="slide level2">
+<h2>Last session: Cheatsheet</h2>
+<h3 id="git-essentials-1">Git essentials</h3>
+<div class="cell">
+<div class="cell-output-display">
+<table>
+<colgroup>
+<col style="width: 15%">
+<col style="width: 84%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Command</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>git log</code></td>
+<td style="text-align: left;">Views past commits</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git diff</code></td>
+<td style="text-align: left;">Views made changes compared to the last commit</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git mv</code></td>
+<td style="text-align: left;">Renames or moves files and automatically stages the changes</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="last-session-var-course.project-project" class="slide level2">
 <h2>Last session: <code>recipes</code> project</h2>
+<h3 id="first-steps-with-git-2">First steps with Git</h3>
 <p>At the end of this session, you should have accomplished the following:</p>
 <ol type="1">
 <li>You set up Git.</li>
 <li>You initialized your <code>recipes</code> folder as a Git repository.</li>
-<li>You committed your first recipe to the <code>recipes</code> repository.</li>
+<li>You committed your first file to the <code>recipes</code> repository.</li>
 </ol>
 <p>Please keep the <code>recipes</code> folder! We will continue to use it in the following sessions.</p>
+</section>
+<section id="last-session-var-course.project-project-1" class="slide level2">
+<h2>Last session: <code>recipes</code> project</h2>
+<h3 id="git-essentials-2">Git Essentials</h3>
+<p>At the end of this session, you should have accomplished the following:</p>
+<ol type="1">
+<li>Commit at least three changes in <code>recipes.txt</code>.</li>
+<li>Make at least one commit using <code>git commit --amend</code>.
+<ul>
+<li>For example, add a a new entry without a title first, commit, then add a title and use <code>git commit --amend</code> to add the title change to the same commit.</li>
+</ul></li>
+<li>Create a <code>.gitignore</code> file.
+<ul>
+<li>Everyone: Create a random file that you want to ignore, for example <code>image.jpg</code>.</li>
+<li>All macOS users: Let your repository ignore <code>.DS_Store</code>.</li>
+</ul></li>
+<li><span class="emoji" data-emoji="rocket">🚀</span> Optional: Commit <code>.gitkeep</code> in an otherwise empty directory.</li>
+</ol>
+<p>Please keep the <code>recipes</code> folder! We will continue to use it in the following sessions.</p>
+</section>
+<section id="common-questions-after-last-session" class="slide level2">
+<h2>Common questions after last session</h2>
+<div class="fragment">
+<!-- -->
+<h4 id="fa-circle-question-how-can-i-make-changes-in-a-text-.txt-file"><i class="fa-solid fa-circle-question" aria-label="circle-question"></i> <em>“How can I make changes in a text (<code>.txt</code>) file?”</em></h4>
+<ul>
+<li>Remember: <strong>It’s just a regular text file on your computer.</strong></li>
+<li>Option 1: Use a regular text editor (e.g., TextEdit on macOS, Notepad++ on Windows, or others).</li>
+<li>Option 2: Use <code>vim</code> directly from the command line (see chapter / session on “Setup”).</li>
+<li>Option 3: Use command line commands like <code>echo "My text" &gt;&gt; recipes.txt</code>.</li>
+</ul>
+</div>
+<div class="fragment">
+<!-- -->
+<h4 id="fa-circle-question-i-ran-git-commit-but-nothing-happened"><i class="fa-solid fa-circle-question" aria-label="circle-question"></i> <em>“I ran <code>git commit</code> but nothing happened?”</em></h4>
+<ul>
+<li>Maybe you forgot to run <code>git add</code> before?</li>
+</ul>
+</div>
+<div class="fragment">
+<!-- -->
+<h4 id="fa-circle-exclamation-remember-to-cd-into-your-var-course.project-project-folder"><i class="fa-solid fa-circle-exclamation" aria-label="circle-exclamation"></i> <em>“Remember to <code>cd</code> into your <code>recipes</code> project folder!”</em></h4>
+<ul>
+<li>Every time you open the command line, it starts at a default location (likely your home directory).</li>
+<li>Check in which folder you are, using <code>pwd</code> (“print working directory”).</li>
+<li>Use <code>cd</code> to move to your <code>recipes</code> project folder before you start running the Git commands.</li>
+</ul>
+</div>
+</section>
+<section id="important-note-git-repository-in-user-folder" class="slide level2">
+<h2>Important note: Git repository in <code>/user</code> folder?</h2>
+<div class="fragment">
+<ul>
+<li>Please make sure that your <code>recipes</code> folder is in a suitable place (for example, in the <code>Desktop</code>, <code>Documents</code> folders or where you keep your course-related files, …) and <strong>not</strong> in your user directory!</li>
+<li>You can check your current working directory by running <code>pwd</code> in your <code>recipes</code> folder.</li>
+<li>Also: Always remember to <code>cd</code> into your repository before you execute Git commands!</li>
+<li>If your <code>recipes</code> folder is in your user directory, please <strong>tell us</strong> and we can fix it.</li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Tip:</strong> To prevent ever creating a Git repository inside your <code>user</code> folder, you can use:</p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="cell">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Code</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">touch</span> ~/.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p>Running <code>git init</code> in the <code>user</code> directory now results in a (desired) error:</p>
+<div class="column" style="width:40%;">
+<div class="cell">
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>Output</strong></pre>
+</div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb2-1"><a href="#cb2-1"></a><span class="ex">fatal:</span> invalid gitfile format: /Users/user/.git</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+<p>Thanks to <a href="https://social.coop/@eamon/112434377857903339">Eamon Caddigan</a> for the idea!</p>
+</div>
+</section>
+<section id="staging-and-committing" class="slide level2">
+<h2>Staging and Committing</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="staging">Staging:</h3>
+<ul>
+<li>Command: <code>git add</code></li>
+<li>Purpose: Preparing and organizing files before they are recorded in the repository’s history.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h3 id="committing">Committing:</h3>
+<ul>
+<li>Command: <code>git commit -m "commit message"</code></li>
+<li>Purpose: Saving the changes in the staged files to the repository’s history, creating a snapshot.</li>
+</ul>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/git-staging-diagram.png" style="width:100.0%"></p>
+<figcaption>Source: <a href="https://git-scm.com/book/en/v2">git-scm.com</a></figcaption>
+</figure>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/git-analogy-letter.png" style="width:100.0%"></p>
+<figcaption>Source: <a href="https://docs.google.com/presentation/d/1Yj59XAAJZQprO-kfDHzHMtjJDttMFAqkkslqcSIRZKg/edit#slide=id.p">Heidi Seibold</a></figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 </section></section>
 <section>
 <section id="this-session-meta-session-title" class="title-slide slide level1 center" data-number="2">
 <h1><span class="header-section-number">2</span> This session: Branches</h1>
 
 </section>
-<section id="meta-session-title" class="slide level2">
-<h2>Branches</h2>
+<section id="this-session-meta-session-title-1" class="slide level2">
+<h2>This session: Branches</h2>
 
 <img data-src="../images/turing-way-branches.png" class="r-stretch quarto-figure-center"><p class="caption">Figure&nbsp;1: Image from <a href="https://book.the-turing-way.org/reproducible-research/vcs/vcs-git-branches.html">Chapter “Git Branches”</a> of the <a href="https://book.the-turing-way.org/">“The Turing Way handbook to reproducible, ethical and collaborative data science”</a>, used under a <a href="https://github.com/the-turing-way/the-turing-way/blob/main/LICENSE.md">Creative Commons Attribution 4.0 License</a>.</p></section>
+<section id="learning-objectives" class="slide level2">
+<h2>Learning objectives</h2>
+<p><span class="emoji" data-emoji="bulb">💡</span> You understand the purpose and benefits of using branches in Git.<br> <span class="emoji" data-emoji="bulb">💡</span> You can create and switch between branches.<br> <span class="emoji" data-emoji="bulb">💡</span> You can merge branches and resolve merge conflicts.<br> <span class="emoji" data-emoji="bulb">💡</span> You can name at least three best practices when working with branches.</p>
+</section>
 <section id="reading" class="slide level2">
 <h2>Reading</h2>
-<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html">https://lennartwittkuhn.com/version-control-book/chapters/branches.html</a></p>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html">“Branches”</a></p>
 <iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/branches.html"></iframe>
 <aside class="notes">
 <p><strong>Illustration of branches in a Git repository.</strong> Each circle represents a commit. Commits on the <code>Main</code> branch are shown in gray. The branch <code>Feature A</code> (blue circles) was created from the <code>Main</code> branch and later merged again. In-between, another branch <code>Feature A-1</code> was created from the <code>Feature A</code> branch (green circles) and merged with that branch again before the <code>Feature A</code> branch was eventually merged with the <code>Main</code> branch. The branch <code>Feature B</code> was created but abandoned and not merged with the <code>Main</code> branch.</p>
@@ -483,9 +686,31 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="learning-objectives" class="slide level2">
-<h2>Learning objectives</h2>
-<p><span class="emoji" data-emoji="bulb">💡</span> You understand the purpose and benefits of using branches in Git.<br> <span class="emoji" data-emoji="bulb">💡</span> You can create and switch between branches.<br> <span class="emoji" data-emoji="bulb">💡</span> You can merge branches and resolve merge conflicts.<br> <span class="emoji" data-emoji="bulb">💡</span> You can name at least three best practices when working with branches.</p>
+<section id="tasks" class="slide level2">
+<h2>Tasks</h2>
+<p>In this session, you will work on the following tasks:</p>
+<ol type="1">
+<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Reading</strong>: Read the chapter(s) <a href="https://lennartwittkuhn.com/version-control-book/chapters/branches.html">“Branches”</a> in the Version Control Book.</li>
+<li><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter.</li>
+<li><i class="fa-solid fa-list-check" aria-label="list-check"></i> <strong>Exercises</strong>: Work on the <a href="#/exercises">exercises</a> for the <a href="#/recipes-project"><code>recipes</code> project</a>.</li>
+<li><i class="fa-solid fa-clipboard-question" aria-label="clipboard-question"></i> <strong>Quiz</strong>: Test your knowledge with the <a href="https://version-control-branches.formr.org/">quiz</a>.</li>
+</ol>
+<p>As always:</p>
+<ol type="1">
+<li>Try out the commands of this session and play around with them.</li>
+<li>Check whether you have achieved the <a href="#/learning-objectives">learning objectives</a>.</li>
+<li>Ask questions!</li>
+<li>Let’s <em>git</em> started!</li>
+</ol>
+</section>
+<section id="var-course.project-project" class="slide level2">
+<h2><code>recipes</code> project</h2>
+<p>At the end of this session, you should have accomplished the following:</p>
+<ol type="1">
+<li>You created a new branch and merged changes into your default branch (<code>main</code> or <code>master</code>).</li>
+<li>You created and resolved a merge conflict.</li>
+</ol>
+<p>Please keep the <code>recipes</code> folder! We will continue to use it in the following sessions.</p>
 </section>
 <section id="cheatsheet" class="slide level2">
 <h2>Cheatsheet</h2>
@@ -588,35 +813,9 @@
 </div>
 </div>
 </section>
-<section id="tasks" class="slide level2">
-<h2>Tasks</h2>
-<p>In this session, you will work on the following tasks:</p>
-<ol type="1">
-<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Reading</strong>: Read the chapter(s) <strong>?meta:chapter</strong> in the Version Control Book.</li>
-<li><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter.</li>
-<li><i class="fa-solid fa-list-check" aria-label="list-check"></i> <strong>Exercises</strong>: Work on the <a href="#/exercises">exercises</a> for the <a href="#/recipes-project"><code>recipes</code> project</a>.</li>
-<li><i class="fa-solid fa-clipboard-question" aria-label="clipboard-question"></i> <strong>Quiz</strong>: Test your knowledge with the <a href="https://version-control-branches.formr.org/">quiz</a>.</li>
-</ol>
-<p>As always:</p>
-<ol type="1">
-<li>Try out the commands of this session and play around with them.</li>
-<li>Check whether you have achieved the <a href="#/learning-objectives">learning objectives</a>.</li>
-<li>Ask questions!</li>
-<li>Let’s <em>git</em> started!</li>
-</ol>
-</section>
-<section id="recipes-project" class="slide level2">
-<h2><code>recipes</code> project</h2>
-<p>At the end of this session, you should have accomplished the following:</p>
-<ol type="1">
-<li>You created a new branch and merged changes to your default branch.</li>
-<li><span class="emoji" data-emoji="rocket">🚀</span> Optional: You created and resolved a merge conflict.</li>
-</ol>
-<p>Please keep the <code>recipes</code> folder! We will continue to use it in the following sessions.</p>
-</section>
 <section id="exercises" class="slide level2">
 <h2>Exercises</h2>
-<h3 id="create-and-merge-a-new-branch">Create and merge a new branch</h3>
+<h3 id="branches">Branches</h3>
 <ol type="1">
 <li>If needed, navigate to the project repository using the command line.</li>
 <li>Create a new branch called <code>feature</code>.</li>
@@ -647,30 +846,30 @@
 <div class="code-with-filename-file">
 <pre><strong>Code</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">#!/bin/bash</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="bu">cd</span> recipes <span class="co"># &lt;1&gt;</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="fu">git</span> branch feature <span class="co"># &lt;2&gt;</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="fu">git</span> switch feature <span class="co"># &lt;3&gt;</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="fu">cat</span> <span class="op">&gt;&gt;</span> recipes.txt <span class="op">&lt;&lt;- EOM</span> <span class="co"># &lt;4&gt;</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a></span>
-<span id="cb1-8"><a href="#cb1-8"></a><span class="st">Potatoes</span></span>
-<span id="cb1-9"><a href="#cb1-9"></a></span>
-<span id="cb1-10"><a href="#cb1-10"></a><span class="st">1. Wash the potatoes and cut them into evenly sized chunks.</span></span>
-<span id="cb1-11"><a href="#cb1-11"></a><span class="st">2. Bring water to the boil in a large saucepan.</span></span>
-<span id="cb1-12"><a href="#cb1-12"></a><span class="st">3. Once the water is boiling, add a good pinch of salt.</span></span>
-<span id="cb1-13"><a href="#cb1-13"></a><span class="st">3. Add the potatoes.</span></span>
-<span id="cb1-14"><a href="#cb1-14"></a><span class="st">4. Cook the potatoes for 15 - 20 minutes or until fork-tender.</span></span>
-<span id="cb1-15"><a href="#cb1-15"></a><span class="st">5. Drain the pasta in a colander.</span></span>
-<span id="cb1-16"><a href="#cb1-16"></a><span class="op">EOM</span></span>
-<span id="cb1-17"><a href="#cb1-17"></a><span class="fu">git</span> add recipes.txt <span class="co"># &lt;5&gt;</span></span>
-<span id="cb1-18"><a href="#cb1-18"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add potatoes recipe to recipes.txt"</span> <span class="co"># &lt;5&gt;</span></span>
-<span id="cb1-19"><a href="#cb1-19"></a><span class="fu">cat</span> recipes.txt <span class="co"># &lt;6&gt;</span></span>
-<span id="cb1-20"><a href="#cb1-20"></a><span class="fu">git</span> checkout main <span class="co"># &lt;7&gt;</span></span>
-<span id="cb1-21"><a href="#cb1-21"></a><span class="fu">cat</span> recipes.txt <span class="co"># &lt;8&gt;</span></span>
-<span id="cb1-22"><a href="#cb1-22"></a><span class="fu">git</span> merge feature <span class="co"># &lt;9&gt;</span></span>
-<span id="cb1-23"><a href="#cb1-23"></a><span class="fu">git</span> branch <span class="at">-d</span> feature <span class="co"># &lt;10&gt; </span></span>
-<span id="cb1-24"><a href="#cb1-24"></a><span class="fu">cat</span> recipes.txt <span class="co"># &lt;11&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb3-1"><a href="#cb3-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a></span>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="bu">cd</span> recipes <span class="co"># &lt;1&gt;</span></span>
+<span id="cb3-4"><a href="#cb3-4"></a><span class="fu">git</span> branch feature <span class="co"># &lt;2&gt;</span></span>
+<span id="cb3-5"><a href="#cb3-5"></a><span class="fu">git</span> switch feature <span class="co"># &lt;3&gt;</span></span>
+<span id="cb3-6"><a href="#cb3-6"></a><span class="fu">cat</span> <span class="op">&gt;&gt;</span> recipes.txt <span class="op">&lt;&lt;- EOM</span> <span class="co"># &lt;4&gt;</span></span>
+<span id="cb3-7"><a href="#cb3-7"></a></span>
+<span id="cb3-8"><a href="#cb3-8"></a><span class="st">Potatoes</span></span>
+<span id="cb3-9"><a href="#cb3-9"></a></span>
+<span id="cb3-10"><a href="#cb3-10"></a><span class="st">1. Wash the potatoes and cut them into evenly sized chunks.</span></span>
+<span id="cb3-11"><a href="#cb3-11"></a><span class="st">2. Bring water to the boil in a large saucepan.</span></span>
+<span id="cb3-12"><a href="#cb3-12"></a><span class="st">3. Once the water is boiling, add a good pinch of salt.</span></span>
+<span id="cb3-13"><a href="#cb3-13"></a><span class="st">3. Add the potatoes.</span></span>
+<span id="cb3-14"><a href="#cb3-14"></a><span class="st">4. Cook the potatoes for 15 - 20 minutes or until fork-tender.</span></span>
+<span id="cb3-15"><a href="#cb3-15"></a><span class="st">5. Drain the pasta in a colander.</span></span>
+<span id="cb3-16"><a href="#cb3-16"></a><span class="op">EOM</span></span>
+<span id="cb3-17"><a href="#cb3-17"></a><span class="fu">git</span> add recipes.txt <span class="co"># &lt;5&gt;</span></span>
+<span id="cb3-18"><a href="#cb3-18"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add potatoes recipe to recipes.txt"</span> <span class="co"># &lt;5&gt;</span></span>
+<span id="cb3-19"><a href="#cb3-19"></a><span class="fu">cat</span> recipes.txt <span class="co"># &lt;6&gt;</span></span>
+<span id="cb3-20"><a href="#cb3-20"></a><span class="fu">git</span> checkout main <span class="co"># &lt;7&gt;</span></span>
+<span id="cb3-21"><a href="#cb3-21"></a><span class="fu">cat</span> recipes.txt <span class="co"># &lt;8&gt;</span></span>
+<span id="cb3-22"><a href="#cb3-22"></a><span class="fu">git</span> merge feature <span class="co"># &lt;9&gt;</span></span>
+<span id="cb3-23"><a href="#cb3-23"></a><span class="fu">git</span> branch <span class="at">-d</span> feature <span class="co"># &lt;10&gt; </span></span>
+<span id="cb3-24"><a href="#cb3-24"></a><span class="fu">cat</span> recipes.txt <span class="co"># &lt;11&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 <ol type="1">
@@ -694,44 +893,44 @@
 <div class="code-with-filename-file">
 <pre><strong>Code</strong></pre>
 </div>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb2-1"><a href="#cb2-1"></a><span class="co">#!/bin/bash</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a></span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="bu">cd</span> recipes <span class="co"># &lt;1&gt;</span></span>
-<span id="cb2-4"><a href="#cb2-4"></a><span class="fu">git</span> branch feature <span class="co"># &lt;2&gt;</span></span>
-<span id="cb2-5"><a href="#cb2-5"></a><span class="fu">git</span> switch feature <span class="co"># &lt;3&gt;</span></span>
-<span id="cb2-6"><a href="#cb2-6"></a><span class="fu">cat</span> <span class="op">&gt;&gt;</span> recipes.txt <span class="op">&lt;&lt;- EOM</span> <span class="co"># &lt;4&gt;</span></span>
-<span id="cb2-7"><a href="#cb2-7"></a></span>
-<span id="cb2-8"><a href="#cb2-8"></a><span class="st">Chocolate Cake</span></span>
-<span id="cb2-9"><a href="#cb2-9"></a></span>
-<span id="cb2-10"><a href="#cb2-10"></a><span class="st">1. Preheat the oven to 350°F (175°C).</span></span>
-<span id="cb2-11"><a href="#cb2-11"></a><span class="st">2. Mix flour, sugar, cocoa powder, baking powder, and salt in a bowl.</span></span>
-<span id="cb2-12"><a href="#cb2-12"></a><span class="st">3. Add eggs, milk, oil, and vanilla extract, and mix well.</span></span>
-<span id="cb2-13"><a href="#cb2-13"></a><span class="st">4. Pour the batter into a greased baking pan.</span></span>
-<span id="cb2-14"><a href="#cb2-14"></a><span class="st">5. Bake for 30-35 minutes.</span></span>
-<span id="cb2-15"><a href="#cb2-15"></a></span>
-<span id="cb2-16"><a href="#cb2-16"></a><span class="op">EOM</span></span>
-<span id="cb2-17"><a href="#cb2-17"></a><span class="fu">git</span> add recipes.txt <span class="co"># &lt;5&gt;</span></span>
-<span id="cb2-18"><a href="#cb2-18"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add chocolate cake recipe to recipes.txt"</span> <span class="co"># &lt;5&gt;</span></span>
-<span id="cb2-19"><a href="#cb2-19"></a><span class="fu">git</span> checkout main <span class="co"># &lt;6&gt;</span></span>
-<span id="cb2-20"><a href="#cb2-20"></a><span class="fu">cat</span> <span class="op">&gt;&gt;</span> recipes.txt <span class="op">&lt;&lt;- EOM</span> <span class="co"># &lt;7&gt;</span></span>
-<span id="cb2-21"><a href="#cb2-21"></a></span>
-<span id="cb2-22"><a href="#cb2-22"></a><span class="st">Vanilla Cake</span></span>
-<span id="cb2-23"><a href="#cb2-23"></a></span>
-<span id="cb2-24"><a href="#cb2-24"></a><span class="st">1. Preheat the oven to 350°F (175°C).</span></span>
-<span id="cb2-25"><a href="#cb2-25"></a><span class="st">2. Mix flour, sugar, baking powder, and salt in a bowl.</span></span>
-<span id="cb2-26"><a href="#cb2-26"></a><span class="st">3. Add eggs, milk, oil, and vanilla extract, and mix well.</span></span>
-<span id="cb2-27"><a href="#cb2-27"></a><span class="st">4. Pour the batter into a greased baking pan. </span></span>
-<span id="cb2-28"><a href="#cb2-28"></a><span class="st">5. Bake for 25-30 minutes.</span></span>
-<span id="cb2-29"><a href="#cb2-29"></a></span>
-<span id="cb2-30"><a href="#cb2-30"></a><span class="op">EOM</span></span>
-<span id="cb2-31"><a href="#cb2-31"></a></span>
-<span id="cb2-32"><a href="#cb2-32"></a><span class="fu">git</span> add recipes.txt <span class="co"># &lt;8&gt;</span></span>
-<span id="cb2-33"><a href="#cb2-33"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add vanilla cake recipe to recipes.txt"</span> <span class="co"># &lt;8&gt;</span></span>
-<span id="cb2-34"><a href="#cb2-34"></a><span class="fu">git</span> merge feature <span class="co"># &lt;9&gt;</span></span>
-<span id="cb2-35"><a href="#cb2-35"></a><span class="fu">sed</span> <span class="at">-i</span> <span class="st">''</span> <span class="at">-e</span> <span class="st">'/^&lt;&lt;&lt;&lt;&lt;&lt;&lt; /d'</span> <span class="at">-e</span> <span class="st">'/^=======/d'</span> <span class="at">-e</span> <span class="st">'/^&gt;&gt;&gt;&gt;&gt;&gt;&gt; /d'</span> recipes.txt <span class="co"># &lt;10&gt;</span></span>
-<span id="cb2-36"><a href="#cb2-36"></a><span class="fu">git</span> add recipes.txt <span class="co"># &lt;11&gt;</span></span>
-<span id="cb2-37"><a href="#cb2-37"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Resolve merge conflict by adding both chocolate and vanilla cake recipes"</span> <span class="co"># &lt;12&gt; </span></span>
-<span id="cb2-38"><a href="#cb2-38"></a><span class="fu">git</span> branch <span class="at">-d</span> feature <span class="co"># &lt;13&gt; </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource zsh number-lines code-with-copy"><code class="sourceCode zsh"><span id="cb4-1"><a href="#cb4-1"></a><span class="co">#!/bin/bash</span></span>
+<span id="cb4-2"><a href="#cb4-2"></a></span>
+<span id="cb4-3"><a href="#cb4-3"></a><span class="bu">cd</span> recipes <span class="co"># &lt;1&gt;</span></span>
+<span id="cb4-4"><a href="#cb4-4"></a><span class="fu">git</span> branch feature <span class="co"># &lt;2&gt;</span></span>
+<span id="cb4-5"><a href="#cb4-5"></a><span class="fu">git</span> switch feature <span class="co"># &lt;3&gt;</span></span>
+<span id="cb4-6"><a href="#cb4-6"></a><span class="fu">cat</span> <span class="op">&gt;&gt;</span> recipes.txt <span class="op">&lt;&lt;- EOM</span> <span class="co"># &lt;4&gt;</span></span>
+<span id="cb4-7"><a href="#cb4-7"></a></span>
+<span id="cb4-8"><a href="#cb4-8"></a><span class="st">Chocolate Cake</span></span>
+<span id="cb4-9"><a href="#cb4-9"></a></span>
+<span id="cb4-10"><a href="#cb4-10"></a><span class="st">1. Preheat the oven to 350°F (175°C).</span></span>
+<span id="cb4-11"><a href="#cb4-11"></a><span class="st">2. Mix flour, sugar, cocoa powder, baking powder, and salt in a bowl.</span></span>
+<span id="cb4-12"><a href="#cb4-12"></a><span class="st">3. Add eggs, milk, oil, and vanilla extract, and mix well.</span></span>
+<span id="cb4-13"><a href="#cb4-13"></a><span class="st">4. Pour the batter into a greased baking pan.</span></span>
+<span id="cb4-14"><a href="#cb4-14"></a><span class="st">5. Bake for 30-35 minutes.</span></span>
+<span id="cb4-15"><a href="#cb4-15"></a></span>
+<span id="cb4-16"><a href="#cb4-16"></a><span class="op">EOM</span></span>
+<span id="cb4-17"><a href="#cb4-17"></a><span class="fu">git</span> add recipes.txt <span class="co"># &lt;5&gt;</span></span>
+<span id="cb4-18"><a href="#cb4-18"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add chocolate cake recipe to recipes.txt"</span> <span class="co"># &lt;5&gt;</span></span>
+<span id="cb4-19"><a href="#cb4-19"></a><span class="fu">git</span> checkout main <span class="co"># &lt;6&gt;</span></span>
+<span id="cb4-20"><a href="#cb4-20"></a><span class="fu">cat</span> <span class="op">&gt;&gt;</span> recipes.txt <span class="op">&lt;&lt;- EOM</span> <span class="co"># &lt;7&gt;</span></span>
+<span id="cb4-21"><a href="#cb4-21"></a></span>
+<span id="cb4-22"><a href="#cb4-22"></a><span class="st">Vanilla Cake</span></span>
+<span id="cb4-23"><a href="#cb4-23"></a></span>
+<span id="cb4-24"><a href="#cb4-24"></a><span class="st">1. Preheat the oven to 350°F (175°C).</span></span>
+<span id="cb4-25"><a href="#cb4-25"></a><span class="st">2. Mix flour, sugar, baking powder, and salt in a bowl.</span></span>
+<span id="cb4-26"><a href="#cb4-26"></a><span class="st">3. Add eggs, milk, oil, and vanilla extract, and mix well.</span></span>
+<span id="cb4-27"><a href="#cb4-27"></a><span class="st">4. Pour the batter into a greased baking pan. </span></span>
+<span id="cb4-28"><a href="#cb4-28"></a><span class="st">5. Bake for 25-30 minutes.</span></span>
+<span id="cb4-29"><a href="#cb4-29"></a></span>
+<span id="cb4-30"><a href="#cb4-30"></a><span class="op">EOM</span></span>
+<span id="cb4-31"><a href="#cb4-31"></a></span>
+<span id="cb4-32"><a href="#cb4-32"></a><span class="fu">git</span> add recipes.txt <span class="co"># &lt;8&gt;</span></span>
+<span id="cb4-33"><a href="#cb4-33"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add vanilla cake recipe to recipes.txt"</span> <span class="co"># &lt;8&gt;</span></span>
+<span id="cb4-34"><a href="#cb4-34"></a><span class="fu">git</span> merge feature <span class="co"># &lt;9&gt;</span></span>
+<span id="cb4-35"><a href="#cb4-35"></a><span class="fu">sed</span> <span class="at">-i</span> <span class="st">''</span> <span class="at">-e</span> <span class="st">'/^&lt;&lt;&lt;&lt;&lt;&lt;&lt; /d'</span> <span class="at">-e</span> <span class="st">'/^=======/d'</span> <span class="at">-e</span> <span class="st">'/^&gt;&gt;&gt;&gt;&gt;&gt;&gt; /d'</span> recipes.txt <span class="co"># &lt;10&gt;</span></span>
+<span id="cb4-36"><a href="#cb4-36"></a><span class="fu">git</span> add recipes.txt <span class="co"># &lt;11&gt;</span></span>
+<span id="cb4-37"><a href="#cb4-37"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Resolve merge conflict by adding both chocolate and vanilla cake recipes"</span> <span class="co"># &lt;12&gt; </span></span>
+<span id="cb4-38"><a href="#cb4-38"></a><span class="fu">git</span> branch <span class="at">-d</span> feature <span class="co"># &lt;13&gt; </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div>
 <ol type="1">

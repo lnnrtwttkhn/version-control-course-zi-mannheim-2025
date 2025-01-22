@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Version Control with Git - Welcome &amp; Introduction to Version Control</title>
+<title>Version Control with Git - ZI-GIT</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/git-logo.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/git-logo.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,27 +78,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html" rel="" target="">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text"><i class="fa-solid fa-house" aria-label="house"></i> Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html" rel="" target="">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text"><i class="fa-solid fa-circle-info" aria-label="circle-info"></i> About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../schedule.html" rel="" target="">
+    <a class="nav-link" href="./schedule.html" rel="" target="">
  <span class="menu-text"><i class="fa-solid fa-clipboard-list" aria-label="clipboard-list"></i> Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../sessions/index.html" rel="" target="">
+    <a class="nav-link" href="./sessions/index.html" rel="" target="">
  <span class="menu-text"><i class="fa-solid fa-list-ol" aria-label="list-ol"></i> Sessions</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../zi-git.html" rel="" target="">
+    <a class="nav-link active" href="./zi-git.html" rel="" target="" aria-current="page">
  <span class="menu-text"><i class="fa-solid fa-github" aria-label="github"></i> ZI-git</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../code-of-conduct.html" rel="" target="">
+    <a class="nav-link" href="./code-of-conduct.html" rel="" target="">
  <span class="menu-text"><i class="fa-solid fa-handshake" aria-label="handshake"></i> Code of Conduct</span></a>
   </li>  
 </ul>
@@ -128,119 +129,59 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#this-session" id="toc-this-session" class="nav-link active" data-scroll-target="#this-session">This session</a></li>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
-  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
-  <li><a href="#email" id="toc-email" class="nav-link" data-scroll-target="#email">Email</a></li>
+  <li><a href="#zi-internal-git-related-information" id="toc-zi-internal-git-related-information" class="nav-link active" data-scroll-target="#zi-internal-git-related-information">ZI-Internal git related information</a>
+  <ul>
+  <li><a href="#github-gitlab-links" id="toc-github-gitlab-links" class="nav-link" data-scroll-target="#github-gitlab-links">GitHub / GitLab links</a></li>
+  <li><a href="#having-problems-with-installing-git-on-your-windows-zi-laptop" id="toc-having-problems-with-installing-git-on-your-windows-zi-laptop" class="nav-link" data-scroll-target="#having-problems-with-installing-git-on-your-windows-zi-laptop">Having problems with installing git on your Windows ZI-Laptop?</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full column-page-left" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
-
-
-<div class="quarto-about-solana column-page-left">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome &amp; Introduction to Version Control</h1>
-<p class="subtitle lead">Session 01</p>
+<h1 class="title">ZI-GIT</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
-    <div>
-    <div class="quarto-title-meta-heading">Starts at:</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">Wednesday, 15th of January 2025, 14:00</p>
-    </div>
+
+    
+  
+    
   </div>
-  </div>
-</header> <div class="about-links">
-  <a href="https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/sessions/slides_session01.html" class="about-link" rel="" target="">
-    <i class="bi bi-display"></i>
-     <span class="about-link-text">Slides</span>
-  </a>
-  <a href="https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html" class="about-link" rel="" target="">
-    <i class="bi bi-book"></i>
-     <span class="about-link-text">Chapter</span>
-  </a>
-</div>
-      <div class="about-contents"><div id="hero-heading">
-</div></div>
-    </div>
-  </div>
-</div>
+  
 
-<section id="this-session" class="level2">
-<h2 data-anchor-id="this-session">This session</h2>
-<p>In this session, you will work on the following tasks:</p>
-<ol type="1">
-<li>Skim the chapter <a href="https://lennartwittkuhn.com/version-control-book/chapters/intro-version-control.html">Introduction to Version Control</a> in the <a href="https://lennartwittkuhn.com/version-control-book">Version Control Book</a>.</li>
-<li>Check whether you have achieved the <a href="#learning-objectives">learning objectives</a>.</li>
-</ol>
+</header>
+
+<section id="zi-internal-git-related-information" class="level2">
+<h2 class="anchored" data-anchor-id="zi-internal-git-related-information">ZI-Internal git related information</h2>
+<section id="github-gitlab-links" class="level3">
+<h3 class="anchored" data-anchor-id="github-gitlab-links">GitHub / GitLab links</h3>
+<p>GitHub is maybe of the most well-known git hosting space. Here you can decide if you’d like to have public or private repositories. Be aware, it’s a public space owned by Microsoft now! Here’s the link to the <a href="https://github.com/">GitHub</a></p>
+<p>ZI-IT is hosting an instantiation of GitLab. This is an internal space and you can only reach it within ZI-Forschung network. So if you’re outside of ZI, you must connect via VPN; then you can reach ZI-GitLab Here’s the link to the internal <a href="https://gitlab.zi.local/">ZI-GitLab</a></p>
 </section>
-<section id="learning-objectives" class="level2">
-<h2 data-anchor-id="learning-objectives">Learning objectives</h2>
-<p>At the end of this session, you should be able to answer the following questions and / or achieve the following learning objectives:</p>
-<p><span class="emoji" data-emoji="bulb">💡</span> You know what version control is.<br> <span class="emoji" data-emoji="bulb">💡</span> You can argue why version control is useful (for research).<br> <span class="emoji" data-emoji="bulb">💡</span> You can name benefits of Git compared to other approaches to version control.<br> <span class="emoji" data-emoji="bulb">💡</span> You can explain the difference between Git and GitHub.<br></p>
+<section id="having-problems-with-installing-git-on-your-windows-zi-laptop" class="level3">
+<h3 class="anchored" data-anchor-id="having-problems-with-installing-git-on-your-windows-zi-laptop">Having problems with installing git on your Windows ZI-Laptop?</h3>
+<p>If you’re having problems with downloading the <code>git.exe</code> file within the ZI-Forschung network (check the image below) we have two solutions for you:</p>
+<p><img src="images/git-install-error.png" class="img-fluid" alt="An error message related to downloading git.exe."></p>
+<ul>
+<li>Disconnect from ZI-Forschung network
+<ul>
+<li>Switch to Eduroam and download the <code>git.exe</code> file</li>
+</ul></li>
+<li>Or go to the following ZI-Cloud file and download the <code>git.exe</code> from there
+<ul>
+<li><a href="https://cloud.zi-mannheim.de/index.php/s/EcYiy8zkMmERonC">Download link</a></li>
+<li>Password: 2QGX6bOMSJgM</li>
+</ul></li>
+</ul>
+
+
 </section>
-<section id="slides" class="level2">
-<h2 data-anchor-id="slides">Slides</h2>
-<iframe width="100%" height="500" src="slides_session01.html"></iframe>
-<div class="callout callout-style-simple callout-note callout-titled" title="How can I download the slides as a PDF file?">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-How can I download the slides as a PDF file?
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>To export the slides to PDF, do the following:</p>
-<ol type="1">
-<li>Toggle into Print View using the <kbd>E</kbd> key (or using the <a href="https://quarto.org/docs/presentations/revealjs/presenting.html#navigation-menu">Navigation Menu</a>).</li>
-<li>Open the in-browser print dialog (CTRL/CMD+P).</li>
-<li>Change the <strong>Destination</strong> setting to <strong>Save as PDF</strong>.</li>
-<li>Change the <strong>Layout</strong> to <strong>Landscape</strong>.</li>
-<li>Change the <strong>Margins</strong> to <strong>None</strong>.</li>
-<li>Enable the <strong>Background graphics</strong> option.</li>
-<li>Click <strong>Save</strong>.</li>
-</ol>
-<p>Note: This feature has been confirmed to work in <a href="https://google.com/chrome">Google Chrome</a>, <a href="https://www.chromium.org/Home">Chromium</a> as well as in <a href="https://www.mozilla.org/en-US/firefox/">Firefox</a>.</p>
-<p>Here’s what the Chrome print dialog would look like with these settings enabled:</p>
-<p><img src="../images/print-to-pdf.png" class="border img-fluid" alt="Screenshot of Chrome print dialog with the first slide/page of 43 shown on the left, and print options on the right. The Destination print option has Save as PDF selected."></p>
-<p>These instructions were copied from the <a href="https://quarto.org/docs/presentations/revealjs/presenting.html#print-to-pdf">Quarto documentation</a> (<a href="https://opensource.org/license/mit/">MIT License</a>) and slightly modified.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="email" class="level2">
-<h2 data-anchor-id="email">Email</h2>
-<p>Dear course participant,</p>
-<p>You are receiving this email because you have signed up for the three-day course “Track, organize and share your work: An introduction to Git for research”, taking place on Wednesdays, January 2025, 14:00 to 16:00 at Zentralinstitut für Seelische Gesundheit (via Zoom). We are excited that you have signed up for this course and can’t wait to delve into the world of version control with you! Our first session takes place next Wednesday, January 15, 2025, from 14:00 to 16:00 online via Zoom (see access details in previous email).</p>
-<p>In preparation for the course, we kindly ask you to <strong>complete two assignments</strong>: (1) check if you have Git installed, and (2) answer a survey. In total, this should <strong>take about 20 to 30 minutes</strong> (not much longer).</p>
-<p><strong>1. Check Git Installation</strong></p>
-<p>Please check if you have Git installed. You can find detailed instructions in our online course book here: <a href="https://lennartwittkuhn.com/version-control-book/chapters/installation.html">https://lennartwittkuhn.com/version-control-book/chapters/installation.html</a>. Windows users: Please install Git for Windows (<a href="https://gitforwindows.org" class="uri">https://gitforwindows.org</a>). macOS and Linux users: You likely have Git already installed. Open the Terminal / Command Line and enter the command <code>git --version</code>. If a version number is shown, Git is installed. For more details, see the link to the online course book above. If you have any questions about the installation process, don’t hesitate to contact us. And please don’t forget to bring your laptop, with Git installed, to the course!</p>
-<p><strong>2. Complete Survey</strong></p>
-<p>In order to tailor the course to your prior experience and needs, we have prepared a <strong>survey</strong> with a few questions. Please <strong>complete the survey before the course</strong>, ideally at least two days before the course starts. This will give us enough time to review your responses before our first session.</p>
-<p>The survey can be accessed here: <strong><a href="https://version-control-intro.formr.org" class="uri">https://version-control-intro.formr.org</a></strong>.</p>
-<p>A few technical remarks about the survey: The survey will ask you for two codewords: a <strong>personal codeword</strong> and a <strong>course codeword</strong>.</p>
-<p>The <strong>personal codeword</strong> is used to associate your responses with a unique identifier. This will allow us to identify and relate your responses across all surveys used in the course while ensuring anonymity. By providing a personal codeword, you will allow us to draw more detailed insights from your responses that will help us improve the course for you. The survey will contain an explanation at the beginning on how to generate your personal codeword.</p>
-<p>The <strong>course codeword</strong> is used to tag your responses as coming from a course participant at Zentralinstitut für Seelische Gesundheit. We might also use the survey to collect responses from participants in other course settings. The course codeword therefore allows us to distinguish responses from different course settings.</p>
-<p><strong>The course codeword is: <code>--------</code></strong> (course password will be announced during the course).</p>
-<p>Please note that you might be asked for the codewords repeatedly. This is not an error in the survey but the result of combining separate smaller surveys into a longer one. If this happens, please just enter the personal and course codeword again.</p>
-<p>Further information about the course can be found on our course website at <a href="https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/">https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/</a>.</p>
-<p>If you have any questions, feel free to contact us directly via email.</p>
-<p>We are looking forward to seeing you for the first session!</p>
-<p>Best wishes,</p>
-<p>Lennart Wittkuhn (Instructor) and the organizing team</p>
-
-
-
 </section>
 
 </main> <!-- /main -->
@@ -265,6 +206,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

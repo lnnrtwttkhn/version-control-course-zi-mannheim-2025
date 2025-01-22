@@ -1,5 +1,5 @@
 ---
-title: "ZI-GIT"
+title: "Git at ZI"
 ---
 
 ## ZI-Internal git related information
@@ -9,12 +9,12 @@ title: "ZI-GIT"
 GitHub is maybe of the most well-known git hosting space.
 Here you can decide if you'd like to have public or private repositories.
 Be aware, it's a public space owned by Microsoft now!
-Here's the link to the [GitHub](https://github.com/)
+Here's the link to the [GitHub](https://github.com/).
 
 ZI-IT is hosting an instantiation of GitLab.
 This is an internal space and you can only reach it within ZI-Forschung network.
-So if you're outside of ZI, you must connect via VPN; then you can reach ZI-GitLab
-Here's the link to the internal [ZI-GitLab](https://gitlab.zi.local/)
+So if you're outside of ZI, you must connect via VPN; then you can reach ZI-GitLab.
+Here's the link to the internal [ZI-GitLab](https://gitlab.zi.local/).
 
 ### Having problems with installing git on your Windows ZI-Laptop?
 

@@ -375,7 +375,7 @@
     "href": "sessions/index.html",
     "title": "Sessions",
     "section": "",
-    "text": "Welcome & Introduction to Version Control\n\n\nSession 01\n\n\n\n\n\n\n15th of January 2025, 14:00\n\n\n(Day 1)\n\n\n\n\n\n\n\n\nBasics of the Command Line\n\n\nSession 02\n\n\n\n\n\n\n15th of January 2025, 14:30\n\n\n(Day 1)\n\n\n\n\n\n\n\n\nSetup & Configuration of Git\n\n\nSession 03\n\n\n\n\n\n\n15th of January 2025, 15:30\n\n\n(Day 1)\n\n\n\n\n\n\n\n\nFirst steps with Git\n\n\nSession 04\n\n\n\n\n\n\n22nd of January 2025, 14:00\n\n\n(Day 2)\n\n\n\n\n\n\n\n\nBranches\n\n\nSession 05\n\n\n\n\n\n\n22nd of January 2025, 15:00\n\n\n(Day 2)\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome & Introduction to Version Control\n\n\nSession 01\n\n\n\n\n\n\n15th of January 2025, 14:00\n\n\n(Day 1)\n\n\n\n\n\n\n\n\nBasics of the Command Line\n\n\nSession 02\n\n\n\n\n\n\n15th of January 2025, 14:30\n\n\n(Day 1)\n\n\n\n\n\n\n\n\nSetup & Configuration of Git\n\n\nSession 03\n\n\n\n\n\n\n15th of January 2025, 15:30\n\n\n(Day 1)\n\n\n\n\n\n\n\n\nFirst steps with Git & Git Essentials\n\n\nSession 04\n\n\n\n\n\n\n22nd of January 2025, 14:00\n\n\n(Day 2)\n\n\n\n\n\n\n\n\nBranches\n\n\nSession 05\n\n\n\n\n\n\n22nd of January 2025, 15:00\n\n\n(Day 2)\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/slides_session08.html#schedule",
@@ -389,14 +389,14 @@
     "href": "sessions/slides_session08.html#learning-objectives",
     "title": "Session 8: Summary & Outlook",
     "section": "Learning Objectives",
-    "text": "Learning Objectives\nSession 1: Introduction to Version Control\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub.\nSession 2: Basics of the Command Line\n💡 You can navigate directories using the command line. 💡 You can use shortcuts like the tilde or dots to navigate your file system. 💡 You can explain the difference between absolute and relative paths. 💡 You can use arguments and flags to modify command-line commands. 💡 You understand the concept of wild cards (*) and can use it for system navigation.\nSession 3: Setup, First steps with Git & Git Essentials\n💡 You know how to set up Git for the first time 💡 You have set up Git on your computer 💡 You understand the difference between the three Git configuration levels 💡 You know how to configure your username and email address in Git 💡 You have set up your preferred text editor when working with Git 💡 You can escape the command-line text editor Vim\n💡 You can initialize a Git repository 💡 You can stage and commit changes"
+    "text": "Learning Objectives\nSession 1: Introduction to Version Control\n💡 You know what version control is. 💡 You can argue why version control is useful (for research). 💡 You can name benefits of Git compared to other approaches to version control. 💡 You can explain the difference between Git and GitHub.\nSession 2: Basics of the Command Line\n💡 You can navigate directories using the command line. 💡 You can use shortcuts like the tilde or dots to navigate your file system. 💡 You can explain the difference between absolute and relative paths. 💡 You can use arguments and flags to modify command-line commands. 💡 You understand the concept of wild cards (*) and can use it for system navigation.\nSession 3: Setup, First steps with Git & Git Essentials\n💡 You know how to set up Git for the first time 💡 You have set up Git on your computer 💡 You understand the difference between the three Git configuration levels 💡 You know how to configure your username and email address in Git 💡 You have set up your preferred text editor when working with Git 💡 You can escape the command-line text editor Vim\n💡 You can initialize a Git repository. 💡 You can check the status of a Git repository. 💡 You understand the difference between the staging area and a commit. 💡 You can stage and commit changes. 💡 You understand the difference between a commit message and a description."
   },
   {
     "objectID": "sessions/slides_session08.html#learning-objectives-continued",
     "href": "sessions/slides_session08.html#learning-objectives-continued",
     "title": "Session 8: Summary & Outlook",
     "section": "Learning Objectives (continued)",
-    "text": "Learning Objectives (continued)\n💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file 💡 You can discuss which files can (not) be tracked well with Git and why 💡 You know how to track empty folders in Git repositories\nSession 4: Branches\n💡 You understand the purpose and benefits of using branches in Git. 💡 You can create and switch between branches. 💡 You can merge branches and resolve merge conflicts. 💡 You can name at least three best practices when working with branches.\nSession 6: Integration with GitHub / GitLab\n💡 You can create a remote repository. 💡 You can connect your local Git repository to a remote repository service like GitHub or GitLab. 💡 You can pull and push changes to and from a remote repository. 💡 You can clone a repository from a remote repository.\nSession 7: Collaboration on GitHub / GitLab\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch."
+    "text": "Learning Objectives (continued)\n💡 You know how to explore the commit history. 💡 You can compare different commits. 💡 You know how to use and create a .gitignore file. 💡 You can discuss which files can (not) be tracked well with Git and why. 💡 You know how to track empty folders in Git repositories.\nSession 4: Branches\n💡 You understand the purpose and benefits of using branches in Git. 💡 You can create and switch between branches. 💡 You can merge branches and resolve merge conflicts. 💡 You can name at least three best practices when working with branches.\nSession 6: Integration with GitHub / GitLab\n💡 You can create a remote repository. 💡 You can connect your local Git repository to a remote repository service like GitHub or GitLab. 💡 You can pull and push changes to and from a remote repository. 💡 You can clone a repository from a remote repository.\nSession 7: Collaboration on GitHub / GitLab\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch."
   },
   {
     "objectID": "sessions/slides_session08.html#quizzes",
@@ -998,7 +998,7 @@
     "href": "sessions/slides_session04.html#learning-objectives",
     "title": "Session 4: First steps with Git & Git Essentials",
     "section": "Learning objectives",
-    "text": "Learning objectives\n\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes\n\n\n\nGit Essentials\n💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file 💡 You can discuss which files can (not) be tracked well with Git and why 💡 You know how to track empty folders in Git repositories"
+    "text": "Learning objectives\n\n\nFirst steps with Git\n💡 You can initialize a Git repository. 💡 You can check the status of a Git repository. 💡 You understand the difference between the staging area and a commit. 💡 You can stage and commit changes. 💡 You understand the difference between a commit message and a description.\n\n\n\nGit Essentials\n💡 You know how to explore the commit history. 💡 You can compare different commits. 💡 You know how to use and create a .gitignore file. 💡 You can discuss which files can (not) be tracked well with Git and why. 💡 You know how to track empty folders in Git repositories."
   },
   {
     "objectID": "sessions/slides_session04.html#reading",
@@ -1262,49 +1262,49 @@
   {
     "objectID": "sessions/session04.html",
     "href": "sessions/session04.html",
-    "title": "First steps with Git",
+    "title": "First steps with Git & Git Essentials",
     "section": "",
     "text": "Slides\n  \n  \n    \n     Chapter: First steps with Git\n  \n  \n    \n     Chapter: Git Essentials\n  \n  \n    \n     Quiz: Git Basics"
   },
   {
     "objectID": "sessions/session04.html#this-session",
     "href": "sessions/session04.html#this-session",
-    "title": "First steps with Git",
+    "title": "First steps with Git & Git Essentials",
     "section": "This session",
     "text": "This session\nIn this session, you will work on the following tasks:\n\n Reading: Read the chapter(s) “First steps with Git” and “Git Essentials” in the Version Control Book.\n Implementation: Try out the commands in the chapter.\n Exercises: Work on the exercises for the recipes project.\n Quiz: Test your knowledge with the quiz.\n\nAs always:\n\nTry out the commands of this session and play around with them.\nCheck whether you have achieved the learning objectives.\nAsk questions!\nLet’s git started!"
   },
   {
     "objectID": "sessions/session04.html#learning-objectives",
     "href": "sessions/session04.html#learning-objectives",
-    "title": "First steps with Git",
+    "title": "First steps with Git & Git Essentials",
     "section": "Learning objectives",
-    "text": "Learning objectives\nAt the end of this session, you should be able to answer the following questions and / or achieve the following learning objectives:\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes\n\n\nGit Essentials\n💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file 💡 You can discuss which files can (not) be tracked well with Git and why 💡 You know how to track empty folders in Git repositories"
+    "text": "Learning objectives\nAt the end of this session, you should be able to answer the following questions and / or achieve the following learning objectives:\n\nFirst steps with Git\n💡 You can initialize a Git repository. 💡 You can check the status of a Git repository. 💡 You understand the difference between the staging area and a commit. 💡 You can stage and commit changes. 💡 You understand the difference between a commit message and a description.\n\n\nGit Essentials\n💡 You know how to explore the commit history. 💡 You can compare different commits. 💡 You know how to use and create a .gitignore file. 💡 You can discuss which files can (not) be tracked well with Git and why. 💡 You know how to track empty folders in Git repositories."
   },
   {
     "objectID": "sessions/session04.html#var-course.project-project",
     "href": "sessions/session04.html#var-course.project-project",
-    "title": "First steps with Git",
+    "title": "First steps with Git & Git Essentials",
     "section": "recipes project",
     "text": "recipes project\n\nFirst steps with Git\nAt the end of this session, you should have accomplished the following:\n\nYou set up Git.\nYou initialized your recipes folder as a Git repository.\nYou committed your first file to the recipes repository.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions.\n\n\nGit Essentials\nAt the end of this session, you should have accomplished the following:\n\nCommit at least three changes in recipes.txt.\nMake at least one commit using git commit --amend.\n\nFor example, add a a new entry without a title first, commit, then add a title and use git commit --amend to add the title change to the same commit.\n\nCreate a .gitignore file.\n\nEveryone: Create a random file that you want to ignore, for example image.jpg.\nAll macOS users: Let your repository ignore .DS_Store.\n\n🚀 Optional: Commit .gitkeep in an otherwise empty directory.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/session04.html#exercises",
     "href": "sessions/session04.html#exercises",
-    "title": "First steps with Git",
+    "title": "First steps with Git & Git Essentials",
     "section": "Exercises",
     "text": "Exercises\n\nInitialize a Git repository\n\nIf needed, navigate to the project folder using the command line.\nInitialize a new Git repository in the project folder.\n\n\n\nAdd content and commit changes\n\nCreate a new text file and name it appropriately.\nAdd a short entry to the text file (any favorite or an intriguing AI-generated one).\nStage the new file.\nCommit the changes in the text file with a descriptive commit message.\n\n🚀 Optional: Commit at least three additional changes in your new file.\n\n\nAmend a commit\n\nIf needed, navigate to the project folder using the command line.\nMake additional changes to your project text file.\nStage the changes.\nAmend the previous commit to include the new changes.\nCheck the commit history to verify that the last commit message has not changed.\n\nFor example, add a new entry without a title first, commit, then add a title and amend the previous commit to add the title change to the same commit.\n\n\nCreate a .gitignore file\n\nIf needed, navigate to the project folder using the command line.\nAdd a random file to your repository that you want to ignore, for example an image file like image.jpg.\nCheck the state of your repository to confirm that Git noticed the added file.\nCreate a .gitignore file.\nAdd the random file to the .gitignore file.\nCheck the state of your repository again to confirm that Git now ignores the added file.\nStage the changes in your repository.\nCommit the .gitignore file using a descriptive commit message.\n🚀 All macOS users: Let your repository ignore .DS_Store."
   },
   {
     "objectID": "sessions/session04.html#slides",
     "href": "sessions/session04.html#slides",
-    "title": "First steps with Git",
+    "title": "First steps with Git & Git Essentials",
     "section": "Slides",
     "text": "Slides\n\n\n\n\n\n\n\nHow can I download the slides as a PDF file?\n\n\n\n\n\nTo export the slides to PDF, do the following:\n\nToggle into Print View using the E key (or using the Navigation Menu).\nOpen the in-browser print dialog (CTRL/CMD+P).\nChange the Destination setting to Save as PDF.\nChange the Layout to Landscape.\nChange the Margins to None.\nEnable the Background graphics option.\nClick Save.\n\nNote: This feature has been confirmed to work in Google Chrome, Chromium as well as in Firefox.\nHere’s what the Chrome print dialog would look like with these settings enabled:\n\nThese instructions were copied from the Quarto documentation (MIT License) and slightly modified."
   },
   {
     "objectID": "sessions/session04.html#cheatsheet",
     "href": "sessions/session04.html#cheatsheet",
-    "title": "First steps with Git",
+    "title": "First steps with Git & Git Essentials",
     "section": "Cheatsheet",
     "text": "Cheatsheet\n\nFirst steps with Git\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit init\nInitializes a folder as a Git repository\n\n\ngit status\nShows Git tracking status of files in the repository\n\n\ngit add\nAdds file(s) to the staging area\n\n\ngit commit\nCommits staged files\n\n\ngit commit -m \"commit message\"\nCommits staged files with a commit message\n\n\n\n\n\n\n\nGit Essentials\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit log\nViews past commits\n\n\ngit diff\nViews made changes compared to the last commit\n\n\ngit mv\nRenames or moves files and automatically stages the changes"
   },
@@ -1537,7 +1537,7 @@
     "href": "sessions/slides_session05.html#last-session-first-steps-with-git-git-essentials",
     "title": "Session 5: Branches",
     "section": "Last session: First steps with Git & Git Essentials",
-    "text": "Last session: First steps with Git & Git Essentials\nAfter the last session, you should now be able to answer the following questions / do the following:\n\n\nFirst steps with Git\n💡 You can initialize a Git repository 💡 You can stage and commit changes\n\n\n\nGit essentials\n💡 You know how to explore the commit history 💡 You can compare different commits 💡 You know how to use and create a .gitignore file 💡 You can discuss which files can (not) be tracked well with Git and why 💡 You know how to track empty folders in Git repositories"
+    "text": "Last session: First steps with Git & Git Essentials\nAfter the last session, you should now be able to answer the following questions / do the following:\n\n\nFirst steps with Git\n💡 You can initialize a Git repository. 💡 You can check the status of a Git repository. 💡 You understand the difference between the staging area and a commit. 💡 You can stage and commit changes. 💡 You understand the difference between a commit message and a description.\n\n\n\nGit essentials\n💡 You know how to explore the commit history. 💡 You can compare different commits. 💡 You know how to use and create a .gitignore file. 💡 You can discuss which files can (not) be tracked well with Git and why. 💡 You know how to track empty folders in Git repositories."
   },
   {
     "objectID": "sessions/slides_session05.html#last-session-cheatsheet",

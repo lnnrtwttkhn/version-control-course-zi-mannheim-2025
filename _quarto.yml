@@ -29,7 +29,7 @@ website:
       - text: "{{< fa list-ol >}} Sessions"
         href: sessions/index.qmd
       - text: "{{< fa github >}} ZI-git"
-        href: sessions/zi-git.qmd
+        href: zi-git.qmd
       # - text: "{{< fa wrench >}} Tools"
       #   href: tools.qmd
       # - text: "{{< fa chalkboard-user >}} Team"

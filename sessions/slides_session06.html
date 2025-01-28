@@ -433,12 +433,113 @@
 <p>After the last session, you should now be able to answer the following questions / do the following:</p>
 <p><span class="emoji" data-emoji="bulb">💡</span> You understand the purpose and benefits of using branches in Git.<br> <span class="emoji" data-emoji="bulb">💡</span> You can create and switch between branches.<br> <span class="emoji" data-emoji="bulb">💡</span> You can merge branches and resolve merge conflicts.<br> <span class="emoji" data-emoji="bulb">💡</span> You can name at least three best practices when working with branches.</p>
 </section>
-<section id="last-session-recipes-project" class="slide level2">
+<section id="last-session-cheatsheet" class="slide level2">
+<h2>Last session: Cheatsheet</h2>
+<div class="cell">
+<div class="cell-output-display">
+<table>
+<colgroup>
+<col style="width: 36%">
+<col style="width: 63%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Command</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>git branch</code></td>
+<td style="text-align: left;">Lists / creates and deletes branches</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git branch feature</code></td>
+<td style="text-align: left;">Creates the <code>feature</code> branch</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git branch -d feature</code></td>
+<td style="text-align: left;">Deletes the <code>feature</code> branch</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git switch</code></td>
+<td style="text-align: left;">Switches between branches</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git switch feature</code></td>
+<td style="text-align: left;">Switches to the <code>feature</code> branch</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git checkout</code></td>
+<td style="text-align: left;">Switches between branches</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git checkout -b feature</code></td>
+<td style="text-align: left;">Creates and switches to the <code>feature</code> branch</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git merge</code></td>
+<td style="text-align: left;">Merges branches</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git merge feature</code></td>
+<td style="text-align: left;">Merges the <code>feature</code> branch into the current branch</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git merge --abort</code></td>
+<td style="text-align: left;">Aborts a merge</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git merge --squash</code></td>
+<td style="text-align: left;">Squaches commits on branch into a single commit and merge</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git stash</code></td>
+<td style="text-align: left;">Stashes changes for later use</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git stash -m "stashing message"</code></td>
+<td style="text-align: left;">Stashes changes and includes a message</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git stash list</code></td>
+<td style="text-align: left;">Shows stored stashes</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git stash apply</code></td>
+<td style="text-align: left;">Applies the latest stash</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git stash apply stash@{n}</code></td>
+<td style="text-align: left;">Applies a specific stash</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git stash pop</code></td>
+<td style="text-align: left;">Applies the latest stash and removes it from stash list</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git stash pop stash@{n}</code></td>
+<td style="text-align: left;">Applies a specific stash and removes it from stash list</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git cherry-pick &lt;commithash&gt;</code></td>
+<td style="text-align: left;">Applies changes from <code>&lt;commithash&gt;</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git rebase</code></td>
+<td style="text-align: left;">Different way of integrating changes from two branches</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="last-session-var-course.project-project" class="slide level2">
 <h2>Last session: <code>recipes</code> project</h2>
 <p>At the end of this session, you should have accomplished the following:</p>
 <ol type="1">
-<li>You created a new branch and merged changes to your default branch.</li>
-<li><span class="emoji" data-emoji="rocket">🚀</span> Optional: You created and resolved a merge conflict.</li>
+<li>You created a new branch and merged changes into your default branch (<code>main</code> or <code>master</code>).</li>
+<li>You created and resolved a merge conflict.</li>
 </ol>
 <p>Please keep the <code>recipes</code> folder! We will continue to use it in the following sessions.</p>
 </section></section>
@@ -447,23 +548,58 @@
 <h1><span class="header-section-number">2</span> This session: Integration with GitHub / GitLab</h1>
 
 </section>
-<section id="meta-session-title" class="slide level2">
-<h2>Integration with GitHub / GitLab</h2>
+<section id="this-session-meta-session-title-1" class="slide level2">
+<h2>This session: Integration with GitHub / GitLab</h2>
 
 <img data-src="../images/git-github-integration.png" style="width:70.0%" class="r-stretch quarto-figure-center"><p class="caption">Image from <a href="https://medium.com/analytics-vidhya/version-control-using-git-github-ff4c3f7c752e">Techdobz</a></p></section>
 <section id="this-session-pull-requests" class="slide level2">
 <h2>This session: Pull Requests</h2>
 
-<img data-src="../images/forking-example-adaptive-learning.png" style="width:80.0%" class="r-stretch"><p><a href="https://github.com/rasmusbruckner/AdaptiveLearning/pull/2">Link to Pull Request</a></p>
-</section>
-<section id="reading" class="slide level2">
-<h2>Reading</h2>
-<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html">https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html</a></p>
-<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html"></iframe>
+<img data-src="../images/pull-request-example-zi-mannheim.png" style="width:80.0%" class="r-stretch"><p><a href="https://github.com/lnnrtwttkhn/version-control-course-zi-mannheim-2025/pull/7">Link to Pull Request</a></p>
 </section>
 <section id="learning-objectives" class="slide level2">
 <h2>Learning objectives</h2>
 <p><span class="emoji" data-emoji="bulb">💡</span> You can create a remote repository.<br> <span class="emoji" data-emoji="bulb">💡</span> You can connect your local Git repository to a remote repository service like GitHub or GitLab.<br> <span class="emoji" data-emoji="bulb">💡</span> You can pull and push changes to and from a remote repository.<br> <span class="emoji" data-emoji="bulb">💡</span> You can clone a repository from a remote repository.</p>
+</section>
+<section id="reading" class="slide level2">
+<h2>Reading</h2>
+<p><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html">“Remotes - Introduction”</a></p>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html"></iframe>
+</section>
+<section id="tasks" class="slide level2">
+<h2>Tasks</h2>
+<p>In this session, you will work on the following tasks:</p>
+<ol type="1">
+<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Reading</strong>: Read the chapter(s) <a href="https://lennartwittkuhn.com/version-control-book/chapters/remotes-intro.html">“Remotes - Introduction”</a> in the Version Control Book.</li>
+<li><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter.</li>
+<li><i class="fa-solid fa-list-check" aria-label="list-check"></i> <strong>Exercises</strong>: Work on the <a href="#/exercises">exercises</a> for the <a href="#/recipes-project"><code>recipes</code> project</a>.</li>
+<li><i class="fa-solid fa-clipboard-question" aria-label="clipboard-question"></i> <strong>Quiz</strong>: Test your knowledge with the <a href="https://version-control-github.formr.org/">quiz</a>.</li>
+</ol>
+<p>As always:</p>
+<ol type="1">
+<li>Try out the commands of this session and play around with them.</li>
+<li>Check whether you have achieved the <a href="#/learning-objectives">learning objectives</a>.</li>
+<li>Ask questions!</li>
+<li>Let’s <em>git</em> started!</li>
+</ol>
+</section>
+<section id="var-course.project-project" class="slide level2">
+<h2><code>recipes</code> project</h2>
+<p>At the end of this session, you should have accomplished the following:</p>
+<ol type="1">
+<li>You created a GitHub account.</li>
+<li>You connected your GitHub account to your local Git using SSH.</li>
+<li>You created a new <em>private(!)</em> GitHub repository.</li>
+<li>You uploaded (i.e., “pushed”) the default branch of your <code>recipes</code> repository to GitHub.</li>
+<li>You invited a partner from the course as a collaborator to your <code>recipes</code> on GitHub.</li>
+<li>You collaborated on a shared project by adding and committing changes to your partner’s repository.</li>
+</ol>
+<h3 id="optional">Optional:</h3>
+<ol type="1">
+<li>You cleaned up your project by deleting unnecessary files and branches.</li>
+<li>You created a short <code>README.md</code> file in your repository.</li>
+</ol>
+<p>Please keep the <code>recipes</code> folder! We will continue to use it in the following sessions.</p>
 </section>
 <section id="cheatsheet" class="slide level2">
 <h2>Cheatsheet</h2>
@@ -505,38 +641,6 @@
 </table>
 </div>
 </div>
-</section>
-<section id="tasks" class="slide level2">
-<h2>Tasks</h2>
-<p>In this session, you will work on the following tasks:</p>
-<ol type="1">
-<li><i class="fa-solid fa-book-open" aria-label="book-open"></i> <strong>Reading</strong>: Read the chapter(s) <strong>?meta:chapter</strong> in the Version Control Book.</li>
-<li><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> <strong>Implementation</strong>: Try out the commands in the chapter.</li>
-<li><i class="fa-solid fa-list-check" aria-label="list-check"></i> <strong>Exercises</strong>: Work on the <a href="#/exercises">exercises</a> for the <a href="#/recipes-project"><code>recipes</code> project</a>.</li>
-<li><i class="fa-solid fa-clipboard-question" aria-label="clipboard-question"></i> <strong>Quiz</strong>: Test your knowledge with the <a href="https://version-control-github.formr.org/">quiz</a>.</li>
-</ol>
-<p>As always:</p>
-<ol type="1">
-<li>Try out the commands of this session and play around with them.</li>
-<li>Check whether you have achieved the <a href="#/learning-objectives">learning objectives</a>.</li>
-<li>Ask questions!</li>
-<li>Let’s <em>git</em> started!</li>
-</ol>
-</section>
-<section id="recipes-project" class="slide level2">
-<h2><code>recipes</code> project</h2>
-<p>At the end of this session, you should have accomplished the following:</p>
-<ol type="1">
-<li>You connected your GitHub account to your local Git.</li>
-<li>You created a new GitHub repository and uploaded (i.e., “pushed”) your <code>recipes</code> project.</li>
-<li>You collaborated on a shared project by adding and committing changes to a partner’s repository.</li>
-</ol>
-<h3 id="optional">Optional:</h3>
-<ol type="1">
-<li>You cleaned up your project by deleting unnecessary files and branches.</li>
-<li>You created a short <code>README.md</code> file in your repository.</li>
-</ol>
-<p>Please keep the <code>recipes</code> folder! We will continue to use it in the following sessions.</p>
 </section>
 <section id="exercises-1" class="slide level2">
 <h2>Exercises 1</h2>

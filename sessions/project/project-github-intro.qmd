@@ -1,0 +1,16 @@
+At the end of this session, you should have accomplished the following:
+
+1. You created a GitHub account.
+1. You connected your GitHub account to your local Git using SSH.
+1. You created a new *private(!)* GitHub repository.
+1. You uploaded (i.e., "pushed") the default branch of your `{{< var course.project >}}` repository to GitHub.
+1. You invited a partner from the course as a collaborator to your `{{< var course.project >}}` on GitHub.
+1. You collaborated on a shared project by adding and committing changes to your partner's repository.
+
+### Optional:
+
+1. You cleaned up your project by deleting unnecessary files and branches.
+1. You created a short `README.md` file in your repository.
+
+Please keep the `{{< var course.project >}}` folder!
+We will continue to use it in the following sessions.

@@ -21,15 +21,15 @@ create_schedule()
 
 ## Learning Objectives
 
-### Session 1: Introduction to Version Control
+### Introduction to Version Control
 
 {{< include ../objectives/_objectives-intro.qmd >}}
 
-### Session 2: Basics of the Command Line
+### Basics of the Command Line
 
 {{< include ../objectives/_objectives-cli.qmd >}}
 
-### Session 3: Setup, First steps with Git & Git Essentials
+### Setup, First steps with Git
 
 {{< include ../objectives/_objectives-setup.qmd >}}
 
@@ -37,17 +37,19 @@ create_schedule()
 
 ## Learning Objectives (continued)
 
+### Git Essentials
+
 {{< include ../objectives/_objectives-essentials.qmd >}}
 
-### Session 4: Branches
+### Branches
 
 {{< include ../objectives/_objectives-branches.qmd >}}
 
-### Session 6: Integration with GitHub / GitLab
+### Integration with GitHub / GitLab
 
 {{< include ../objectives/_objectives-remotes-intro.qmd >}}
 
-### Session 7: Collaboration on GitHub / GitLab
+### Collaboration on GitHub / GitLab
 
 {{< include ../objectives/_objectives-github-advanced.qmd >}}
 

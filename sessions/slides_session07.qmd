@@ -5,11 +5,9 @@ format: revealjs
 metadata-files:
   - _slides.yml
 session-title: "Collaboration on GitHub / GitLab"
-chapter-title: "GitHub - Advanced"
-chapter-url: https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html
-reading: |
+chapter: |
   ["GitHub - Advanced"](https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html) and ["Issues"](https://lennartwittkuhn.com/version-control-book/chapters/issues.html)
-quiz-url: https://version-control-github.formr.org/  
+quiz-url: https://version-control-github.formr.org/
 ---
 
 # Last session: Integration with GitHub / GitLab
@@ -20,9 +18,19 @@ After the last session, you should now be able to answer the following questions
 
 {{< include ../objectives/_objectives-remotes-intro.qmd >}}
 
-## Last session: `recipes` project
+## Last session: Cheatsheet
 
-{{< include recipes/recipes-github-intro.qmd >}}
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+knitr::kable(table_cheatsheet(name = "remotes_intro"), format = "markdown", row.names = FALSE)
+```
+
+## Last session: `{{< var course.project >}}` project
+
+{{< include project/project-github-intro.qmd >}}
 
 # This session: {{< meta session-title >}}
 
@@ -32,9 +40,9 @@ After the last session, you should now be able to answer the following questions
 
 ## This session: Forking & Issues
 
-![](../images/forking-example-adaptive-learning.png){width="80%"}
+![](../images/pull-request-example-zi-mannheim.png){width="80%"}
 
-[Link to Pull Request](https://github.com/rasmusbruckner/AdaptiveLearning/pull/2)
+[Link to Pull Request](https://github.com/lnnrtwttkhn/version-control-course-zi-mannheim-2025/pull/7)
 
 ## This session: Forking & Issues
 
@@ -44,10 +52,10 @@ After the last session, you should now be able to answer the following questions
 
 ## Reading
 
-{{< fa display >}} [{{< meta chapter-url >}}]({{< meta chapter-url >}})
+{{< fa display >}} {{< meta chapter >}}
 
 ```{=html}
-<iframe width="100%" height="80%" src="{{< meta chapter-url >}}"></iframe>
+<iframe width="100%" height="80%" src="https://lennartwittkuhn.com/version-control-book/chapters/github-advanced.html"></iframe>
 ```
 
 ## Learning objectives
@@ -80,9 +88,9 @@ knitr::kable(table_cheatsheet(name = "remote_intro"), format = "markdown", row.n
 
 {{< include tasks/tasks-template.qmd >}}
 
-## `recipes` project
+## `{{< var course.project >}}` project
 
-{{< include recipes/recipes-github-advanced.qmd >}}
+{{< include project/project-github-advanced.qmd >}}
 
 ## Exercises
 
@@ -90,6 +98,9 @@ knitr::kable(table_cheatsheet(name = "remote_intro"), format = "markdown", row.n
 ### "Public" collaboration with pull requests (using a fork and GitHub Flow)
 
 {{< include ../exercises/_exercises-remotes-forking.qmd >}}
+
+Use [Lennart's `recipes` repository](https://github.com/lnnrtwttkhn/recipes/).
+Find out about the **contributing guidelines** in Lennart's repo and follow them when creating a new recipe.
 :::
 
 ::: {.fragment}
@@ -97,11 +108,6 @@ knitr::kable(table_cheatsheet(name = "remote_intro"), format = "markdown", row.n
 
 {{< include ../exercises/_exercises-remotes-pr-review.qmd >}}
 :::
-
-## :rocket: Bonus exercises
-
-1. Repeat the entire forking workflow with [Lennart's `recipes` repository](https://github.com/lnnrtwttkhn/recipes/).
-Find out about the **contributing guidelines** in Lennart's repo and follow them when creating a new recipe.
 
 ## Solutions
 

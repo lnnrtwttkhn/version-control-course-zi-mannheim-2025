@@ -102,14 +102,7 @@
     "href": "sessions/slides_session06.html#this-session-meta-session-title-1",
     "title": "Session 6: Integration with GitHub / GitLab",
     "section": "This session: Integration with GitHub / GitLab",
-    "text": "This session: Integration with GitHub / GitLab\n\nImage from Techdobz"
-  },
-  {
-    "objectID": "sessions/slides_session06.html#learning-objectives",
-    "href": "sessions/slides_session06.html#learning-objectives",
-    "title": "Session 6: Integration with GitHub / GitLab",
-    "section": "Learning objectives",
-    "text": "Learning objectives\n💡 You can create a remote repository. 💡 You can connect your local Git repository to a remote repository service like GitHub or GitLab. 💡 You can pull and push changes to and from a remote repository. 💡 You can clone a repository from a remote repository."
+    "text": "This session: Integration with GitHub / GitLab\n\n\n\nImage from Techdobz\n\n\n&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD ## This session: Collaboration via Git and GitHub\n\nLink to Pull Request\n======= &gt;&gt;&gt;&gt;&gt;&gt;&gt; 5c7a5bc2aa727a724482ada2375d525fae8cdfe1 ## Learning objectives\n💡 You can create a remote repository. 💡 You can connect your local Git repository to a remote repository service like GitHub or GitLab. 💡 You can pull and push changes to and from a remote repository. 💡 You can clone a repository from a remote repository."
   },
   {
     "objectID": "sessions/slides_session06.html#reading",

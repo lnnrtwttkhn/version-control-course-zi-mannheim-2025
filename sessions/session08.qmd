@@ -9,6 +9,10 @@ about:
   template: solana
   image-width: 0em
   links:
+    - icon: display
+      text: Slides
+      href: https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/sessions/slides_session08.html
+      aria-label: display
     - icon: input-cursor-text
       text: Feedback survey
       href: https://version-control-feedback.formr.org/

@@ -40,9 +40,10 @@ day: "(Day 3)"
 
 ## Learning objectives
 
+{{< include _learning-objectives-note.qmd >}}
+
 ### GitHub - Advanced
 
-{{< include _learning-objectives-note.qmd >}}
 {{< include ../objectives/_objectives-github-advanced.qmd >}}
 
 ### Issues

@@ -25,7 +25,7 @@ After the last session, you should now be able to answer the following questions
 #| echo: false
 #| message: false
 #| warning: false
-knitr::kable(table_cheatsheet(name = "remotes_intro"), format = "markdown", row.names = FALSE)
+knitr::kable(table_cheatsheet(name = "remote_intro"), format = "markdown", row.names = FALSE)
 ```
 
 ## Last session: `{{< var course.project >}}` project
@@ -38,13 +38,13 @@ knitr::kable(table_cheatsheet(name = "remotes_intro"), format = "markdown", row.
 
 ![Image from [Techdobz](https://medium.com/analytics-vidhya/version-control-using-git-github-ff4c3f7c752e)](../images/git-github-integration.png){width="70%"}
 
-## This session: Forking & Issues
+## This session: Forking & Pull Requests
 
 ![](../images/pull-request-example-zi-mannheim.png){width="80%"}
 
 [Link to Pull Request](https://github.com/lnnrtwttkhn/version-control-course-zi-mannheim-2025/pull/7)
 
-## This session: Forking & Issues
+## This session: Issues
 
 ![](../images/issue-example-recipes-tiramisu.png){width="80%"}
 

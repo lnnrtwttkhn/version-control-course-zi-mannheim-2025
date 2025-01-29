@@ -53,6 +53,10 @@ day: "(Day 3)"
 
 {{< include ../exercises/_exercises-remotes-push.qmd >}}
 
+### Clone and sync your repository
+
+{{< include ../exercises/_exercises-remotes-clone.qmd >}}
+
 ### "Private" collaboration with pull requests (using GitHub Flow)
 
 {{< include ../exercises/_exercises-remotes-collaboration.qmd >}}
@@ -62,10 +66,6 @@ day: "(Day 3)"
 ### Add a `README.md`
 
 {{< include ../exercises/_exercises-remotes-readme.qmd >}}
-
-### Clone and sync your repository
-
-{{< include ../exercises/_exercises-remotes-clone.qmd >}}
 
 ## Slides
 

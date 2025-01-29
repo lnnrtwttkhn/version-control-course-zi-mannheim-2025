@@ -4,12 +4,20 @@ At the end of this session, you should have accomplished the following:
 1. You connected your GitHub account to your local Git using SSH.
 1. You created a new *private(!)* GitHub repository.
 1. You uploaded (i.e., "pushed") the default branch of your `{{< var course.project >}}` repository to GitHub.
+
+**Collaboration Option 1:**
+
 1. You invited a partner from the course as a collaborator to your `{{< var course.project >}}` on GitHub.
 1. You collaborated on a shared project by adding and committing changes to your partner's repository.
 
+**Collaboration Option 2:**
+
+1. You clone your own repository to a different location on your computer.
+1. Stage and commit changes in the repository in this new location.
+1. Push the changes to GitHub and pull them in the original repository location on your computer.
+
 ### Optional:
 
-1. You cleaned up your project by deleting unnecessary files and branches.
 1. You created a short `README.md` file in your repository.
 
 Please keep the `{{< var course.project >}}` folder!

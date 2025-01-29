@@ -11,7 +11,7 @@ about:
   links:
     - icon: display
       text: Slides
-      href: https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/sessions/slides_session05.html
+      href: https://lennartwittkuhn.com/version-control-course-zi-mannheim-2025/sessions/slides_session06.html
       aria-label: display
     - icon: book
       text: "Chapter: Remotes - Introduction"

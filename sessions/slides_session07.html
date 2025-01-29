@@ -437,6 +437,10 @@
 <div class="cell">
 <div class="cell-output-display">
 <table>
+<colgroup>
+<col style="width: 13%">
+<col style="width: 87%">
+</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Command</th>
@@ -444,6 +448,26 @@
 </tr>
 </thead>
 <tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>git remote</code></td>
+<td style="text-align: left;">Manages remote repositories</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git clone</code></td>
+<td style="text-align: left;">Creates a local copy of a repository</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git pull</code></td>
+<td style="text-align: left;">Fetches and merges the latest changes from a remote repository into the current branch</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>git fetch</code></td>
+<td style="text-align: left;">Updates remote tracking branches</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>git push</code></td>
+<td style="text-align: left;">Uploads local commits to a remote repository</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -457,12 +481,20 @@
 <li>You connected your GitHub account to your local Git using SSH.</li>
 <li>You created a new <em>private(!)</em> GitHub repository.</li>
 <li>You uploaded (i.e., “pushed”) the default branch of your <code>recipes</code> repository to GitHub.</li>
+</ol>
+<p><strong>Collaboration Option 1:</strong></p>
+<ol type="1">
 <li>You invited a partner from the course as a collaborator to your <code>recipes</code> on GitHub.</li>
 <li>You collaborated on a shared project by adding and committing changes to your partner’s repository.</li>
 </ol>
+<p><strong>Collaboration Option 2:</strong></p>
+<ol type="1">
+<li>You clone your own repository to a different location on your computer.</li>
+<li>Stage and commit changes in the repository in this new location.</li>
+<li>Push the changes to GitHub and pull them in the original repository location on your computer.</li>
+</ol>
 <h3 id="optional">Optional:</h3>
 <ol type="1">
-<li>You cleaned up your project by deleting unnecessary files and branches.</li>
 <li>You created a short <code>README.md</code> file in your repository.</li>
 </ol>
 <p>Please keep the <code>recipes</code> folder! We will continue to use it in the following sessions.</p>
@@ -476,13 +508,13 @@
 <h2>This session: Collaboration on GitHub / GitLab</h2>
 
 <img data-src="../images/git-github-integration.png" style="width:70.0%" class="r-stretch quarto-figure-center"><p class="caption">Image from <a href="https://medium.com/analytics-vidhya/version-control-using-git-github-ff4c3f7c752e">Techdobz</a></p></section>
-<section id="this-session-forking-issues" class="slide level2">
-<h2>This session: Forking &amp; Issues</h2>
+<section id="this-session-forking-pull-requests" class="slide level2">
+<h2>This session: Forking &amp; Pull Requests</h2>
 
 <img data-src="../images/pull-request-example-zi-mannheim.png" style="width:80.0%" class="r-stretch"><p><a href="https://github.com/lnnrtwttkhn/version-control-course-zi-mannheim-2025/pull/7">Link to Pull Request</a></p>
 </section>
-<section id="this-session-forking-issues-1" class="slide level2">
-<h2>This session: Forking &amp; Issues</h2>
+<section id="this-session-issues" class="slide level2">
+<h2>This session: Issues</h2>
 
 <img data-src="../images/issue-example-recipes-tiramisu.png" style="width:80.0%" class="r-stretch"><p><a href="https://github.com/lnnrtwttkhn/recipes/issues/1">Link to Issue</a></p>
 </section>

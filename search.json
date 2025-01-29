@@ -105,13 +105,6 @@
     "text": "This session: Integration with GitHub / GitLab\n\nImage from Techdobz"
   },
   {
-    "objectID": "sessions/slides_session06.html#this-session-pull-requests",
-    "href": "sessions/slides_session06.html#this-session-pull-requests",
-    "title": "Session 6: Integration with GitHub / GitLab",
-    "section": "This session: Pull Requests",
-    "text": "This session: Pull Requests\n\nLink to Pull Request"
-  },
-  {
     "objectID": "sessions/slides_session06.html#learning-objectives",
     "href": "sessions/slides_session06.html#learning-objectives",
     "title": "Session 6: Integration with GitHub / GitLab",
@@ -137,7 +130,7 @@
     "href": "sessions/slides_session06.html#var-course.project-project",
     "title": "Session 6: Integration with GitHub / GitLab",
     "section": "recipes project",
-    "text": "recipes project\nAt the end of this session, you should have accomplished the following:\n\nYou created a GitHub account.\nYou connected your GitHub account to your local Git using SSH.\nYou created a new private(!) GitHub repository.\nYou uploaded (i.e., “pushed”) the default branch of your recipes repository to GitHub.\nYou invited a partner from the course as a collaborator to your recipes on GitHub.\nYou collaborated on a shared project by adding and committing changes to your partner’s repository.\n\nOptional:\n\nYou cleaned up your project by deleting unnecessary files and branches.\nYou created a short README.md file in your repository.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
+    "text": "recipes project\nAt the end of this session, you should have accomplished the following:\n\nYou created a GitHub account.\nYou connected your GitHub account to your local Git using SSH.\nYou created a new private(!) GitHub repository.\nYou uploaded (i.e., “pushed”) the default branch of your recipes repository to GitHub.\n\nCollaboration Option 1:\n\nYou invited a partner from the course as a collaborator to your recipes on GitHub.\nYou collaborated on a shared project by adding and committing changes to your partner’s repository.\n\nCollaboration Option 2:\n\nYou clone your own repository to a different location on your computer.\nStage and commit changes in the repository in this new location.\nPush the changes to GitHub and pull them in the original repository location on your computer.\n\nOptional:\n\nYou created a short README.md file in your repository.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/slides_session06.html#cheatsheet",
@@ -150,22 +143,29 @@
     "objectID": "sessions/slides_session06.html#exercises-1",
     "href": "sessions/slides_session06.html#exercises-1",
     "title": "Session 6: Integration with GitHub / GitLab",
-    "section": "Exercises 1",
-    "text": "Exercises 1\nConnect to remote repositories using SSH\n\nGenerate an SSH key.\nCopy the SSH key to your clipboard.\nAdd the SSH key to the remote repository (for example, GitHub or GitLab).\n\nUpload your local repository to a remote repository\n\nCreate an empty repository on the remote repository hosting platform, for example GitHub or GitLab. Make sure to not initialize the repository with any files!\nIf needed, navigate to your project repository using the command line.\nSet the remote URL of your local repository to your remote repository.\nPush the changes on your default branch (main or master) to your remote repository."
+    "section": "Exercises (1)",
+    "text": "Exercises (1)\nConnect to remote repositories using SSH\n\nGenerate an SSH key.\nCopy the SSH key to your clipboard.\nAdd the SSH key to the remote repository (for example, GitHub or GitLab).\n\nUpload your local repository to a remote repository\n\nCreate an empty repository on the remote repository hosting platform, for example GitHub or GitLab. Make sure to not initialize the repository with any files!\nIf needed, navigate to your project repository using the command line.\nSet the remote URL of your local repository to your remote repository.\nPush the changes on your default branch (main or master) to your remote repository."
   },
   {
     "objectID": "sessions/slides_session06.html#exercises-2",
     "href": "sessions/slides_session06.html#exercises-2",
     "title": "Session 6: Integration with GitHub / GitLab",
-    "section": "Exercises 2",
-    "text": "Exercises 2\n“Private” collaboration with pull requests (using GitHub Flow)\n\nAdd your exercise partner as a collaborator to your project repository on GitHub.\nClone your partner’s repository.\nCreate a new branch in your collaborator’s repository.\nAdd a new entry to your collaborator’s project file (e.g., .txt or .qmd (if you are unsure, where to add the entry, ask your collaborator!)\nAdd and commit the changes.\nPush the changes on the new branch to the remote repository.\nCreate a Pull Request (on GitLab: Merge Request).\nReview the Pull Request that your collaborator made in your repository.\n🚀 Optional: Add additional changes on the branch pushed by your collaborator.\nMerge the pull request into your repository."
+    "section": "Exercises (2)",
+    "text": "Exercises (2)\nCollaboration Option 1\n“Private” collaboration with pull requests (using GitHub Flow)\n\nAdd your exercise partner as a collaborator to your project repository on GitHub.\nClone your partner’s repository.\nCreate a new branch in your collaborator’s repository.\nAdd a new entry to your collaborator’s project file (e.g., .txt or .qmd (if you are unsure, where to add the entry, ask your collaborator!)\nAdd and commit the changes.\nPush the changes on the new branch to the remote repository.\nCreate a Pull Request (on GitLab: Merge Request).\nReview the Pull Request that your collaborator made in your repository.\n🚀 Optional: Add additional changes on the branch pushed by your collaborator.\nMerge the pull request into your repository."
+  },
+  {
+    "objectID": "sessions/slides_session06.html#exercises-3",
+    "href": "sessions/slides_session06.html#exercises-3",
+    "title": "Session 6: Integration with GitHub / GitLab",
+    "section": "Exercises (3)",
+    "text": "Exercises (3)\nCollaboration Option 2\nClone and sync your repository\n\nMove to a location on your computer where you want to clone a repository.\nClone your remote repository to a different location on your computer.\nStage and commit changes in the new location (consider using a new branch).\nPush these new changes to GitHub.\nPull the changes to the repository in the original location.\nDelete your newly cloned repository."
   },
   {
     "objectID": "sessions/slides_session06.html#bonus-exercises",
     "href": "sessions/slides_session06.html#bonus-exercises",
     "title": "Session 6: Integration with GitHub / GitLab",
     "section": "🚀 Bonus exercises",
-    "text": "🚀 Bonus exercises\nAdd a README.md\n\nFind the option to create a new file on your remote repository in the browser.\nName the file README.md, add a brief description, and provide a commit message.\n🚀 Optional: Play around with Markdown syntax.\nSave the README.md file to the repository.\nPull the changes to your local repository.\n\nClone and sync your repository\n\nMove to a location on your computer where you want to clone a repository.\nClone your remote repository to a different location on your computer.\nStage and commit changes in the new location (consider using a new branch).\nPush these new changes to GitHub.\nPull the changes to the repository in the original location.\nDelete your newly cloned repository."
+    "text": "🚀 Bonus exercises\nAdd a README.md\n\nFind the option to create a new file on your remote repository in the browser.\nName the file README.md, add a brief description, and provide a commit message.\n🚀 Optional: Play around with Markdown syntax.\nSave the README.md file to the repository.\nPull the changes to your local repository."
   },
   {
     "objectID": "sessions/slides_session06.html#solutions",
@@ -235,21 +235,21 @@
     "href": "sessions/session06.html#var-course.project-project",
     "title": "Integration with GitHub / GitLab",
     "section": "recipes project",
-    "text": "recipes project\nAt the end of this session, you should have accomplished the following:\n\nYou created a GitHub account.\nYou connected your GitHub account to your local Git using SSH.\nYou created a new private(!) GitHub repository.\nYou uploaded (i.e., “pushed”) the default branch of your recipes repository to GitHub.\nYou invited a partner from the course as a collaborator to your recipes on GitHub.\nYou collaborated on a shared project by adding and committing changes to your partner’s repository.\n\n\nOptional:\n\nYou cleaned up your project by deleting unnecessary files and branches.\nYou created a short README.md file in your repository.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
+    "text": "recipes project\nAt the end of this session, you should have accomplished the following:\n\nYou created a GitHub account.\nYou connected your GitHub account to your local Git using SSH.\nYou created a new private(!) GitHub repository.\nYou uploaded (i.e., “pushed”) the default branch of your recipes repository to GitHub.\n\nCollaboration Option 1:\n\nYou invited a partner from the course as a collaborator to your recipes on GitHub.\nYou collaborated on a shared project by adding and committing changes to your partner’s repository.\n\nCollaboration Option 2:\n\nYou clone your own repository to a different location on your computer.\nStage and commit changes in the repository in this new location.\nPush the changes to GitHub and pull them in the original repository location on your computer.\n\n\nOptional:\n\nYou created a short README.md file in your repository.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/session06.html#exercises",
     "href": "sessions/session06.html#exercises",
     "title": "Integration with GitHub / GitLab",
     "section": "Exercises",
-    "text": "Exercises\n\nConnect to remote repositories using SSH\n\nGenerate an SSH key.\nCopy the SSH key to your clipboard.\nAdd the SSH key to the remote repository (for example, GitHub or GitLab).\n\n\n\nUpload your local repository to a remote repository\n\nCreate an empty repository on the remote repository hosting platform, for example GitHub or GitLab. Make sure to not initialize the repository with any files!\nIf needed, navigate to your project repository using the command line.\nSet the remote URL of your local repository to your remote repository.\nPush the changes on your default branch (main or master) to your remote repository.\n\n\n\n“Private” collaboration with pull requests (using GitHub Flow)\n\nAdd your exercise partner as a collaborator to your project repository on GitHub.\nClone your partner’s repository.\nCreate a new branch in your collaborator’s repository.\nAdd a new entry to your collaborator’s project file (e.g., .txt or .qmd (if you are unsure, where to add the entry, ask your collaborator!)\nAdd and commit the changes.\nPush the changes on the new branch to the remote repository.\nCreate a Pull Request (on GitLab: Merge Request).\nReview the Pull Request that your collaborator made in your repository.\n🚀 Optional: Add additional changes on the branch pushed by your collaborator.\nMerge the pull request into your repository."
+    "text": "Exercises\n\nConnect to remote repositories using SSH\n\nGenerate an SSH key.\nCopy the SSH key to your clipboard.\nAdd the SSH key to the remote repository (for example, GitHub or GitLab).\n\n\n\nUpload your local repository to a remote repository\n\nCreate an empty repository on the remote repository hosting platform, for example GitHub or GitLab. Make sure to not initialize the repository with any files!\nIf needed, navigate to your project repository using the command line.\nSet the remote URL of your local repository to your remote repository.\nPush the changes on your default branch (main or master) to your remote repository.\n\n\n\nClone and sync your repository\n\nMove to a location on your computer where you want to clone a repository.\nClone your remote repository to a different location on your computer.\nStage and commit changes in the new location (consider using a new branch).\nPush these new changes to GitHub.\nPull the changes to the repository in the original location.\nDelete your newly cloned repository.\n\n\n\n“Private” collaboration with pull requests (using GitHub Flow)\n\nAdd your exercise partner as a collaborator to your project repository on GitHub.\nClone your partner’s repository.\nCreate a new branch in your collaborator’s repository.\nAdd a new entry to your collaborator’s project file (e.g., .txt or .qmd (if you are unsure, where to add the entry, ask your collaborator!)\nAdd and commit the changes.\nPush the changes on the new branch to the remote repository.\nCreate a Pull Request (on GitLab: Merge Request).\nReview the Pull Request that your collaborator made in your repository.\n🚀 Optional: Add additional changes on the branch pushed by your collaborator.\nMerge the pull request into your repository."
   },
   {
     "objectID": "sessions/session06.html#bonus-exercises",
     "href": "sessions/session06.html#bonus-exercises",
     "title": "Integration with GitHub / GitLab",
     "section": "🚀 Bonus exercises",
-    "text": "🚀 Bonus exercises\n\nAdd a README.md\n\nFind the option to create a new file on your remote repository in the browser.\nName the file README.md, add a brief description, and provide a commit message.\n🚀 Optional: Play around with Markdown syntax.\nSave the README.md file to the repository.\nPull the changes to your local repository.\n\n\n\nClone and sync your repository\n\nMove to a location on your computer where you want to clone a repository.\nClone your remote repository to a different location on your computer.\nStage and commit changes in the new location (consider using a new branch).\nPush these new changes to GitHub.\nPull the changes to the repository in the original location.\nDelete your newly cloned repository."
+    "text": "🚀 Bonus exercises\n\nAdd a README.md\n\nFind the option to create a new file on your remote repository in the browser.\nName the file README.md, add a brief description, and provide a commit message.\n🚀 Optional: Play around with Markdown syntax.\nSave the README.md file to the repository.\nPull the changes to your local repository."
   },
   {
     "objectID": "sessions/session06.html#slides",
@@ -676,7 +676,7 @@
     "href": "sessions/project/project-github-intro.html",
     "title": "Version Control with Git",
     "section": "",
-    "text": "At the end of this session, you should have accomplished the following:\n\nYou created a GitHub account.\nYou connected your GitHub account to your local Git using SSH.\nYou created a new private(!) GitHub repository.\nYou uploaded (i.e., “pushed”) the default branch of your recipes repository to GitHub.\nYou invited a partner from the course as a collaborator to your recipes on GitHub.\nYou collaborated on a shared project by adding and committing changes to your partner’s repository.\n\n\nOptional:\n\nYou cleaned up your project by deleting unnecessary files and branches.\nYou created a short README.md file in your repository.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
+    "text": "At the end of this session, you should have accomplished the following:\n\nYou created a GitHub account.\nYou connected your GitHub account to your local Git using SSH.\nYou created a new private(!) GitHub repository.\nYou uploaded (i.e., “pushed”) the default branch of your recipes repository to GitHub.\n\nCollaboration Option 1:\n\nYou invited a partner from the course as a collaborator to your recipes on GitHub.\nYou collaborated on a shared project by adding and committing changes to your partner’s repository.\n\nCollaboration Option 2:\n\nYou clone your own repository to a different location on your computer.\nStage and commit changes in the repository in this new location.\nPush the changes to GitHub and pull them in the original repository location on your computer.\n\n\nOptional:\n\nYou created a short README.md file in your repository.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/project/project-cli.html",
@@ -704,14 +704,14 @@
     "href": "sessions/slides_session07.html#last-session-cheatsheet",
     "title": "Session 7: Collaboration on GitHub / GitLab",
     "section": "Last session: Cheatsheet",
-    "text": "Last session: Cheatsheet\n\n\n\n\n\nCommand\nDescription"
+    "text": "Last session: Cheatsheet\n\n\n\n\n\n\n\n\n\nCommand\nDescription\n\n\n\n\ngit remote\nManages remote repositories\n\n\ngit clone\nCreates a local copy of a repository\n\n\ngit pull\nFetches and merges the latest changes from a remote repository into the current branch\n\n\ngit fetch\nUpdates remote tracking branches\n\n\ngit push\nUploads local commits to a remote repository"
   },
   {
     "objectID": "sessions/slides_session07.html#last-session-var-course.project-project",
     "href": "sessions/slides_session07.html#last-session-var-course.project-project",
     "title": "Session 7: Collaboration on GitHub / GitLab",
     "section": "Last session: recipes project",
-    "text": "Last session: recipes project\nAt the end of this session, you should have accomplished the following:\n\nYou created a GitHub account.\nYou connected your GitHub account to your local Git using SSH.\nYou created a new private(!) GitHub repository.\nYou uploaded (i.e., “pushed”) the default branch of your recipes repository to GitHub.\nYou invited a partner from the course as a collaborator to your recipes on GitHub.\nYou collaborated on a shared project by adding and committing changes to your partner’s repository.\n\nOptional:\n\nYou cleaned up your project by deleting unnecessary files and branches.\nYou created a short README.md file in your repository.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
+    "text": "Last session: recipes project\nAt the end of this session, you should have accomplished the following:\n\nYou created a GitHub account.\nYou connected your GitHub account to your local Git using SSH.\nYou created a new private(!) GitHub repository.\nYou uploaded (i.e., “pushed”) the default branch of your recipes repository to GitHub.\n\nCollaboration Option 1:\n\nYou invited a partner from the course as a collaborator to your recipes on GitHub.\nYou collaborated on a shared project by adding and committing changes to your partner’s repository.\n\nCollaboration Option 2:\n\nYou clone your own repository to a different location on your computer.\nStage and commit changes in the repository in this new location.\nPush the changes to GitHub and pull them in the original repository location on your computer.\n\nOptional:\n\nYou created a short README.md file in your repository.\n\nPlease keep the recipes folder! We will continue to use it in the following sessions."
   },
   {
     "objectID": "sessions/slides_session07.html#this-session-meta-session-title-1",
@@ -721,18 +721,18 @@
     "text": "This session: Collaboration on GitHub / GitLab\n\nImage from Techdobz"
   },
   {
-    "objectID": "sessions/slides_session07.html#this-session-forking-issues",
-    "href": "sessions/slides_session07.html#this-session-forking-issues",
+    "objectID": "sessions/slides_session07.html#this-session-forking-pull-requests",
+    "href": "sessions/slides_session07.html#this-session-forking-pull-requests",
     "title": "Session 7: Collaboration on GitHub / GitLab",
-    "section": "This session: Forking & Issues",
-    "text": "This session: Forking & Issues\n\nLink to Pull Request"
+    "section": "This session: Forking & Pull Requests",
+    "text": "This session: Forking & Pull Requests\n\nLink to Pull Request"
   },
   {
-    "objectID": "sessions/slides_session07.html#this-session-forking-issues-1",
-    "href": "sessions/slides_session07.html#this-session-forking-issues-1",
+    "objectID": "sessions/slides_session07.html#this-session-issues",
+    "href": "sessions/slides_session07.html#this-session-issues",
     "title": "Session 7: Collaboration on GitHub / GitLab",
-    "section": "This session: Forking & Issues",
-    "text": "This session: Forking & Issues\n\nLink to Issue"
+    "section": "This session: Issues",
+    "text": "This session: Issues\n\nLink to Issue"
   },
   {
     "objectID": "sessions/slides_session07.html#reading",
@@ -1523,7 +1523,7 @@
     "href": "sessions/index.html",
     "title": "Sessions",
     "section": "",
-    "text": "Welcome & Introduction to Version Control\n\n\nSession 01\n\n\n\n\n\n\n15th of January 2025, 14:00\n\n\n(Day 1)\n\n\n\n\n\n\n\n\nBasics of the Command Line\n\n\nSession 02\n\n\n\n\n\n\n15th of January 2025, 14:30\n\n\n(Day 1)\n\n\n\n\n\n\n\n\nSetup & Configuration of Git\n\n\nSession 03\n\n\n\n\n\n\n15th of January 2025, 15:30\n\n\n(Day 1)\n\n\n\n\n\n\n\n\nFirst steps with Git & Git Essentials\n\n\nSession 04\n\n\n\n\n\n\n22nd of January 2025, 14:00\n\n\n(Day 2)\n\n\n\n\n\n\n\n\nBranches\n\n\nSession 05\n\n\n\n\n\n\n22nd of January 2025, 15:00\n\n\n(Day 2)\n\n\n\n\n\n\n\n\nIntegration with GitHub / GitLab\n\n\nSession 06\n\n\n\n\n\n\n29th of January 2025, 14:00\n\n\n(Day 3)\n\n\n\n\n\n\n\n\nCollaboration on GitHub / GitLab\n\n\nSession 07\n\n\n\n\n\n\n29th of January 2025, 15:00\n\n\n(Day 3)\n\n\n\n\n\n\n\n\nSummary & Outlook\n\n\nSession 08\n\n\n\n\n\n\n29th of January 2025, 15:45\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome & Introduction to Version Control\n\n\nSession 01\n\n\n\n\n\n\n15th of January 2025, 14:00\n\n\n(Day 1)\n\n\n\n\n\n\n\n\nBasics of the Command Line\n\n\nSession 02\n\n\n\n\n\n\n15th of January 2025, 14:30\n\n\n(Day 1)\n\n\n\n\n\n\n\n\nSetup & Configuration of Git\n\n\nSession 03\n\n\n\n\n\n\n15th of January 2025, 15:30\n\n\n(Day 1)\n\n\n\n\n\n\n\n\nFirst steps with Git & Git Essentials\n\n\nSession 04\n\n\n\n\n\n\n22nd of January 2025, 14:00\n\n\n(Day 2)\n\n\n\n\n\n\n\n\nBranches\n\n\nSession 05\n\n\n\n\n\n\n22nd of January 2025, 15:00\n\n\n(Day 2)\n\n\n\n\n\n\n\n\nIntegration with GitHub / GitLab\n\n\nSession 06\n\n\n\n\n\n\n29th of January 2025, 14:00\n\n\n(Day 3)\n\n\n\n\n\n\n\n\nCollaboration on GitHub / GitLab\n\n\nSession 07\n\n\n\n\n\n\n29th of January 2025, 15:00\n\n\n(Day 3)\n\n\n\n\n\n\n\n\nSummary & Outlook\n\n\nSession 08\n\n\n\n\n\n\n29th of January 2025, 15:45\n\n\n(Day 3)\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "sessions/exercises/exercise-github-intro.html",
@@ -1565,7 +1565,7 @@
     "href": "sessions/session07.html#learning-objectives",
     "title": "Collaboration on GitHub / GitLab",
     "section": "Learning objectives",
-    "text": "Learning objectives\n\nGitHub - Advanced\nAt the end of this session, you should be able to answer the following questions and / or achieve the following learning objectives:\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch.\n\n\nIssues\n💡 You understand the purpose of GitHub Issues. 💡 You can create and manage Issues. 💡 You can reference an Issue in another issue. 💡 You can close an Issue with a commit or pull request."
+    "text": "Learning objectives\nAt the end of this session, you should be able to answer the following questions and / or achieve the following learning objectives:\n\nGitHub - Advanced\n💡 You know the purpose and components of a Pull Request. 💡 You know how to collaborate using the popular workflow strategy GitHub flow. 💡 You know the purpose and components of a README file. 💡 You can fork a repository. 💡 You can create a Pull Request from a forked repository. 💡 You can protect your main branch.\n\n\nIssues\n💡 You understand the purpose of GitHub Issues. 💡 You can create and manage Issues. 💡 You can reference an Issue in another issue. 💡 You can close an Issue with a commit or pull request."
   },
   {
     "objectID": "sessions/session07.html#var-course.project-project",

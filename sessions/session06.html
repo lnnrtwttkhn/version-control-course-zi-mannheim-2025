@@ -138,12 +138,12 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#connect-to-remote-repositories-using-ssh" id="toc-connect-to-remote-repositories-using-ssh" class="nav-link" data-scroll-target="#connect-to-remote-repositories-using-ssh">Connect to remote repositories using SSH</a></li>
   <li><a href="#upload-your-local-repository-to-a-remote-repository" id="toc-upload-your-local-repository-to-a-remote-repository" class="nav-link" data-scroll-target="#upload-your-local-repository-to-a-remote-repository">Upload your local repository to a remote repository</a></li>
+  <li><a href="#clone-and-sync-your-repository" id="toc-clone-and-sync-your-repository" class="nav-link" data-scroll-target="#clone-and-sync-your-repository">Clone and sync your repository</a></li>
   <li><a href="#private-collaboration-with-pull-requests-using-github-flow" id="toc-private-collaboration-with-pull-requests-using-github-flow" class="nav-link" data-scroll-target="#private-collaboration-with-pull-requests-using-github-flow">“Private” collaboration with pull requests (using GitHub Flow)</a></li>
   </ul></li>
   <li><a href="#bonus-exercises" id="toc-bonus-exercises" class="nav-link" data-scroll-target="#bonus-exercises"><span class="emoji" data-emoji="rocket">🚀</span> Bonus exercises</a>
   <ul>
   <li><a href="#add-a-readme.md" id="toc-add-a-readme.md" class="nav-link" data-scroll-target="#add-a-readme.md">Add a <code>README.md</code></a></li>
-  <li><a href="#clone-and-sync-your-repository" id="toc-clone-and-sync-your-repository" class="nav-link" data-scroll-target="#clone-and-sync-your-repository">Clone and sync your repository</a></li>
   </ul></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
   <li><a href="#cheatsheet" id="toc-cheatsheet" class="nav-link" data-scroll-target="#cheatsheet">Cheatsheet</a></li>
@@ -221,13 +221,21 @@ ul.task-list li input[type="checkbox"] {
 <li>You connected your GitHub account to your local Git using SSH.</li>
 <li>You created a new <em>private(!)</em> GitHub repository.</li>
 <li>You uploaded (i.e., “pushed”) the default branch of your <code>recipes</code> repository to GitHub.</li>
+</ol>
+<p><strong>Collaboration Option 1:</strong></p>
+<ol type="1">
 <li>You invited a partner from the course as a collaborator to your <code>recipes</code> on GitHub.</li>
 <li>You collaborated on a shared project by adding and committing changes to your partner’s repository.</li>
+</ol>
+<p><strong>Collaboration Option 2:</strong></p>
+<ol type="1">
+<li>You clone your own repository to a different location on your computer.</li>
+<li>Stage and commit changes in the repository in this new location.</li>
+<li>Push the changes to GitHub and pull them in the original repository location on your computer.</li>
 </ol>
 <section id="optional" class="level3">
 <h3 data-anchor-id="optional">Optional:</h3>
 <ol type="1">
-<li>You cleaned up your project by deleting unnecessary files and branches.</li>
 <li>You created a short <code>README.md</code> file in your repository.</li>
 </ol>
 <p>Please keep the <code>recipes</code> folder! We will continue to use it in the following sessions.</p>
@@ -250,6 +258,17 @@ ul.task-list li input[type="checkbox"] {
 <li>If needed, navigate to your project repository using the command line.</li>
 <li>Set the remote URL of your local repository to your remote repository.</li>
 <li>Push the changes on your default branch (<code>main</code> or <code>master</code>) to your remote repository.</li>
+</ol>
+</section>
+<section id="clone-and-sync-your-repository" class="level3">
+<h3 data-anchor-id="clone-and-sync-your-repository">Clone and sync your repository</h3>
+<ol type="1">
+<li>Move to a location on your computer where you want to clone a repository.</li>
+<li>Clone your remote repository to a <em>different location</em> on your computer.</li>
+<li>Stage and commit changes in the new location (consider using a new branch).</li>
+<li>Push these new changes to GitHub.</li>
+<li>Pull the changes to the repository in the original location.</li>
+<li>Delete your newly cloned repository.</li>
 </ol>
 </section>
 <section id="private-collaboration-with-pull-requests-using-github-flow" class="level3">
@@ -278,17 +297,6 @@ ul.task-list li input[type="checkbox"] {
 <li><span class="emoji" data-emoji="rocket">🚀</span> Optional: Play around with <a href="https://www.markdownguide.org/">Markdown</a> syntax.</li>
 <li>Save the <code>README.md</code> file to the repository.</li>
 <li>Pull the changes to your local repository.</li>
-</ol>
-</section>
-<section id="clone-and-sync-your-repository" class="level3">
-<h3 data-anchor-id="clone-and-sync-your-repository">Clone and sync your repository</h3>
-<ol type="1">
-<li>Move to a location on your computer where you want to clone a repository.</li>
-<li>Clone your remote repository to a <em>different location</em> on your computer.</li>
-<li>Stage and commit changes in the new location (consider using a new branch).</li>
-<li>Push these new changes to GitHub.</li>
-<li>Pull the changes to the repository in the original location.</li>
-<li>Delete your newly cloned repository.</li>
 </ol>
 </section>
 </section>

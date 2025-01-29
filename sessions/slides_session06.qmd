@@ -38,12 +38,6 @@ knitr::kable(table_cheatsheet(name = "branches"), format = "markdown", row.names
 
 ![Image from [Techdobz](https://medium.com/analytics-vidhya/version-control-using-git-github-ff4c3f7c752e)](../images/git-github-integration.png){width="70%"}
 
-## This session: Pull Requests
-
-![](../images/pull-request-example-zi-mannheim.png){width="80%"}
-
-[Link to Pull Request](https://github.com/lnnrtwttkhn/version-control-course-zi-mannheim-2025/pull/7)
-
 ## Learning objectives
 
 {{< include ../objectives/_objectives-remotes-intro.qmd >}}
@@ -74,7 +68,7 @@ knitr::kable(table_cheatsheet(name = "branches"), format = "markdown", row.names
 knitr::kable(table_cheatsheet(name = "remote_intro"), format = "markdown", row.names = FALSE)
 ```
 
-## Exercises 1
+## Exercises (1)
 
 ### Connect to remote repositories using SSH
 
@@ -84,21 +78,27 @@ knitr::kable(table_cheatsheet(name = "remote_intro"), format = "markdown", row.n
 
 {{< include ../exercises/_exercises-remotes-push.qmd >}}
 
-## Exercises 2
+## Exercises (2)
+
+**Collaboration Option 1**
 
 ### "Private" collaboration with pull requests (using GitHub Flow)
 
 {{< include ../exercises/_exercises-remotes-collaboration.qmd >}}
+
+## Exercises (3)
+
+**Collaboration Option 2**
+
+### Clone and sync your repository
+
+{{< include ../exercises/_exercises-remotes-clone.qmd >}}
 
 ## :rocket: Bonus exercises
 
 ### Add a `README.md`
 
 {{< include ../exercises/_exercises-remotes-readme.qmd >}}
-
-### Clone and sync your repository
-
-{{< include ../exercises/_exercises-remotes-clone.qmd >}}
 
 ## Solutions
 

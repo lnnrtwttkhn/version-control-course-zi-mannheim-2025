@@ -13,6 +13,7 @@ about:
       text: Feedback survey
       href: https://version-control-feedback.formr.org/
       aria-label: input-cursor-text
+day: "(Day 3)"
 ---
 
 ::: {#hero-heading}
